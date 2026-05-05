@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" SchemaVersion="119" RootDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}" ParentDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}">
 	<AudioObjects>
-		<WorkUnit Name="Factory Soundseed Grain" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" PersistMode="Standalone">
+		<WorkUnit Name="Factory Soundseed Grain" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" OwnerID="{A9E8B750-E560-46AD-9A49-53225B5D0AD7}" PersistMode="Nested">
 			<ChildrenList>
 				<Folder Name="Roomtone" ID="{1C135FCB-CF87-471A-A245-4B3002981FE0}" ShortID="1028341155">
 					<PropertyList>

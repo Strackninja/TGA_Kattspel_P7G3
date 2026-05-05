@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" SchemaVersion="119" RootDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}" ParentDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}">
 	<AudioObjects>
-		<WorkUnit Name="Factory Motion" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" PersistMode="Standalone">
+		<WorkUnit Name="Factory Motion" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" OwnerID="{A9E8B750-E560-46AD-9A49-53225B5D0AD7}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Motion Factory Assets" ID="{96BA32D2-D502-49E6-AFD7-B794657504A5}" ShortID="514449293">
 					<ReferenceList>

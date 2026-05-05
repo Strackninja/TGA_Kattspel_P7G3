@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" SchemaVersion="119">
+<WwiseDocument Type="WorkUnit" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" SchemaVersion="119" RootDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}" ParentDocumentID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}">
 	<AudioObjects>
-		<WorkUnit Name="Factory Soundseed Air Objects" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" PersistMode="Standalone">
+		<WorkUnit Name="Factory Soundseed Air Objects" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" OwnerID="{A9E8B750-E560-46AD-9A49-53225B5D0AD7}" PersistMode="Nested">
 			<ChildrenList>
 				<Folder Name="Static Presets (wave file substitutions)" ID="{AE666998-5535-4054-A25E-19ED850971D6}" ShortID="857713520">
 					<ChildrenList>
