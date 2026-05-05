@@ -3,39 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{860CE606-DB8F-4847-B8A2-769952DA839E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
-					<ChildrenList>
-						<Event Name="Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}"/>
-						<Event Name="Footstep_Z" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
-						<Event Name="Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}"/>
-						<Event Name="Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}"/>
-						<Event Name="Land_Hard" ID="{C0D50930-FEAC-4BF4-A2FA-C32DCC9387ED}"/>
-						<Event Name="Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}"/>
-						<Event Name="Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}"/>
-						<Event Name="Slide" ID="{56B8A477-D0C4-4E42-AA26-3E2D94363C35}"/>
-						<Event Name="Fall" ID="{1BEBE91A-2610-4B7F-8F1F-9236E916DB81}"/>
-						<Event Name="Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}"/>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="VO" ID="{0915FBE4-AEDF-40ED-B175-913A3013454C}" ShortID="604279014">
-					<ChildrenList>
-						<Folder Name="Cat" ID="{50BA5888-27BA-440B-952D-6BC6B654A11B}" ShortID="610540394">
-							<ChildrenList>
-								<Event Name="Player_Meow" ID="{4060D950-1182-41EB-A0AC-2727E5B006BD}"/>
-								<Event Name="Player_Purr" ID="{CCFDC1EE-57B6-4C31-BE52-2D34CF9930C5}"/>
-								<Event Name="Player_Eating" ID="{90164881-B8C6-4E53-98E8-9618DAB2960B}"/>
-								<Event Name="Player_Grunt" ID="{A5C991B0-6DAE-4B73-AF03-72CD6DD75E0E}"/>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Dog" ID="{D1E1B151-0ED7-4F1D-9A6F-A85288B49F63}" ShortID="301637821">
-							<ChildrenList>
-								<Event Name="Enemy_Bark" ID="{4F4242F3-ADED-4670-9ABF-0B15F216D1CE}"/>
-								<Event Name="Enemy_Growl" ID="{6550ECC0-B861-4DC9-ADAE-E80BFAF96657}"/>
-								<Event Name="Enemy_Howl" ID="{B2B57BCF-7757-454B-AD7E-A339D9FCA2B1}"/>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Events" ID="{984929AA-2614-4472-9803-3636AD4CA727}" ShortID="140136149">
 					<ChildrenList>
 						<Event Name="Catnip_Idle" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}"/>
@@ -114,6 +81,43 @@
 										<Event Name="WGun_Miss" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}"/>
 									</ChildrenList>
 								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hugo" ID="{723B9E6A-DCE5-448E-B97A-C181D9EF9547}" ShortID="193775957">
+					<ChildrenList>
+						<Folder Name="VO" ID="{0915FBE4-AEDF-40ED-B175-913A3013454C}" ShortID="604279014">
+							<ChildrenList>
+								<Folder Name="Cat" ID="{50BA5888-27BA-440B-952D-6BC6B654A11B}" ShortID="610540394">
+									<ChildrenList>
+										<Event Name="Player_Meow" ID="{4060D950-1182-41EB-A0AC-2727E5B006BD}"/>
+										<Event Name="Player_Purr" ID="{CCFDC1EE-57B6-4C31-BE52-2D34CF9930C5}"/>
+										<Event Name="Player_Eating" ID="{90164881-B8C6-4E53-98E8-9618DAB2960B}"/>
+										<Event Name="Player_Grunt" ID="{A5C991B0-6DAE-4B73-AF03-72CD6DD75E0E}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dog" ID="{D1E1B151-0ED7-4F1D-9A6F-A85288B49F63}" ShortID="301637821">
+									<ChildrenList>
+										<Event Name="Enemy_Bark" ID="{4F4242F3-ADED-4670-9ABF-0B15F216D1CE}"/>
+										<Event Name="Enemy_Growl" ID="{6550ECC0-B861-4DC9-ADAE-E80BFAF96657}"/>
+										<Event Name="Enemy_Howl" ID="{B2B57BCF-7757-454B-AD7E-A339D9FCA2B1}"/>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
+							<ChildrenList>
+								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}"/>
+								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
+								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}"/>
+								<Event Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}"/>
+								<Event Name="Player_Land_Hard" ID="{C0D50930-FEAC-4BF4-A2FA-C32DCC9387ED}"/>
+								<Event Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}"/>
+								<Event Name="Player_Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}"/>
+								<Event Name="Player_Slide" ID="{56B8A477-D0C4-4E42-AA26-3E2D94363C35}"/>
+								<Event Name="Player_Fall" ID="{1BEBE91A-2610-4B7F-8F1F-9236E916DB81}"/>
+								<Event Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
