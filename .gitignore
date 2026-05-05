@@ -1,0 +1,14 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows ---
+Thumbs.db
+Desktop.ini
+
+# --- General temp files ---
+*.log
+*.tmp
+*.swp
+*.swo
