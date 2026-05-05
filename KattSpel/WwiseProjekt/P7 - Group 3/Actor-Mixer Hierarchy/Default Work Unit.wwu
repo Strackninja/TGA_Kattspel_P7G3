@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Hugo" ID="{30AE21EB-D25B-42E7-AB9E-A92AD94FB113}" ShortID="203717845"/>
+				<Folder Name="Olle" ID="{5D373995-E1CA-4105-AEDB-8D14FA50611F}" ShortID="1017242962"/>
+				<Folder Name="Strahinja" ID="{A650937F-B3F1-47F9-B41C-0FFCD6CB493B}" ShortID="884427078"/>
+				<Folder Name="Rui" ID="{4FDC1F2F-C47F-4AAB-A2A1-C86B8BBA84D9}" ShortID="504656312"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53277E01-8377-4205-AF13-90B782CB69DD}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{53277E01-8377-4205-AF13-90B782CB69DD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Catnip" ID="{0640A660-E29D-4FDE-84F2-F667D4D57B13}">
+					<ChildrenList>
+						<State Name="None" ID="{A79BFA69-A738-41BA-995D-AE1089AC7C85}"/>
+						<State Name="Active" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+						<State Name="Inactive" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Inactive" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+							<EndState Name="Active" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Player_Health" ID="{103F5D28-6783-4337-9ED4-4CF4249F0929}">
+					<ChildrenList>
+						<State Name="None" ID="{203BD450-6C38-4C11-A7D0-868319D9E9A0}"/>
+						<State Name="Low" ID="{688EEE8B-F825-4217-9EC2-951D1C6C3CFC}"/>
+						<State Name="Full" ID="{7CAD3BF6-5EB4-4DDC-87C0-2EC4D5FF7F2E}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Full" ID="{7CAD3BF6-5EB4-4DDC-87C0-2EC4D5FF7F2E}"/>
+							<EndState Name="Low" ID="{688EEE8B-F825-4217-9EC2-951D1C6C3CFC}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
