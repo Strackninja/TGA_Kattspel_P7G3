@@ -2,13 +2,6 @@
 <WwiseDocument Type="WorkUnit" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" SchemaVersion="119">
 	<AudioObjects>
 		<WorkUnit Name="Factory Soundseed Grain" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" PersistMode="Standalone">
-			<PropertyList>
-				<Property Name="Inclusion" Type="bool">
-					<ValueList>
-						<Value>False</Value>
-					</ValueList>
-				</Property>
-			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Roomtone" ID="{1C135FCB-CF87-471A-A245-4B3002981FE0}" ShortID="1028341155">
 					<PropertyList>
