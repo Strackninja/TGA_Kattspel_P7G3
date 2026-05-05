@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.16" WwiseBuild="8822">
+<WwiseDocument Type="Project" SchemaVersion="119" WwiseVersion="v2023.1.19" WwiseBuild="8928">
 	<ProjectInfo>
 		<Project Name="P7 - Group 3" ID="{FAE22FA7-0ADD-4BAB-B37B-A71063F6FFCF}">
 			<Platforms>
@@ -9399,7 +9399,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Output" PluginType="7" CompanyID="0" PluginID="168">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="0" PluginID="168">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -11319,7 +11319,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Channel Router" PluginType="3" CompanyID="0" PluginID="191">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="191">
 					<PropertyList>
 						<Property Name="BusChannelConfig" Type="int32">
 							<ValueList>
@@ -11362,7 +11362,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Input" PluginType="2" CompanyID="0" PluginID="204">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="204">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -11543,7 +11543,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Channel Router Settings" PluginType="9" CompanyID="0" PluginID="903">
+				<SharedPropertyList ClassName="" PluginType="9" CompanyID="0" PluginID="903">
 					<PropertyList>
 						<Property Name="Channel" Type="Uint32">
 							<ValueList>
@@ -11652,6 +11652,120 @@
 						<Property Name="ReplaceReplaceWith" Type="string">
 							<ValueList>
 								<Value></Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
+				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
+					<PropertyList>
+						<Property Name="Bypass" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Bypass_offset" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ER_Delay" Type="Real32">
+							<ValueList>
+								<Value>1.4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ER_Level" Type="Real32">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFE_level" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Level" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb_alpha" Type="Real32">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb_fcut" Type="Real32">
+							<ValueList>
+								<Value>10000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb_level" Type="Real32">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb_predelay" Type="Real32">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Reverb_tr60" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Src_distance" Type="Real32">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_back" Type="Real32">
+							<ValueList>
+								<Value>7.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_bottom" Type="Real32">
+							<ValueList>
+								<Value>2.75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_front" Type="Real32">
+							<ValueList>
+								<Value>3.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_left" Type="Real32">
+							<ValueList>
+								<Value>4.25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_right" Type="Real32">
+							<ValueList>
+								<Value>4.75</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Wall_top" Type="Real32">
+							<ValueList>
+								<Value>3.75</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

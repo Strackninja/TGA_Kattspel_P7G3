@@ -7,6 +7,14 @@
 				<Folder Name="Olle" ID="{5D373995-E1CA-4105-AEDB-8D14FA50611F}" ShortID="1017242962"/>
 				<Folder Name="Strahinja" ID="{A650937F-B3F1-47F9-B41C-0FFCD6CB493B}" ShortID="884427078"/>
 				<Folder Name="Rui" ID="{4FDC1F2F-C47F-4AAB-A2A1-C86B8BBA84D9}" ShortID="504656312"/>
+				<Folder Name="Plugins" ID="{A9E8B750-E560-46AD-9A49-53225B5D0AD7}" ShortID="79944966">
+					<ChildrenList>
+						<WorkUnit Name="Factory Soundseed Air Objects" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" PersistMode="Reference"/>
+						<WorkUnit Name="Factory Motion" ID="{45F59F79-DD77-478C-8337-3F8F3FFF3B84}" PersistMode="Reference"/>
+						<WorkUnit Name="Factory Synth One" ID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}" PersistMode="Reference"/>
+						<WorkUnit Name="Factory Soundseed Grain" ID="{AFC59BDA-7F7C-40EB-BE11-A2FACB2CC1B8}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
