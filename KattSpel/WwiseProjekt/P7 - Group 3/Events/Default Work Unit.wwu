@@ -84,7 +84,7 @@
 						<Event Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Strah" ID="{D871ACFC-A0CF-46C3-9343-7D3FAFE97281}" ShortID="771839000">
+				<Folder Name="Strahinja" ID="{D871ACFC-A0CF-46C3-9343-7D3FAFE97281}" ShortID="771839000">
 					<ChildrenList>
 						<Folder Name="Ambiences" ID="{ADB819A0-0338-42D1-866E-E2B8F1BB6A67}" ShortID="287567702">
 							<ChildrenList>
