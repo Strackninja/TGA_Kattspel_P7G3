@@ -79,6 +79,7 @@
 										<Event Name="WGun_Fire" ID="{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}"/>
 										<Event Name="WGun_Hit" ID="{B6AE213B-E56C-4D30-8021-BFD93A66F253}"/>
 										<Event Name="WGun_Miss" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}"/>
+										<Event Name="Hej" ID="{FAE8F9C6-B1A8-4B67-8350-82DD76FFD056}"/>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
