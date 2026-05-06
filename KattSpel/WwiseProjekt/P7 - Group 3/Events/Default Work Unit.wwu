@@ -126,7 +126,17 @@
 						</Folder>
 						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
 							<ChildrenList>
-								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}"/>
+								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}">
+									<ChildrenList>
+										<Action Name="" ID="{C49B8573-CD1A-4300-933A-4CA00C5F1C81}" ShortID="523119541">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FS_Type" ID="{36380F97-0C4F-4E57-B36C-FCDF7D7A3307}" WorkUnitID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
 								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}"/>
 								<Event Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}"/>
