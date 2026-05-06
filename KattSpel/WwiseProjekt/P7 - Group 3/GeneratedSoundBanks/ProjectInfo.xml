@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="P7 - Group 3" GUID="{FAE22FA7-0ADD-4BAB-B37B-A71063F6FFCF}" Generator="2023.1.16.8822"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{BEEB5639-AA83-4DA4-985D-D2F531CD89F7}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{7AF99D73-9941-4B5C-A54D-9719F24F42B0}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C8500779-64BE-03B6-00D3-75F47E76B766}</FileHash>
+</ProjectInfo>
