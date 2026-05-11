@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="Events" ID="{984929AA-2614-4472-9803-3636AD4CA727}" ShortID="140136149">
 					<ChildrenList>
-						<Event Name="Catnip_Idle" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}"/>
+						<Event Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}"/>
 						<Event Name="Catnip_Activate" ID="{98384173-D2CB-472D-9C5B-B262840B4352}"/>
 						<Event Name="Catnip_Deactivate" ID="{8D4F9634-24A7-43CC-81B0-759BA5B96E9A}"/>
 						<Event Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}"/>
@@ -57,7 +57,27 @@
 							<ChildrenList>
 								<Event Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}"/>
 								<Event Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}"/>
-								<Event Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}"/>
+								<Event Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}">
+									<ChildrenList>
+										<Action Name="" ID="{9D56A3F3-C97D-42C2-B115-9DC09FC6A2D6}" ShortID="836707061">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{26AB7FF4-E506-47B4-9DE7-48AC283101FB}" ShortID="336642812">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{7DD11469-F126-4D61-ADBE-E2C556F5E47C}" ShortID="585952607">
@@ -74,12 +94,9 @@
 								</Folder>
 								<Folder Name="Cat" ID="{769F6063-DD0D-4250-8FFC-4FEB63CCF176}" ShortID="812024940">
 									<ChildrenList>
-										<Event Name="WGun_Charge" ID="{20F24D00-42BC-4334-A2BA-C9B5E3565600}"/>
-										<Event Name="WGun_Dry" ID="{CF578F96-8501-4B22-95B9-9F4B66B30434}"/>
 										<Event Name="WGun_Fire" ID="{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}"/>
 										<Event Name="WGun_Hit" ID="{B6AE213B-E56C-4D30-8021-BFD93A66F253}"/>
 										<Event Name="WGun_Miss" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}"/>
-										<Event Name="Hej" ID="{FAE8F9C6-B1A8-4B67-8350-82DD76FFD056}"/>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -109,7 +126,17 @@
 						</Folder>
 						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
 							<ChildrenList>
-								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}"/>
+								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}">
+									<ChildrenList>
+										<Action Name="" ID="{C49B8573-CD1A-4300-933A-4CA00C5F1C81}" ShortID="523119541">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FS_Type" ID="{36380F97-0C4F-4E57-B36C-FCDF7D7A3307}" WorkUnitID="{F2E1979C-30C0-4562-93AE-7FBA8AAE8804}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
 								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}"/>
 								<Event Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}"/>
