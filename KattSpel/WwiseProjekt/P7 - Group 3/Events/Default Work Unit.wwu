@@ -60,19 +60,19 @@
 							<ChildrenList>
 								<Folder Name="Dogs" ID="{FBC4A457-B79A-4403-8B59-FA6335D20BA5}" ShortID="780599795">
 									<ChildrenList>
-										<Event Name="Laser_Dry" ID="{759FF1C8-54A5-44B0-B087-1B2777FE4D4E}"/>
-										<Event Name="Laser_Fire" ID="{B929C8DC-7A8A-44C8-A33B-6CA9443302BE}"/>
-										<Event Name="Laser_Hit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}"/>
-										<Event Name="Laser_Miss" ID="{848375CB-FC37-4A2F-B5C7-582810E7698B}"/>
-										<Event Name="Laser_Lock" ID="{71CD62B1-C730-4EEE-9942-168E3EC73EA4}"/>
+										<Event Name="WaterCannon_Fire" ID="{B929C8DC-7A8A-44C8-A33B-6CA9443302BE}"/>
+										<Event Name="WaterCannon_PlayerHit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}"/>
+										<Event Name="WaterCannon_Miss" ID="{848375CB-FC37-4A2F-B5C7-582810E7698B}"/>
+										<Event Name="WaterCannon_Lockon" ID="{71CD62B1-C730-4EEE-9942-168E3EC73EA4}"/>
 										<Event Name="Turret_Rotate" ID="{BC6E3937-5CFC-4464-99AE-2F0233C2FD77}"/>
+										<Event Name="WaterCannon_EverythingElseHit" ID="{46EC1392-E818-4315-BC55-8A6242DD02C2}"/>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Cat" ID="{769F6063-DD0D-4250-8FFC-4FEB63CCF176}" ShortID="812024940">
 									<ChildrenList>
 										<Event Name="WGun_Fire" ID="{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}"/>
-										<Event Name="WGun_Hit" ID="{B6AE213B-E56C-4D30-8021-BFD93A66F253}"/>
-										<Event Name="WGun_Miss" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}"/>
+										<Event Name="WGun_DogHit" ID="{B6AE213B-E56C-4D30-8021-BFD93A66F253}"/>
+										<Event Name="WGun_EverythingElseHit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}"/>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
