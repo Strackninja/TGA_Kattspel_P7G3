@@ -49,7 +49,7 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>2</Value>
+														<Value>-12</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -213,7 +213,13 @@
 						</Folder>
 						<Folder Name="Combat" ID="{06448B16-1725-478E-BE68-5157ED01DC46}" ShortID="690621038">
 							<ChildrenList>
-								<Folder Name="Cat" ID="{84A26B6A-1D72-40E8-BCD6-46D413144A20}" ShortID="947140159"/>
+								<Folder Name="Cat" ID="{84A26B6A-1D72-40E8-BCD6-46D413144A20}" ShortID="947140159">
+									<ChildrenList>
+										<Folder Name="WGun_Fire" ID="{703BD637-3DF8-4F79-9B74-77E581E524E8}" ShortID="649734953"/>
+										<Folder Name="WGun_Hit" ID="{AF961C17-A079-4801-AF4A-15E7F1B6EF11}" ShortID="576116850"/>
+										<Folder Name="WGun_Miss" ID="{E56A0617-6D0C-4284-8B9E-72AEBF7A2AB4}" ShortID="510601136"/>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Dog" ID="{099816C8-7BBF-4374-B6C8-1253D51EB9E0}" ShortID="285478140"/>
 							</ChildrenList>
 						</Folder>
