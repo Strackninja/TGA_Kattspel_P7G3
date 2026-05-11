@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="Events" ID="{984929AA-2614-4472-9803-3636AD4CA727}" ShortID="140136149">
 					<ChildrenList>
-						<Event Name="Catnip_Idle" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}"/>
+						<Event Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}"/>
 						<Event Name="Catnip_Activate" ID="{98384173-D2CB-472D-9C5B-B262840B4352}"/>
 						<Event Name="Catnip_Deactivate" ID="{8D4F9634-24A7-43CC-81B0-759BA5B96E9A}"/>
 						<Event Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}"/>
