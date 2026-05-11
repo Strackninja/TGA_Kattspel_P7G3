@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7379DA02-226A-47A6-BB38-D622EF791802}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Rui_WorkUnit" ID="{7379DA02-226A-47A6-BB38-D622EF791802}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Rui" ID="{4FDC1F2F-C47F-4AAB-A2A1-C86B8BBA84D9}" ShortID="504656312"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
