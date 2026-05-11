@@ -19,30 +19,6 @@
 						<Event Name="Outro" ID="{DF83A02B-77F3-498D-B536-AFC54175A673}"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="UI" ID="{FEADCBEB-56B7-4A80-BA66-547D6E360ACF}" ShortID="676151874">
-					<ChildrenList>
-						<Folder Name="Main Menu" ID="{5F284459-D469-41CE-9F95-5D0E6E443E7E}" ShortID="1006166118">
-							<ChildrenList>
-								<Event Name="UI_Back" ID="{183ACAAB-FFE0-437F-9A9E-2E890F1FBDD6}"/>
-								<Event Name="UI_Click" ID="{F9E24CE6-098E-48CF-A121-1161EF1D928B}"/>
-								<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}"/>
-								<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}"/>
-								<Event Name="UI_Deselect" ID="{9BF9BD90-8BE9-4CD0-8D4B-A1EA49506F54}"/>
-								<Event Name="UI_Hover" ID="{16B35651-422B-4B68-AF87-8833505A52C3}"/>
-								<Event Name="UI_New_Game" ID="{E5535954-EAE1-4D99-8F2A-870076AF22D4}"/>
-								<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}"/>
-								<Event Name="UI_Exit_Game" ID="{071961C9-9EB7-4747-9656-C3D9B2BF548F}"/>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="In Game Menu" ID="{DC0100BC-2E7A-4B4D-877B-CB3C8135C452}" ShortID="810428826">
-							<ChildrenList>
-								<Event Name="UI_Pause" ID="{E88FC239-2893-40B8-9760-1DB9DB6FAB5A}"/>
-								<Event Name="UI_Resume" ID="{DC9D8E9D-3B3A-4A53-ADC9-6290AC9DD487}"/>
-								<Event Name="UI_Return_To_Main_Menu" ID="{4570DCEB-BA76-4EFF-9622-CDA2CFD2FA0C}"/>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Music" ID="{8F5A7245-90B9-4E5D-BA94-1ACF4DCD057E}" ShortID="920763971">
 					<ChildrenList>
 						<Event Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}"/>
@@ -146,6 +122,34 @@
 								<Event Name="Player_Slide" ID="{56B8A477-D0C4-4E42-AA26-3E2D94363C35}"/>
 								<Event Name="Player_Fall" ID="{1BEBE91A-2610-4B7F-8F1F-9236E916DB81}"/>
 								<Event Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Rui" ID="{2A6F312A-81F4-427F-9F45-907B51CB7272}" ShortID="531646125">
+					<ChildrenList>
+						<Folder Name="UI" ID="{FEADCBEB-56B7-4A80-BA66-547D6E360ACF}" ShortID="676151874">
+							<ChildrenList>
+								<Folder Name="Main Menu" ID="{5F284459-D469-41CE-9F95-5D0E6E443E7E}" ShortID="1006166118">
+									<ChildrenList>
+										<Event Name="UI_Back" ID="{183ACAAB-FFE0-437F-9A9E-2E890F1FBDD6}"/>
+										<Event Name="UI_Click" ID="{F9E24CE6-098E-48CF-A121-1161EF1D928B}"/>
+										<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}"/>
+										<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}"/>
+										<Event Name="UI_Deselect" ID="{9BF9BD90-8BE9-4CD0-8D4B-A1EA49506F54}"/>
+										<Event Name="UI_Hover" ID="{16B35651-422B-4B68-AF87-8833505A52C3}"/>
+										<Event Name="UI_New_Game" ID="{E5535954-EAE1-4D99-8F2A-870076AF22D4}"/>
+										<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}"/>
+										<Event Name="UI_Exit_Game" ID="{071961C9-9EB7-4747-9656-C3D9B2BF548F}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="In Game Menu" ID="{DC0100BC-2E7A-4B4D-877B-CB3C8135C452}" ShortID="810428826">
+									<ChildrenList>
+										<Event Name="UI_Pause" ID="{E88FC239-2893-40B8-9760-1DB9DB6FAB5A}"/>
+										<Event Name="UI_Resume" ID="{DC9D8E9D-3B3A-4A53-ADC9-6290AC9DD487}"/>
+										<Event Name="UI_Return_To_Main_Menu" ID="{4570DCEB-BA76-4EFF-9622-CDA2CFD2FA0C}"/>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
