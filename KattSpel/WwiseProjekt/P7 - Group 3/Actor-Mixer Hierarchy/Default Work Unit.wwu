@@ -708,9 +708,84 @@
 							<ChildrenList>
 								<Folder Name="Cat" ID="{84A26B6A-1D72-40E8-BCD6-46D413144A20}" ShortID="947140159">
 									<ChildrenList>
-										<Folder Name="WGun_Fire" ID="{703BD637-3DF8-4F79-9B74-77E581E524E8}" ShortID="649734953"/>
-										<Folder Name="WGun_Hit" ID="{AF961C17-A079-4801-AF4A-15E7F1B6EF11}" ShortID="576116850"/>
+										<Folder Name="WaterGun_Fire" ID="{703BD637-3DF8-4F79-9B74-77E581E524E8}" ShortID="649734953"/>
+										<Folder Name="WGun_DogHit" ID="{AF961C17-A079-4801-AF4A-15E7F1B6EF11}" ShortID="576116850"/>
 										<Folder Name="WGun_Miss" ID="{E56A0617-6D0C-4284-8B9E-72AEBF7A2AB4}" ShortID="510601136"/>
+										<Folder Name="WaterGun_EverythingElseHit" ID="{5FA026F8-CE86-4ACA-9653-B0D2A6218A2A}" ShortID="50793870">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Watergun_EverythingElseHit" ID="{227A8F45-D332-4C91-A1B3-6AC6C6276E07}" ShortID="574746869">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1DDCF257-7280-4852-960D-3E18281E0754}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="177"/>
+																			<Property Name="Min" Type="Real64" Value="-152"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Watergun_EverythingElseHit_1" ID="{B5B69FFE-FDF3-4B78-9159-BCBC2D299561}" ShortID="41889111">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Watergun_EverythingElseHit_1" ID="{08615067-890A-400E-B4B4-785465BBE4CB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Watergun_EverythingElseHit_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="596588176"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Watergun_EverythingElseHit_1" ID="{08615067-890A-400E-B4B4-785465BBE4CB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Watergun_EverythingElseHit_2" ID="{9ABA86FF-B547-4069-BFB7-CD3D24D9E25C}" ShortID="384342654">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Watergun_EverythingElseHit_2" ID="{8ADC0DC4-15FE-47A5-A7E8-71068D0D77B1}">
+																	<Language>SFX</Language>
+																	<AudioFile>Watergun_EverythingElseHit_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="288681858"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Watergun_EverythingElseHit_2" ID="{8ADC0DC4-15FE-47A5-A7E8-71068D0D77B1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Dog" ID="{099816C8-7BBF-4374-B6C8-1253D51EB9E0}" ShortID="285478140"/>
