@@ -9,7 +9,30 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{359AE0BE-559C-79FA-65FD-777255DDBC09}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{010941AB-F655-912E-C6AE-8CCCBF0CB294}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="288681858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Watergun_EverythingElseHit_2.wav</ShortName>
+					<CachePath>SFX/Watergun_EverythingElseHit_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="596588176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
+					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2453392179" Name="Player_Footstep"/>
+				<Event Id="3483680902" Name="WaterGun_EverythingElseHit">
+					<MediaRefs>
+						<MediaRef Id="288681858"/>
+						<MediaRef Id="596588176"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{8AE0ECA1-92F3-89CA-F910-78F854DB24C7}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -243,5 +266,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F805B4F2-8148-8FB9-FE19-622357F9CF93}</FileHash>
+	<FileHash>{4FAAE3F5-1F44-E745-1FEF-D39CA07E5E77}</FileHash>
 </SoundBanksInfo>

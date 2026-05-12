@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2453392179	Player_Footstep			\Default Work Unit\Hugo\Player\Player_Footstep	
+	3483680902	WaterGun_EverythingElseHit			\Default Work Unit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	288681858	Watergun_EverythingElseHit_2	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_2_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit\Watergun_EverythingElseHit\Watergun_EverythingElseHit_2		67876
+	596588176	Watergun_EverythingElseHit_1	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_1_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit\Watergun_EverythingElseHit\Watergun_EverythingElseHit_1		79884
+
