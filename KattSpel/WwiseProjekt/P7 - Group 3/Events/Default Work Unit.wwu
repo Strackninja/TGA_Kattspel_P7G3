@@ -128,14 +128,44 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
-								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}"/>
+								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}">
+									<ChildrenList>
+										<Action Name="" ID="{59A41C5E-EFE0-49B4-82B3-8F59A59AF883}" ShortID="915520937">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Jump" ID="{166B6ECD-896A-47F7-8F4A-145147BC0A70}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}"/>
 								<Event Name="Player_Land_Hard" ID="{C0D50930-FEAC-4BF4-A2FA-C32DCC9387ED}"/>
 								<Event Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}"/>
-								<Event Name="Player_Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}"/>
+								<Event Name="Player_Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}">
+									<ChildrenList>
+										<Action Name="" ID="{6E985AA4-07E8-414D-89DE-0888B376B0A1}" ShortID="349179177">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Vault" ID="{6A7089DC-89D8-4FBA-B5E5-E5297161BB9F}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Player_Slide" ID="{56B8A477-D0C4-4E42-AA26-3E2D94363C35}"/>
 								<Event Name="Player_Fall" ID="{1BEBE91A-2610-4B7F-8F1F-9236E916DB81}"/>
-								<Event Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}"/>
+								<Event Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}">
+									<ChildrenList>
+										<Action Name="" ID="{68FAE11D-A363-4892-A4AD-542E04FE8514}" ShortID="894500277">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_DoubleJump" ID="{AA72227F-DDE1-4752-B5B9-A13CC73BFFC9}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
