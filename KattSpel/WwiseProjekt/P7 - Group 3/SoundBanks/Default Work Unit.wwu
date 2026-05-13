@@ -10,6 +10,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SFX" ID="{12FE2156-EE52-4AC0-9B75-5BD737A1068C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WaterGun_EverythingElseHit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
