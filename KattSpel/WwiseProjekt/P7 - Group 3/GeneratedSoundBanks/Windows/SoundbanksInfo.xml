@@ -9,21 +9,54 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{02CE5B57-2DB4-44F9-BB3D-AA33B655D845}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A8EC8DD7-C3A9-B0C9-6C08-C76E436A5038}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
+				<File Id="201082707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="288681858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Watergun_EverythingElseHit_2.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="499784910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble4.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="596588176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="665791529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="985176134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble5.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble5_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2453392179" Name="Player_Footstep"/>
+				<Event Id="2453392179" Name="Player_Footstep">
+					<MediaRefs>
+						<MediaRef Id="201082707"/>
+						<MediaRef Id="433776774"/>
+						<MediaRef Id="499784910"/>
+						<MediaRef Id="665791529"/>
+						<MediaRef Id="876253462"/>
+						<MediaRef Id="985176134"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3483680902" Name="WaterGun_EverythingElseHit">
 					<MediaRefs>
 						<MediaRef Id="288681858"/>
@@ -266,5 +299,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37C72A68-E96B-89F5-E1A9-FF60665EA970}</FileHash>
+	<FileHash>{A0A93A71-27FE-825E-3568-358E2F26873F}</FileHash>
 </SoundBanksInfo>

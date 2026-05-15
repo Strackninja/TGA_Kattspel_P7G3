@@ -3,6 +3,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	3483680902	WaterGun_EverythingElseHit			\Default Work Unit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	201082707	Player_Footstep_Cobble3	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble3_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble3		30292
 	288681858	Watergun_EverythingElseHit_2	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_2_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit\Watergun_EverythingElseHit\Watergun_EverythingElseHit_2		67876
+	433776774	Player_Footstep_Cobble1	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble1_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble1		25132
+	499784910	Player_Footstep_Cobble4	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble4_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble4		27512
 	596588176	Watergun_EverythingElseHit_1	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_1_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\WaterGun_EverythingElseHit\Watergun_EverythingElseHit\Watergun_EverythingElseHit_1		79884
+	665791529	Player_Footstep_Cobble6	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble6_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble6		26816
+	876253462	Player_Footstep_Cobble2	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble2_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble2		30292
+	985176134	Player_Footstep_Cobble5	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble5_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble5		26716
 

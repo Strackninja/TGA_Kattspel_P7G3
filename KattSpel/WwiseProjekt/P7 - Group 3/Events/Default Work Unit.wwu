@@ -121,7 +121,7 @@
 										<Action Name="" ID="{C49B8573-CD1A-4300-933A-4CA00C5F1C81}" ShortID="523119541">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="FS_Type" ID="{36380F97-0C4F-4E57-B36C-FCDF7D7A3307}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+													<ObjectRef Name="Default_Footstep" ID="{7801766E-A39B-448A-82CE-067FA21572FB}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
