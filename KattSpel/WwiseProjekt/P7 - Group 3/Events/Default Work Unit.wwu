@@ -116,17 +116,6 @@
 						</Folder>
 						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
 							<ChildrenList>
-								<Event Name="Player_Footstep" ID="{9137B27C-911C-4AFF-A367-FF41B59743F1}">
-									<ChildrenList>
-										<Action Name="" ID="{C49B8573-CD1A-4300-933A-4CA00C5F1C81}" ShortID="523119541">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Default_Footstep" ID="{7801766E-A39B-448A-82CE-067FA21572FB}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
 								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}">
 									<ChildrenList>
@@ -161,6 +150,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Player_DoubleJump" ID="{AA72227F-DDE1-4752-B5B9-A13CC73BFFC9}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_Footstep" ID="{1727D0CB-358C-4771-AD3F-066FC5822E59}">
+									<ChildrenList>
+										<Action Name="" ID="{CF3A5129-D919-4E67-85B7-5D784C86BD8B}" ShortID="1018420773">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Default_Footstep" ID="{7801766E-A39B-448A-82CE-067FA21572FB}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

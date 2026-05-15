@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A8EC8DD7-C3A9-B0C9-6C08-C76E436A5038}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{09483F46-4E85-BB79-DEE9-B1F3C589351B}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -299,5 +299,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A0A93A71-27FE-825E-3568-358E2F26873F}</FileHash>
+	<FileHash>{DA6C0AB9-763D-2E7B-FAC3-60C5B358DF58}</FileHash>
 </SoundBanksInfo>
