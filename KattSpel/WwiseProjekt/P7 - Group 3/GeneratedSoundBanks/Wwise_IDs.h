@@ -14,8 +14,13 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_1 = 2061769231U;
+        static const AkUniqueID DOG_CANNON_FIRE = 3797152694U;
+        static const AkUniqueID DOG_CANNON_OBJECT_HIT = 3378955245U;
+        static const AkUniqueID DOG_DEATH = 2682195294U;
+        static const AkUniqueID DOG_TURRET_ROTATION = 2273467139U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
-        static const AkUniqueID WATERGUN_EVERYTHINGELSEHIT = 3483680902U;
+        static const AkUniqueID WATERGUN_FIRE = 3833903647U;
+        static const AkUniqueID WATERGUN_OBJECT_HIT = 236262596U;
     } // namespace EVENTS
 
     namespace STATES

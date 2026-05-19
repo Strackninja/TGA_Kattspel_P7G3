@@ -9,10 +9,18 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{09483F46-4E85-BB79-DEE9-B1F3C589351B}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{8000F3B4-4164-899F-7E5E-A1E25F2D4E7E}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
+				<File Id="2491323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Voice Designer, Tony 2.wav</ShortName>
+					<CachePath>SFX/Soundly Voice Designer, Tony 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="4821340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death.wav</ShortName>
+					<CachePath>SFX/Dog_Death_818F3B66.wem</CachePath>
+				</File>
 				<File Id="201082707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
@@ -37,16 +45,48 @@
 					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
 				</File>
+				<File Id="739449983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Voice Designer, Tony 1.wav</ShortName>
+					<CachePath>SFX/Soundly Voice Designer, Tony 1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="963513547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Cannon_Fire.wav</ShortName>
+					<CachePath>SFX/Dog_Cannon_Fire_818F3B66.wem</CachePath>
 				</File>
 				<File Id="985176134" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble5.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble5_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1065190355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Turret_Rotation.wav</ShortName>
+					<CachePath>SFX/Dog_Turret_Rotation_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3797152694" Name="Dog_Cannon_Fire">
+					<MediaRefs>
+						<MediaRef Id="963513547"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3378955245" Name="Dog_Cannon_Object_Hit">
+					<MediaRefs>
+						<MediaRef Id="2491323"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2682195294" Name="Dog_Death">
+					<MediaRefs>
+						<MediaRef Id="4821340"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2273467139" Name="Dog_Turret_Rotation">
+					<MediaRefs>
+						<MediaRef Id="1065190355"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
 						<MediaRef Id="201082707"/>
@@ -57,7 +97,12 @@
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3483680902" Name="WaterGun_EverythingElseHit">
+				<Event Id="3833903647" Name="WaterGun_Fire">
+					<MediaRefs>
+						<MediaRef Id="739449983"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="236262596" Name="Watergun_Object_Hit">
 					<MediaRefs>
 						<MediaRef Id="288681858"/>
 						<MediaRef Id="596588176"/>
@@ -299,5 +344,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DA6C0AB9-763D-2E7B-FAC3-60C5B358DF58}</FileHash>
+	<FileHash>{38C28A8C-4C36-20BD-5D2E-C01C837F6673}</FileHash>
 </SoundBanksInfo>
