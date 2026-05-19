@@ -1,9 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
 	236262596	Watergun_Object_Hit			\Default Work Unit\Strahinja\Combat\Cat\Watergun_Object_Hit	
 	769234327	Player_Vault			\Default Work Unit\Hugo\Player\Player_Vault	
+	1305133589	Player_Jump			\Default Work Unit\Hugo\Player\Player_Jump	
+	1329115477	Player_Double_Jump			\Default Work Unit\Hugo\Player\Player_Double_Jump	
+	1462856691	Catnip_PickUp			\Default Work Unit\Events\Catnip_PickUp	
+	1631631307	Player_Death_Fall			\Default Work Unit\Events\Player_Death_Fall	
+	2161713971	Player_Respawn			\Default Work Unit\Events\Player_Respawn	
 	2273467139	Dog_Turret_Rotation			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Turret_Rotation	
+	2310699732	Catnip_Activate			\Default Work Unit\Events\Catnip_Activate	
 	2453392179	Player_Footstep			\Default Work Unit\Hugo\Player\Player_Footstep	
 	2682195294	Dog_Death			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Death	
+	2919142181	Catnip_Deactivate			\Default Work Unit\Events\Catnip_Deactivate	
+	3052201669	Player_Land_Soft			\Default Work Unit\Hugo\Player\Player_Land_Soft	
+	3083087645	Player_Death			\Default Work Unit\Events\Player_Death	
+	3354250256	Player_Wallrun			\Default Work Unit\Hugo\Player\Player_Wallrun	
 	3378955245	Dog_Cannon_Object_Hit			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Object_Hit	
 	3797152694	Dog_Cannon_Fire			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Fire	
 	3833903647	WaterGun_Fire			\Default Work Unit\Strahinja\Combat\Cat\WaterGun_Fire	
@@ -11,16 +21,27 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	2491323	Soundly Voice Designer, Tony 2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Soundly Voice Designer, Tony 2_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Dog\Dog_Object_Hit\Soundly Voice Designer, Tony 2		101428
 	4821340	Dog_Death	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Dog_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Dog\Dog_Death\Dog_Death		328340
+	44897818	Catnip_Activate	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Catnip_Activate_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Catnip_Activate\Catnip_Activate		454020
+	183879789	Player_Land_Cobble2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Land_Cobble2_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Land\Player_Land_Cobble2		88300
 	201082707	Player_Footstep_Cobble3	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble3_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble3		30292
+	243814880	Player_DoubleJump	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_DoubleJump_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Double_Jump\Player_DoubleJump		224960
+	282450942	Player_Respawn	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Respawn_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Respawn\Player_Respawn		98000
+	282591845	Player_Land_Cobble3	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Land_Cobble3_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Land\Player_Land_Cobble3		94052
 	288681858	Watergun_EverythingElseHit_2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_2_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\Watergun_Object_Hit\Watergun_Object_Hit\Watergun_EverythingElseHit_2		67876
+	317626714	Catnip_Deactivate	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Catnip_Deactivate_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Catnip_Deactivate\Catnip_Deactivate		542968
+	397919603	Player_Jump1	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Jump1_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Jump\Player_Jump1		128888
+	424181975	Player_Land_Cobble1	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Land_Cobble1_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Land\Player_Land_Cobble1		110224
 	433776774	Player_Footstep_Cobble1	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble1_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble1		25132
 	499784910	Player_Footstep_Cobble4	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble4_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble4		27512
+	541912965	Player_Jump2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Jump2_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Jump\Player_Jump2		132856
 	596588176	Watergun_EverythingElseHit_1	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Watergun_EverythingElseHit_1_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\Watergun_Object_Hit\Watergun_Object_Hit\Watergun_EverythingElseHit_1		79884
 	665791529	Player_Footstep_Cobble6	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble6_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble6		26816
 	698202707	Player_Vault	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Vault_B2343F15.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Vault\Player_Vault		140520
 	739449983	Soundly Voice Designer, Tony 1	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Soundly Voice Designer, Tony 1_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Cat\WaterGun_Fire\Water_Gun_Fire\Soundly Voice Designer, Tony 1		38242
 	876253462	Player_Footstep_Cobble2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble2_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble2		30292
+	920228750	Catnip_PickUp	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Catnip_PickUp_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Catnip_PickUp\Catnip_PickUp		45636
 	963513547	Dog_Cannon_Fire	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Dog_Cannon_Fire_818F3B66.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Dog\Dog_Cannon_Fire\Dog_Cannon_Fire		268896
 	985176134	Player_Footstep_Cobble5	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Footstep_Cobble5_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Default_Footstep\Player_Footstep_Cobble5		26716
 	1065190355	Dog_Turret_Rotation	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Dog_Turret_Rotation_FBC78EF0.wem		\Actor-Mixer Hierarchy\Strahinja_WorkUnit\Strahinja\Combat\Dog\Dog_Turret_Rotation\Dog_Turret_Rotation		471300
+	1072800832	Player_Jump3	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Player_Jump3_818F3B66.wem		\Actor-Mixer Hierarchy\Hugo_WorkUnit\Hugo\Player_Jump\Player_Jump3		129836
 

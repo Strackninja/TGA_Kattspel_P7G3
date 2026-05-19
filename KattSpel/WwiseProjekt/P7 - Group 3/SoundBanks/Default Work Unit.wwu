@@ -12,14 +12,24 @@
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{12FE2156-EE52-4AC0-9B75-5BD737A1068C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Player_Respawn" ID="{A0A02B83-361C-4005-AEB1-5D8E0FD73223}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WaterGun_Fire" ID="{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Catnip_Deactivate" ID="{8D4F9634-24A7-43CC-81B0-759BA5B96E9A}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Turret_Rotation" ID="{BC6E3937-5CFC-4464-99AE-2F0233C2FD77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Cannon_Fire" ID="{B929C8DC-7A8A-44C8-A33B-6CA9443302BE}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Catnip_Activate" ID="{98384173-D2CB-472D-9C5B-B262840B4352}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{1727D0CB-358C-4771-AD3F-066FC5822E59}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Watergun_Object_Hit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Cannon_Object_Hit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death_Fall" ID="{E05E04AE-832A-4FE7-AFA6-14BC06041A33}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
