@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{87163BD2-047D-2CDD-CBCA-0E471B34474A}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{CA6A7CD6-04B3-B431-3E72-120DA3959119}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -21,13 +21,45 @@
 					<ShortName>Dog_Death.wav</ShortName>
 					<CachePath>SFX/Dog_Death_818F3B66.wem</CachePath>
 				</File>
+				<File Id="44897818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Catnip_Activate.wav</ShortName>
+					<CachePath>SFX/Catnip_Activate_818F3B66.wem</CachePath>
+				</File>
+				<File Id="183879789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_Cobble2.wav</ShortName>
+					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="201082707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_DoubleJump.wav</ShortName>
+					<CachePath>SFX/Player_DoubleJump_818F3B66.wem</CachePath>
+				</File>
+				<File Id="282450942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Respawn.wav</ShortName>
+					<CachePath>SFX/Player_Respawn_818F3B66.wem</CachePath>
+				</File>
+				<File Id="282591845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_Cobble3.wav</ShortName>
+					<CachePath>SFX/Player_Land_Cobble3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="288681858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Watergun_EverythingElseHit_2.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="317626714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Catnip_Deactivate.wav</ShortName>
+					<CachePath>SFX/Catnip_Deactivate_818F3B66.wem</CachePath>
+				</File>
+				<File Id="397919603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump1.wav</ShortName>
+					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="424181975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_Cobble1.wav</ShortName>
+					<CachePath>SFX/Player_Land_Cobble1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
@@ -36,6 +68,10 @@
 				<File Id="499784910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble4.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump2.wav</ShortName>
+					<CachePath>SFX/Player_Jump2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="596588176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
@@ -57,6 +93,10 @@
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="920228750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Catnip_PickUp.wav</ShortName>
+					<CachePath>SFX/Catnip_PickUp_818F3B66.wem</CachePath>
+				</File>
 				<File Id="963513547" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Cannon_Fire.wav</ShortName>
 					<CachePath>SFX/Dog_Cannon_Fire_818F3B66.wem</CachePath>
@@ -69,8 +109,27 @@
 					<ShortName>Dog_Turret_Rotation.wav</ShortName>
 					<CachePath>SFX/Dog_Turret_Rotation_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="1072800832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump3.wav</ShortName>
+					<CachePath>SFX/Player_Jump3_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2310699732" Name="Catnip_Activate">
+					<MediaRefs>
+						<MediaRef Id="44897818"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2919142181" Name="Catnip_Deactivate">
+					<MediaRefs>
+						<MediaRef Id="317626714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1462856691" Name="Catnip_PickUp">
+					<MediaRefs>
+						<MediaRef Id="920228750"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3797152694" Name="Dog_Cannon_Fire">
 					<MediaRefs>
 						<MediaRef Id="963513547"/>
@@ -91,6 +150,13 @@
 						<MediaRef Id="1065190355"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3083087645" Name="Player_Death"/>
+				<Event Id="1631631307" Name="Player_Death_Fall"/>
+				<Event Id="1329115477" Name="Player_Double_Jump">
+					<MediaRefs>
+						<MediaRef Id="243814880"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
 						<MediaRef Id="201082707"/>
@@ -101,9 +167,38 @@
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1305133589" Name="Player_Jump">
+					<MediaRefs>
+						<MediaRef Id="397919603"/>
+						<MediaRef Id="541912965"/>
+						<MediaRef Id="1072800832"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3052201669" Name="Player_Land_Soft">
+					<MediaRefs>
+						<MediaRef Id="183879789"/>
+						<MediaRef Id="282591845"/>
+						<MediaRef Id="424181975"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2161713971" Name="Player_Respawn">
+					<MediaRefs>
+						<MediaRef Id="282450942"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="769234327" Name="Player_Vault">
 					<MediaRefs>
 						<MediaRef Id="698202707"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3354250256" Name="Player_Wallrun">
+					<MediaRefs>
+						<MediaRef Id="201082707"/>
+						<MediaRef Id="433776774"/>
+						<MediaRef Id="499784910"/>
+						<MediaRef Id="665791529"/>
+						<MediaRef Id="876253462"/>
+						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3833903647" Name="WaterGun_Fire">
@@ -353,5 +448,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{54790820-DD8A-B0C5-C4C1-801278099061}</FileHash>
+	<FileHash>{FE935499-3036-2A8D-2684-84B020BA58B2}</FileHash>
 </SoundBanksInfo>
