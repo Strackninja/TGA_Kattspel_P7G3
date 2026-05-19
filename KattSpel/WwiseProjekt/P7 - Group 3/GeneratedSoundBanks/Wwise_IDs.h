@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID DOG_DEATH = 2682195294U;
         static const AkUniqueID DOG_TURRET_ROTATION = 2273467139U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_VAULT = 769234327U;
         static const AkUniqueID WATERGUN_FIRE = 3833903647U;
         static const AkUniqueID WATERGUN_OBJECT_HIT = 236262596U;
     } // namespace EVENTS
