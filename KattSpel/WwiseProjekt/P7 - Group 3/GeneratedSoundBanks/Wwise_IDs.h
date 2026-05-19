@@ -14,7 +14,16 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_1 = 2061769231U;
+        static const AkUniqueID CATNIP_ACTIVATE = 2310699732U;
+        static const AkUniqueID CATNIP_DEACTIVATE = 2919142181U;
+        static const AkUniqueID CATNIP_PICKUP = 1462856691U;
+        static const AkUniqueID PLAYER_DOUBLE_JUMP = 1329115477U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_JUMP = 1305133589U;
+        static const AkUniqueID PLAYER_LAND_SOFT = 3052201669U;
+        static const AkUniqueID PLAYER_RESPAWN = 2161713971U;
+        static const AkUniqueID PLAYER_VAULT = 769234327U;
+        static const AkUniqueID PLAYER_WALLRUN = 3354250256U;
         static const AkUniqueID WATERGUN_EVERYTHINGELSEHIT = 3483680902U;
     } // namespace EVENTS
 
