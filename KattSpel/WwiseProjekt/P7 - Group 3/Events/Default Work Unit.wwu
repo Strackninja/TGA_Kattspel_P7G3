@@ -71,24 +71,34 @@
 					<ChildrenList>
 						<Folder Name="Ambiences" ID="{ADB819A0-0338-42D1-866E-E2B8F1BB6A67}" ShortID="287567702">
 							<ChildrenList>
-								<Event Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}"/>
-								<Event Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}"/>
+								<Event Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}">
+									<ChildrenList>
+										<Action Name="" ID="{3EE47BEB-A743-4D2F-91B8-BEC1850C1B4F}" ShortID="126939603">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience_2_Medium" ID="{6749FC09-5A67-4A62-BFFA-E610B71169EE}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}">
+									<ChildrenList>
+										<Action Name="" ID="{72DBBED7-C1A6-4B32-A9E8-3C8C05021FE2}" ShortID="690326353">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience_3_Strong" ID="{FD2E7902-4851-4904-AA5B-E12E13E87365}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}">
 									<ChildrenList>
 										<Action Name="" ID="{9D56A3F3-C97D-42C2-B115-9DC09FC6A2D6}" ShortID="836707061">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Windambience" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{26AB7FF4-E506-47B4-9DE7-48AC283101FB}" ShortID="336642812">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Windambience" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+													<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
