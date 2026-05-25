@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{CA6A7CD6-04B3-B431-3E72-120DA3959119}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{49A1D6A9-B141-0842-17C4-21DF8D4C4F3C}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -85,10 +85,6 @@
 					<ShortName>Player_Vault.wav</ShortName>
 					<CachePath>SFX/Player_Vault_B2343F15.wem</CachePath>
 				</File>
-				<File Id="739449983" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Tony 1.wav</ShortName>
-					<CachePath>SFX/Soundly Voice Designer, Tony 1_818F3B66.wem</CachePath>
-				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
@@ -107,13 +103,18 @@
 				</File>
 				<File Id="1065190355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Turret_Rotation.wav</ShortName>
-					<CachePath>SFX/Dog_Turret_Rotation_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Dog_Turret_Rotation_3C4E2A98.wem</CachePath>
 				</File>
 				<File Id="1072800832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump3.wav</ShortName>
 					<CachePath>SFX/Player_Jump3_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="547786164" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="2310699732" Name="Catnip_Activate">
 					<MediaRefs>
@@ -149,6 +150,11 @@
 					<MediaRefs>
 						<MediaRef Id="1065190355"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="547786164"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death"/>
 				<Event Id="1631631307" Name="Player_Death_Fall"/>
@@ -201,11 +207,7 @@
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3833903647" Name="WaterGun_Fire">
-					<MediaRefs>
-						<MediaRef Id="739449983"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3833903647" Name="WaterGun_Fire"/>
 				<Event Id="236262596" Name="Watergun_Object_Hit">
 					<MediaRefs>
 						<MediaRef Id="288681858"/>
@@ -339,7 +341,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{34D952B8-C6E2-6464-AC77-F39720F7FD8E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{585AFEE4-1C4D-084B-75BB-5AB26D03E3C6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -531,5 +533,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{919BBF21-0AC8-8AEE-04A3-C6EC3EE7E55F}</FileHash>
+	<FileHash>{0ADC150E-BCE1-420C-9689-E5C349391BB5}</FileHash>
 </SoundBanksInfo>
