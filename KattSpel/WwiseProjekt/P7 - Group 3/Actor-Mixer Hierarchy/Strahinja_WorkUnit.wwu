@@ -868,7 +868,7 @@
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="51"/>
-																			<Property Name="Min" Type="Real64" Value="-76"/>
+																			<Property Name="Min" Type="Real64" Value="-40"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
@@ -885,6 +885,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Dog_Turret_Rotation" ID="{C2F4498D-9A97-4206-BE7C-7BF1950ADBE5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.427378298153034"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.524509729551451"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Dog_Turret_Rotation.wav</AudioFile>
 															<MediaIDList>
