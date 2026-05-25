@@ -163,7 +163,7 @@
 												<Action Name="" ID="{8BC69787-6247-4AB8-8306-0DDE50EFFAAA}" ShortID="323370225">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Soundly Voice Designer, Tony 1" ID="{E02DD573-E2AD-46B3-8A83-5BCE0DD5F089}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+															<ObjectRef Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

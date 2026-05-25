@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{49A1D6A9-B141-0842-17C4-21DF8D4C4F3C}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{78B14934-89B4-8CC8-69FD-CD6E556509BA}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -36,6 +36,10 @@
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
 					<CachePath>SFX/Player_DoubleJump_818F3B66.wem</CachePath>
+				</File>
+				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Fire_1.wav</ShortName>
+					<CachePath>SFX/Player_Fire_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="282450942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Respawn.wav</ShortName>
@@ -207,7 +211,11 @@
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3833903647" Name="WaterGun_Fire"/>
+				<Event Id="3833903647" Name="WaterGun_Fire">
+					<MediaRefs>
+						<MediaRef Id="280606932"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="236262596" Name="Watergun_Object_Hit">
 					<MediaRefs>
 						<MediaRef Id="288681858"/>
@@ -533,5 +541,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0ADC150E-BCE1-420C-9689-E5C349391BB5}</FileHash>
+	<FileHash>{32DA798E-B5C5-158A-8D3A-7E62513A96CB}</FileHash>
 </SoundBanksInfo>
