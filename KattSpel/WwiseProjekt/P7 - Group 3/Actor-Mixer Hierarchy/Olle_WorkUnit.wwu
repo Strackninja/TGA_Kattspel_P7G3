@@ -815,6 +815,276 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="MAIN_MENU_MUSIC" ID="{85C99D5B-52AF-4938-ACCB-A3FCDE91B36C}" ShortID="779049524">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skyline Feline - Level 2" ID="{B1E22277-4939-4C9D-B0AB-4A19F4C18F90}" ShortID="530889098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skyline Feline - Level 2" ID="{1879D5F6-B487-4FED-93F3-CF727A7EF372}">
+											<PropertyList>
+												<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Skyline Feline - Level 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="775788259"/>
+											</MediaIDList>
+											<ObjectLists>
+												<ObjectList Name="Markers">
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{6A53D4C9-38FE-434F-B533-13FF5796417A}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Intro"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{FE0BC5EE-DC15-4E29-8767-0FF37E94A1FC}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A1"/>
+																	<Property Name="Time" Type="Real64" Value="10.8243125"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{42D8D1FA-05EA-4C93-9FBA-E815115FD166}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A2"/>
+																	<Property Name="Time" Type="Real64" Value="21.2027083333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{95F95859-4030-4D09-AA92-F13C7B3F1011}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="B"/>
+																	<Property Name="Time" Type="Real64" Value="31.5810833333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{D7EDB8A5-E5D6-4EAE-906D-8A9E97ED2AD6}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A3"/>
+																	<Property Name="Time" Type="Real64" Value="41.9594583333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{6E887A52-59C5-4689-9049-E1F5F40B13E2}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Interlude"/>
+																	<Property Name="Time" Type="Real64" Value="52.3378333333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{7AECB606-2495-46D3-85BE-E52C55F1D68C}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Improv A1"/>
+																	<Property Name="Time" Type="Real64" Value="62.7162083333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{B4958721-5AA0-46D1-8E8F-3E74EC6ED0FB}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A2"/>
+																	<Property Name="Time" Type="Real64" Value="73.0945833333333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{C3275D0F-09D9-4A79-931C-50F3FC9B4021}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="B"/>
+																	<Property Name="Time" Type="Real64" Value="83.4729791666667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{B01E22A3-78EE-4BA7-80DD-FD9F04DD8A4F}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A3"/>
+																	<Property Name="Time" Type="Real64" Value="93.8513541666667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{1796D251-D14D-4B4A-B875-CFC144BAA236}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Improv A1"/>
+																	<Property Name="Time" Type="Real64" Value="104.229729166667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{7319FDE3-E500-48B4-A468-474A6849D7C3}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A2"/>
+																	<Property Name="Time" Type="Real64" Value="114.608104166667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{36326C43-F66F-46B4-A586-9F98E084A0CE}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="B"/>
+																	<Property Name="Time" Type="Real64" Value="124.986479166667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{A520138C-AE86-4466-8877-256DBF37696D}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A3"/>
+																	<Property Name="Time" Type="Real64" Value="135.364854166667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{162F936C-190D-44CB-9E31-FEF13F0A7346}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Interlude"/>
+																	<Property Name="Time" Type="Real64" Value="145.743229166667"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{88D9C099-F262-4491-8B6E-824757CED6CC}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Improv A1"/>
+																	<Property Name="Time" Type="Real64" Value="156.121625"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{F08245EA-26ED-4619-AFFD-0489318706ED}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A2"/>
+																	<Property Name="Time" Type="Real64" Value="166.5"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{277F0947-A4A9-4B98-90B0-CC87352922D9}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="B"/>
+																	<Property Name="Time" Type="Real64" Value="176.878375"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{E959A028-21B7-41E9-9902-316C6CC7854B}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A3"/>
+																	<Property Name="Time" Type="Real64" Value="187.25675"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{BE5611C8-C40B-4053-8D92-3295D54007EC}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Improv A1"/>
+																	<Property Name="Time" Type="Real64" Value="197.635125"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{BE086EEA-7E02-4F81-8D31-6B6ADC97B93A}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A2"/>
+																	<Property Name="Time" Type="Real64" Value="208.0135"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{68A89543-4F8E-43C0-8DE8-2AEE0DE7F8C8}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="B"/>
+																	<Property Name="Time" Type="Real64" Value="218.391895833333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<Marker Name="" ID="{12ECDE37-D884-47CF-B526-852850CF9832}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="A3"/>
+																	<Property Name="Time" Type="Real64" Value="228.770270833333"/>
+																</PropertyList>
+															</Marker>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skyline Feline - Level 2" ID="{1879D5F6-B487-4FED-93F3-CF727A7EF372}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
