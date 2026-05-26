@@ -32,7 +32,7 @@
 								<Action Name="" ID="{BF41BE98-5FB2-4DF2-B21B-59F625F29B7E}" ShortID="655916483">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Catnip_Deactivate" ID="{1D46BB6E-5F4A-487E-9FC9-DD2BB914501D}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+											<ObjectRef Name="Catnip_Deactivate" ID="{4A5CEA1C-9AC5-481A-AB19-4D6F7A57510E}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -46,6 +46,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Respawn" ID="{031D2505-4E03-4B6B-AD46-E74AFB4BA2C1}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Catnip_Idle" ID="{E3CBD22B-C307-4D54-9C6A-D2B6BEE59F2A}">
+							<ChildrenList>
+								<Action Name="" ID="{2D711BD7-0D92-40FB-8E91-74C417D88282}" ShortID="763050604">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

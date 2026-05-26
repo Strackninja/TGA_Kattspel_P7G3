@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID AMB_3 = 2061769229U;
         static const AkUniqueID CATNIP_ACTIVATE = 2310699732U;
         static const AkUniqueID CATNIP_DEACTIVATE = 2919142181U;
+        static const AkUniqueID CATNIP_IDLE = 3018716685U;
         static const AkUniqueID CATNIP_PICKUP = 1462856691U;
         static const AkUniqueID DOG_CANNON_FIRE = 3797152694U;
         static const AkUniqueID DOG_CANNON_OBJECT_HIT = 3378955245U;

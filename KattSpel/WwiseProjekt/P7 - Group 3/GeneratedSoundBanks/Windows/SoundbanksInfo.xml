@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{B11A522D-BDAC-31F3-B270-93C0CC6CEC64}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{009856D5-915A-AB8D-D6CD-95082126AB81}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,6 +25,10 @@
 					<ShortName>Catnip_Activate.wav</ShortName>
 					<CachePath>SFX/Catnip_Activate_818F3B66.wem</CachePath>
 				</File>
+				<File Id="124356157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
+				</File>
 				<File Id="183879789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
@@ -32,6 +36,10 @@
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
 					<CachePath>SFX/Player_DoubleJump_0B864721.wem</CachePath>
+				</File>
+				<File Id="271172511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble7.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Fire_1.wav</ShortName>
@@ -57,6 +65,10 @@
 					<ShortName>Player_Jump1.wav</ShortName>
 					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="405630920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1.wav</ShortName>
+					<CachePath>SFX/Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="424181975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble1_818F3B66.wem</CachePath>
@@ -64,10 +76,6 @@
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
-				</File>
-				<File Id="499784910" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble4.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump2.wav</ShortName>
@@ -77,13 +85,13 @@
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="665791529" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
-				</File>
 				<File Id="698202707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Vault.wav</ShortName>
 					<CachePath>SFX/Player_Vault_B2343F15.wem</CachePath>
+				</File>
+				<File Id="713388964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
@@ -126,6 +134,11 @@
 						<MediaRef Id="317626714"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3018716685" Name="Catnip_Idle">
+					<MediaRefs>
+						<MediaRef Id="405630920"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1462856691" Name="Catnip_PickUp">
 					<MediaRefs>
 						<MediaRef Id="920228750"/>
@@ -165,9 +178,10 @@
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
+						<MediaRef Id="124356157"/>
+						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
-						<MediaRef Id="499784910"/>
-						<MediaRef Id="665791529"/>
+						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
@@ -198,9 +212,10 @@
 				</Event>
 				<Event Id="3354250256" Name="Player_Wallrun">
 					<MediaRefs>
+						<MediaRef Id="124356157"/>
+						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
-						<MediaRef Id="499784910"/>
-						<MediaRef Id="665791529"/>
+						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
@@ -571,5 +586,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{474ADC99-EEB1-42E4-E99C-5863D4970EEC}</FileHash>
+	<FileHash>{4965DC2A-D544-5B7D-7113-6BA4B3132ADC}</FileHash>
 </SoundBanksInfo>
