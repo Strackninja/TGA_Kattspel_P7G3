@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="AMB" ID="{5F88E927-D608-44AA-8D7E-38658BBF5C0C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -27,7 +28,6 @@
 						<ObjectRef Name="Player_Footstep" ID="{1727D0CB-358C-4771-AD3F-066FC5822E59}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Watergun_Object_Hit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Cannon_Object_Hit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
