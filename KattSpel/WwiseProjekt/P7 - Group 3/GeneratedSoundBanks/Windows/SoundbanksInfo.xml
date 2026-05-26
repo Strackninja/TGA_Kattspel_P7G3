@@ -218,7 +218,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{774AB05D-8C8A-7ABB-E9D9-A7B79545534E}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{FE44A9A6-7F98-F93A-ABC9-743F539C721E}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -343,7 +343,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6EEB6757-2036-8CED-BA44-8C161372E5A7}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B2D378AF-2FD6-0D33-EA51-718E26926999}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -378,7 +378,13 @@
 				<Bus Id="2680856269" Name="Music_Bus"/>
 				<Bus Id="3247222208" Name="UI_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
-				<Bus Id="3942603440" Name="Environmental_Bus"/>
+				<Bus Id="3942603440" Name="Environmental_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3505558493"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="4076418998" Name="Player_Sounds_Bus">
 					<PluginRefs>
 						<Custom>
@@ -586,5 +592,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AA630E53-B5EE-F666-B271-8A56A54C1959}</FileHash>
+	<FileHash>{3C641029-4411-1E68-56B1-2C772F77DC96}</FileHash>
 </SoundBanksInfo>
