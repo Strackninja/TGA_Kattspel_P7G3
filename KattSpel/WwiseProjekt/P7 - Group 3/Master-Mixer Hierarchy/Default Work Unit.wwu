@@ -194,6 +194,63 @@
 							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
 						</Reference>
 					</ReferenceList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Player_State" ID="{0640A660-E29D-4FDE-84F2-F667D4D57B13}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{A79BFA69-A738-41BA-995D-AE1089AC7C85}"/>
+								<CustomState Name="" ID="{96042B12-86E1-463C-B6F9-FE357CE9CC8B}" ShortID="732183766"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+								<CustomState Name="" ID="{838073EC-355C-4173-8639-97B53F0C6EA6}" ShortID="103105895"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+								<CustomState Name="" ID="{57FDB38B-0122-44E0-948B-01D95244BA39}" ShortID="916603009">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="14"/>
+										<Property Name="Lowpass" Type="int16" Value="29"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{12C8CCC1-6C11-47CC-99F7-929A2B8A34FE}" ShortID="636306608">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="Catnip_EQ" ID="{3F22827B-CE78-40A4-A07D-5A12ED8B3C00}" WorkUnitID="{11D57F17-3104-4454-A7A9-DD1638D8A3B0}"/>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="None" ID="{A79BFA69-A738-41BA-995D-AE1089AC7C85}"/>
+													<CustomState Name="" ID="{6899BF36-215C-4641-A9C8-D0514B7229BE}" ShortID="1010731832"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+													<CustomState Name="" ID="{A9030E30-6233-460E-BE0D-A26AF9F3906C}" ShortID="337850125"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+													<CustomState Name="" ID="{79A6D47F-7B38-474F-9875-7D85C96D41AE}" ShortID="958108310"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -24,7 +24,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+						<CurrentStateRef Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

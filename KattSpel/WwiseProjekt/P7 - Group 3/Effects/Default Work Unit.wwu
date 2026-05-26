@@ -15,7 +15,7 @@
 				<Effect Name="Catnip_EQ" ID="{3F22827B-CE78-40A4-A07D-5A12ED8B3C00}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>
 						<Property Name="FrequencyBand1" Type="Real32" Value="64"/>
-						<Property Name="FrequencyBand3" Type="Real32" Value="15614"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="8970"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>
