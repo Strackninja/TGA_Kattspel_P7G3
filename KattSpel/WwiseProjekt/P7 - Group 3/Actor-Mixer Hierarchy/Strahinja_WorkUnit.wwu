@@ -204,6 +204,15 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{9FD2ECCA-C51A-4C85-994A-899D94FAF138}" ShortID="163345495"/>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Windambience_2_Medium" ID="{6749FC09-5A67-4A62-BFFA-E610B71169EE}" ShortID="491011931">
 											<PropertyList>
