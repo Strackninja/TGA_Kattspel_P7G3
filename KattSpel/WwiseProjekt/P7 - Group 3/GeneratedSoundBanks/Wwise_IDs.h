@@ -23,6 +23,10 @@ namespace AK
         static const AkUniqueID DOG_CANNON_OBJECT_HIT = 3378955245U;
         static const AkUniqueID DOG_DEATH = 2682195294U;
         static const AkUniqueID DOG_TURRET_ROTATION = 2273467139U;
+        static const AkUniqueID MUSIC_LVL1 = 3380345082U;
+        static const AkUniqueID MUSIC_LVL2 = 3380345081U;
+        static const AkUniqueID MUSIC_LVL3 = 3380345080U;
+        static const AkUniqueID MUSIC_MENU = 1598298728U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_DEATH_FALL = 1631631307U;
         static const AkUniqueID PLAYER_DOUBLE_JUMP = 1329115477U;
@@ -92,6 +96,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DENSITY_FA_SSGRAIN = 2715217995U;
+        static const AkUniqueID GP_PLAYERGUNSHOT_PARAMETER = 2728428466U;
         static const AkUniqueID IMMERSION_FA_SSGRAIN = 2481728872U;
         static const AkUniqueID INSTRUMENT_FA_SSGRAIN = 2317409760U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
@@ -115,13 +120,21 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID AMBIENCE_BUS = 174546974U;
+        static const AkUniqueID ENEMY_SOUNDS_BUS = 2668832989U;
+        static const AkUniqueID ENVIRONMENTAL_BUS = 3942603440U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
+        static const AkUniqueID MUSIC_BUS = 2680856269U;
+        static const AkUniqueID PLAYER_SOUNDS_BUS = 4076418998U;
+        static const AkUniqueID PLAYER_WEAPON_BUS = 2461149734U;
+        static const AkUniqueID UI_BUS = 3247222208U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

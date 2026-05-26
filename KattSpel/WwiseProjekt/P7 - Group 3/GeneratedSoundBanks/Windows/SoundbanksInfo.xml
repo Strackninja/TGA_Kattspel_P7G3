@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{78B14934-89B4-8CC8-69FD-CD6E556509BA}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{B11A522D-BDAC-31F3-B270-93C0CC6CEC64}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -29,13 +29,9 @@
 					<ShortName>Player_Land_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="201082707" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
-					<CachePath>SFX/Player_DoubleJump_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_DoubleJump_0B864721.wem</CachePath>
 				</File>
 				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Fire_1.wav</ShortName>
@@ -107,7 +103,7 @@
 				</File>
 				<File Id="1065190355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Turret_Rotation.wav</ShortName>
-					<CachePath>SFX/Dog_Turret_Rotation_3C4E2A98.wem</CachePath>
+					<CachePath>SFX/Dog_Turret_Rotation_66790B9E.wem</CachePath>
 				</File>
 				<File Id="1072800832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump3.wav</ShortName>
@@ -169,7 +165,6 @@
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
-						<MediaRef Id="201082707"/>
 						<MediaRef Id="433776774"/>
 						<MediaRef Id="499784910"/>
 						<MediaRef Id="665791529"/>
@@ -203,7 +198,6 @@
 				</Event>
 				<Event Id="3354250256" Name="Player_Wallrun">
 					<MediaRefs>
-						<MediaRef Id="201082707"/>
 						<MediaRef Id="433776774"/>
 						<MediaRef Id="499784910"/>
 						<MediaRef Id="665791529"/>
@@ -224,7 +218,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{A2D4C1FA-516D-160B-C4D6-1660CC24FA76}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4FBD55C0-7272-F674-3FF0-5AAA2D870D3E}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -349,19 +343,34 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{585AFEE4-1C4D-084B-75BB-5AB26D03E3C6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B4387800-47D8-2DD7-2A9F-166D570609B2}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1992114213" Name="SideChain_Meter" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
-					<Plugin Id="4230635974" Name="Default_Motion_Device" LibName="Wwise Motion" LibId="33226759"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="174546974" Name="Ambience_Bus"/>
 				<Bus Id="985987111" Name="Motion Factory Bus"/>
+				<Bus Id="2461149734" Name="Player_Weapon_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1992114213"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2668832989" Name="Enemy_Sounds_Bus"/>
+				<Bus Id="2680856269" Name="Music_Bus"/>
+				<Bus Id="3247222208" Name="UI_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3942603440" Name="Environmental_Bus"/>
+				<Bus Id="4076418998" Name="Player_Sounds_Bus"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="796049864" Name="RPM"/>
@@ -376,6 +385,7 @@
 				<GameParameter Id="2481728872" Name="Immersion_FA_SSGrain"/>
 				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
 				<GameParameter Id="2715217995" Name="Density_FA_SSGrain"/>
+				<GameParameter Id="2728428466" Name="GP_PlayerGunShot_Parameter"/>
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
 				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
@@ -540,6 +550,26 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{19D02365-F75A-59B4-AB96-6671B6B42EDA}">
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+			<Media>
+				<File Id="775788259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skyline Feline - Level 2.wav</ShortName>
+					<CachePath>SFX/Skyline Feline - Level 2_34719E53.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3380345082" Name="Music_Lvl1">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380345081" Name="Music_Lvl2"/>
+				<Event Id="3380345080" Name="Music_Lvl3"/>
+				<Event Id="1598298728" Name="Music_Menu"/>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{32DA798E-B5C5-158A-8D3A-7E62513A96CB}</FileHash>
+	<FileHash>{474ADC99-EEB1-42E4-E99C-5863D4970EEC}</FileHash>
 </SoundBanksInfo>

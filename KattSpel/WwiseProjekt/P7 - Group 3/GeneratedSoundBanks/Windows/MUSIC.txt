@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1598298728	Music_Menu			\Default Work Unit\Music\Music_Menu	
+	3380345080	Music_Lvl3			\Default Work Unit\Music\Music_Lvl3	
+	3380345081	Music_Lvl2			\Default Work Unit\Music\Music_Lvl2	
+	3380345082	Music_Lvl1			\Default Work Unit\Music\Music_Lvl1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	775788259	Skyline Feline - Level 2	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Skyline Feline - Level 2_34719E53.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2\Skyline Feline - Level 2		45793056
+
