@@ -42,18 +42,6 @@ namespace AK
 
     namespace STATES
     {
-        namespace CATNIP
-        {
-            static const AkUniqueID GROUP = 3223325804U;
-
-            namespace STATE
-            {
-                static const AkUniqueID ACTIVE = 58138747U;
-                static const AkUniqueID INACTIVE = 3163453698U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
-        } // namespace CATNIP
-
         namespace PLAYER_HEALTH
         {
             static const AkUniqueID GROUP = 215992295U;
@@ -65,6 +53,18 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace PLAYER_HEALTH
+
+        namespace PLAYER_STATE
+        {
+            static const AkUniqueID GROUP = 4071417932U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CATNIP = 3223325804U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace PLAYER_STATE
 
     } // namespace STATES
 
@@ -126,7 +126,6 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID AMBIENCE_BUS = 174546974U;
         static const AkUniqueID ENEMY_SOUNDS_BUS = 2668832989U;
         static const AkUniqueID ENVIRONMENTAL_BUS = 3942603440U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
