@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{009856D5-915A-AB8D-D6CD-95082126AB81}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{EDDCE385-2D9D-8A43-7FB6-D8484FC41A1C}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,10 +25,6 @@
 					<ShortName>Catnip_Activate.wav</ShortName>
 					<CachePath>SFX/Catnip_Activate_818F3B66.wem</CachePath>
 				</File>
-				<File Id="124356157" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
-				</File>
 				<File Id="183879789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
@@ -36,10 +32,6 @@
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
 					<CachePath>SFX/Player_DoubleJump_0B864721.wem</CachePath>
-				</File>
-				<File Id="271172511" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble7.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Fire_1.wav</ShortName>
@@ -65,10 +57,6 @@
 					<ShortName>Player_Jump1.wav</ShortName>
 					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="405630920" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1.wav</ShortName>
-					<CachePath>SFX/Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="424181975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble1_818F3B66.wem</CachePath>
@@ -76,6 +64,10 @@
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="499784910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble4.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump2.wav</ShortName>
@@ -134,11 +126,6 @@
 						<MediaRef Id="317626714"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3018716685" Name="Catnip_Idle">
-					<MediaRefs>
-						<MediaRef Id="405630920"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1462856691" Name="Catnip_PickUp">
 					<MediaRefs>
 						<MediaRef Id="920228750"/>
@@ -178,9 +165,8 @@
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
-						<MediaRef Id="124356157"/>
-						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
+						<MediaRef Id="499784910"/>
 						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
@@ -212,9 +198,8 @@
 				</Event>
 				<Event Id="3354250256" Name="Player_Wallrun">
 					<MediaRefs>
-						<MediaRef Id="124356157"/>
-						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
+						<MediaRef Id="499784910"/>
 						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
@@ -233,7 +218,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4FBD55C0-7272-F674-3FF0-5AAA2D870D3E}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{774AB05D-8C8A-7ABB-E9D9-A7B79545534E}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -358,12 +343,16 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B4387800-47D8-2DD7-2A9F-166D570609B2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6EEB6757-2036-8CED-BA44-8C161372E5A7}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="794264717" Name="Catnip_EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
 				<ShareSets>
 					<Plugin Id="1992114213" Name="SideChain_Meter" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="3505558493" Name="Catnip_EQ" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -371,7 +360,6 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="174546974" Name="Ambience_Bus"/>
 				<Bus Id="985987111" Name="Motion Factory Bus"/>
 				<Bus Id="2461149734" Name="Player_Weapon_Bus">
 					<PluginRefs>
@@ -380,12 +368,24 @@
 						</ShareSets>
 					</PluginRefs>
 				</Bus>
-				<Bus Id="2668832989" Name="Enemy_Sounds_Bus"/>
+				<Bus Id="2668832989" Name="Enemy_Sounds_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3505558493"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="2680856269" Name="Music_Bus"/>
 				<Bus Id="3247222208" Name="UI_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3942603440" Name="Environmental_Bus"/>
-				<Bus Id="4076418998" Name="Player_Sounds_Bus"/>
+				<Bus Id="4076418998" Name="Player_Sounds_Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="794264717"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="796049864" Name="RPM"/>
@@ -416,11 +416,11 @@
 						<State Id="2510516222" Name="Full"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="3223325804" Name="Catnip">
+				<StateGroup Id="4071417932" Name="Player_State">
 					<States>
-						<State Id="58138747" Name="Active"/>
 						<State Id="748895195" Name="None"/>
-						<State Id="3163453698" Name="Inactive"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3223325804" Name="Catnip"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -586,5 +586,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4965DC2A-D544-5B7D-7113-6BA4B3132ADC}</FileHash>
+	<FileHash>{AA630E53-B5EE-F666-B271-8A56A54C1959}</FileHash>
 </SoundBanksInfo>

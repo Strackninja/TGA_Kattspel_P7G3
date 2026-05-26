@@ -3,17 +3,23 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{53277E01-8377-4205-AF13-90B782CB69DD}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Catnip" ID="{0640A660-E29D-4FDE-84F2-F667D4D57B13}">
+				<StateGroup Name="Player_State" ID="{0640A660-E29D-4FDE-84F2-F667D4D57B13}">
 					<ChildrenList>
 						<State Name="None" ID="{A79BFA69-A738-41BA-995D-AE1089AC7C85}"/>
-						<State Name="Active" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
-						<State Name="Inactive" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+						<State Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+						<State Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="Inactive" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
-							<EndState Name="Active" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
-							<Time>0.5</Time>
+							<StartState Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+							<EndState Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Catnip" ID="{150B24E9-4F0B-4A6F-8C92-9404AF67BD8E}"/>
+							<EndState Name="Normal" ID="{40DBD9E7-DD42-4864-8DF4-4875F29A6A02}"/>
+							<Time>3</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

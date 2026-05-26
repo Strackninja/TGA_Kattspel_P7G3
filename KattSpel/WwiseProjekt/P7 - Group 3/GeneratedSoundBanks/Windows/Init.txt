@@ -1,14 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	215992295	Player_Health			\Default Work Unit\Player_Health	
-	3223325804	Catnip			\Default Work Unit\Catnip	
+	4071417932	Player_State			\Default Work Unit\Player_State	
 
 State	ID	Name	State Group			Notes
 	545371365	Low	Player_Health			
 	748895195	None	Player_Health			
 	2510516222	Full	Player_Health			
-	58138747	Active	Catnip			
-	748895195	None	Catnip			
-	3163453698	Inactive	Catnip			
+	748895195	None	Player_State			
+	1160234136	Normal	Player_State			
+	3223325804	Catnip	Player_State			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
@@ -20,7 +20,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
 	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
 	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
-	2728428466	GP_PlayerGunShot_Parameter			\Default Work Unit\GP_PlayerGunShot_Parameter	
 	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
@@ -28,7 +27,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	174546974	Ambience_Bus			\Default Work Unit\Ambience_Bus	
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
 	2461149734	Player_Weapon_Bus			\Default Work Unit\Player_Weapon_Bus	
 	2668832989	Enemy_Sounds_Bus			\Default Work Unit\Enemy_Sounds_Bus	
@@ -39,7 +37,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4076418998	Player_Sounds_Bus			\Default Work Unit\Player_Sounds_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	794264717	Catnip_EQ (Custom)	Wwise Parametric EQ			
 	1992114213	SideChain_Meter	Wwise Meter			
+	3505558493	Catnip_EQ	Wwise Parametric EQ			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
