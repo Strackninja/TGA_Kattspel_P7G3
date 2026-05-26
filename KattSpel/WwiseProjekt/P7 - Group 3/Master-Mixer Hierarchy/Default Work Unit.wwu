@@ -17,6 +17,119 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Player_Weapon_Bus" ID="{DA157527-0DCB-4790-8B50-F31DFA15FC29}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{26479F70-D8BD-48CA-9372-3DE5084434F6}" ShortID="962075166">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+												<ObjectRef Name="SideChain_Meter" ID="{85968D07-C5C7-4403-8161-6B451173CE7A}" WorkUnitID="{11D57F17-3104-4454-A7A9-DD1638D8A3B0}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Music_Bus" ID="{51E4C811-CB62-4DAF-B4B2-3670676166D3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Enemy_Sounds_Bus" ID="{3FC031FD-A710-4157-9DFB-F20249900773}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Player_Sounds_Bus" ID="{2D9DBA45-DAC7-49F2-B751-D5F9B9D0E122}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="UI_Bus" ID="{BB49209E-15AF-4A94-9FD5-E914AD90D878}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Ambience_Bus" ID="{199BC7A1-66D0-4E8E-9B29-64A6697C285B}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{2D540E4E-5652-4EAF-816F-CB85C84458F1}" ShortID="615919854">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="GP_PlayerGunShot_Parameter" ID="{01C39C8C-38D9-493B-9BC7-CA0D50547541}" WorkUnitID="{20FB9476-DE95-41F0-ADFD-3EA0757196BB}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4E5659BE-1134-4AC4-96C6-06DE2D42DEBC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>-0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-19.93786</XPos>
+																<YPos>-5.72614</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-6.75162</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+				<Bus Name="Environmental_Bus" ID="{022FDF75-A1D7-49BF-947C-3A9C8D8DC9D1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{430EDB06-9A7A-4632-96F3-C25AC8BD218E}" WorkUnitID="{302F9885-0B60-497A-B238-CF7E02ABCBDE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>
