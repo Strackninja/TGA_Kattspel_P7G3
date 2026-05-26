@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{CA6A7CD6-04B3-B431-3E72-120DA3959119}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{78B14934-89B4-8CC8-69FD-CD6E556509BA}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -36,6 +36,10 @@
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
 					<CachePath>SFX/Player_DoubleJump_818F3B66.wem</CachePath>
+				</File>
+				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Fire_1.wav</ShortName>
+					<CachePath>SFX/Player_Fire_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="282450942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Respawn.wav</ShortName>
@@ -85,10 +89,6 @@
 					<ShortName>Player_Vault.wav</ShortName>
 					<CachePath>SFX/Player_Vault_B2343F15.wem</CachePath>
 				</File>
-				<File Id="739449983" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Tony 1.wav</ShortName>
-					<CachePath>SFX/Soundly Voice Designer, Tony 1_818F3B66.wem</CachePath>
-				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
@@ -107,13 +107,18 @@
 				</File>
 				<File Id="1065190355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Turret_Rotation.wav</ShortName>
-					<CachePath>SFX/Dog_Turret_Rotation_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Dog_Turret_Rotation_3C4E2A98.wem</CachePath>
 				</File>
 				<File Id="1072800832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump3.wav</ShortName>
 					<CachePath>SFX/Player_Jump3_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="547786164" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="2310699732" Name="Catnip_Activate">
 					<MediaRefs>
@@ -149,6 +154,11 @@
 					<MediaRefs>
 						<MediaRef Id="1065190355"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="547786164"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death"/>
 				<Event Id="1631631307" Name="Player_Death_Fall"/>
@@ -203,7 +213,7 @@
 				</Event>
 				<Event Id="3833903647" Name="WaterGun_Fire">
 					<MediaRefs>
-						<MediaRef Id="739449983"/>
+						<MediaRef Id="280606932"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="236262596" Name="Watergun_Object_Hit">
@@ -214,21 +224,69 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{995178C2-E60B-BFF9-45C9-5C841E819111}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{A2D4C1FA-516D-160B-C4D6-1660CC24FA76}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
+				<File Id="3630541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4_818F3B66.wem</CachePath>
+				</File>
 				<File Id="41085818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 1.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="50108397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="58119890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9_818F3B66.wem</CachePath>
+				</File>
+				<File Id="61840166" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="80585110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8_818F3B66.wem</CachePath>
+				</File>
+				<File Id="97431993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9_818F3B66.wem</CachePath>
+				</File>
+				<File Id="132837313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6_818F3B66.wem</CachePath>
 				</File>
 				<File Id="145365664" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 6.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 6_818F3B66.wem</CachePath>
 				</File>
+				<File Id="195243326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="314410897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434977011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="444312268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 5.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="460143203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836_818F3B66.wem</CachePath>
+				</File>
+				<File Id="537143797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="549473828" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 7.wav</ShortName>
@@ -242,6 +300,18 @@
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 4.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 4_818F3B66.wem</CachePath>
 				</File>
+				<File Id="972364785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="989041296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8.wav</ShortName>
+					<CachePath>SFX/Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1060133106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3.wav</ShortName>
+					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="2061769231" Name="Amb_1">
@@ -254,9 +324,32 @@
 						<MediaRef Id="815776660"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2061769228" Name="Amb_2">
+					<MediaRefs>
+						<MediaRef Id="61840166"/>
+						<MediaRef Id="97431993"/>
+						<MediaRef Id="132837313"/>
+						<MediaRef Id="195243326"/>
+						<MediaRef Id="434977011"/>
+						<MediaRef Id="989041296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2061769229" Name="Amb_3">
+					<MediaRefs>
+						<MediaRef Id="3630541"/>
+						<MediaRef Id="50108397"/>
+						<MediaRef Id="58119890"/>
+						<MediaRef Id="80585110"/>
+						<MediaRef Id="314410897"/>
+						<MediaRef Id="460143203"/>
+						<MediaRef Id="537143797"/>
+						<MediaRef Id="972364785"/>
+						<MediaRef Id="1060133106"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{34D952B8-C6E2-6464-AC77-F39720F7FD8E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{585AFEE4-1C4D-084B-75BB-5AB26D03E3C6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -448,5 +541,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FE935499-3036-2A8D-2684-84B020BA58B2}</FileHash>
+	<FileHash>{32DA798E-B5C5-158A-8D3A-7E62513A96CB}</FileHash>
 </SoundBanksInfo>

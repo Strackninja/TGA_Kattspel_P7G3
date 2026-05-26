@@ -8,9 +8,9 @@
 						<Folder Name="AMB" ID="{2FF15090-F135-4D9F-B9EA-D252F555FB8E}" ShortID="950912878">
 							<ChildrenList>
 								<Folder Name="Spot" ID="{A10CA501-EA43-42BC-82B2-DAAFC6EB7ED7}" ShortID="372433983"/>
-								<Folder Name="ambience loop test grej" ID="{77691B70-1D6D-4802-A568-9845E08C8979}" ShortID="379076476">
+								<Folder Name="Ambience_loops" ID="{77691B70-1D6D-4802-A568-9845E08C8979}" ShortID="379076476">
 									<ChildrenList>
-										<RandomSequenceContainer Name="Windambience" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" ShortID="964177176">
+										<RandomSequenceContainer Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" ShortID="964177176">
 											<PropertyList>
 												<Property Name="Lowpass" Type="int16">
 													<ValueList>
@@ -47,7 +47,7 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-12</Value>
+														<Value>-10</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -205,6 +205,456 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Windambience_2_Medium" ID="{6749FC09-5A67-4A62-BFFA-E610B71169EE}" ShortID="491011931">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{413A737A-3A26-4F84-A150-5E5E11861437}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="8.9"/>
+																	<Property Name="Min" Type="Real64" Value="-9.2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E7C045B9-19B9-4593-A94B-1F502F0D8FCF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6F7EF4E7-4BAE-471D-B3AD-10637C129ECA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-1.4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3" ID="{27F782A2-08DC-4354-AC0D-873C81452C5A}" ShortID="197851751">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3" ID="{017B4CEE-5BAE-4CFB-B518-273A8C35BD9E}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="434977011"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 3" ID="{017B4CEE-5BAE-4CFB-B518-273A8C35BD9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5" ID="{862C9F11-8053-43E8-95C9-E1D5B7C9AF85}" ShortID="400124867">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5" ID="{89F2718F-8BDB-482A-BCB7-1CE785B9E86C}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="195243326"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 5" ID="{89F2718F-8BDB-482A-BCB7-1CE785B9E86C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6" ID="{767889F5-1DDC-46FB-B343-00DE9C998192}" ShortID="841901990">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6" ID="{C17A55FE-4BF4-4400-B4EF-7A42E035D7AA}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="132837313"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 6" ID="{C17A55FE-4BF4-4400-B4EF-7A42E035D7AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7" ID="{80BD49D9-3B31-4B5E-841D-B17809B4180C}" ShortID="550390838">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7" ID="{6D8E7C7D-9BC1-43AD-B2E6-1FA2C6934806}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="61840166"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 7" ID="{6D8E7C7D-9BC1-43AD-B2E6-1FA2C6934806}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8" ID="{A2335EA9-2B97-455F-B89F-742CB2E9C63E}" ShortID="460851980">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8" ID="{68BDA900-B6D8-4E10-A056-616E2503E22D}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="989041296"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 8" ID="{68BDA900-B6D8-4E10-A056-616E2503E22D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9" ID="{90FCEDD4-9E60-4406-9AED-D7E6BDCFC257}" ShortID="927139190">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9" ID="{C3C2E05D-3B96-4F49-B6DC-C6C02274511B}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="97431993"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Mountain Wind, Constant With Strong Gusts, Winter, Snowy, Cabin Area 01 (AmbiX) SND89940 9" ID="{C3C2E05D-3B96-4F49-B6DC-C6C02274511B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Windambience_3_Strong" ID="{FD2E7902-4851-4904-AA5B-E12E13E87365}" ShortID="82097807">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{088DE092-FD1C-463D-8CF8-3A4EDF658EB3}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="8.9"/>
+																	<Property Name="Min" Type="Real64" Value="-9.2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C21B2E50-451F-4C49-8FDF-0B5DD4165FD2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="75"/>
+																	<Property Name="Min" Type="Real64" Value="-76"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-17</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9D8F6725-61CC-4E3A-8046-372997FA0A69}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-1.4"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836" ID="{27E479FD-E1A7-4E78-A3DC-6874B3B31322}" ShortID="889692783">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836" ID="{01831F9E-A010-4E70-8836-D9F715A73C46}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460143203"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836" ID="{01831F9E-A010-4E70-8836-D9F715A73C46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1" ID="{BDE05479-D9AC-40B8-BB70-7F0A25799C49}" ShortID="690538865">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1" ID="{08082277-8D86-41ED-9704-410791B8B968}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="972364785"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 1" ID="{08082277-8D86-41ED-9704-410791B8B968}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3" ID="{FE310A45-FB41-4470-944E-49B8DB0F06E7}" ShortID="69792074">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3" ID="{A0CEBF40-B37C-4713-97EF-8801D07F8892}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1060133106"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 3" ID="{A0CEBF40-B37C-4713-97EF-8801D07F8892}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4" ID="{C6755691-F778-4571-A857-2D9A276B2580}" ShortID="791423038">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4" ID="{F8F74867-3DB9-4577-A093-83CB0B577529}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="3630541"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 4" ID="{F8F74867-3DB9-4577-A093-83CB0B577529}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5" ID="{A2ED943F-B160-4343-A318-9813CF397E31}" ShortID="155808234">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5" ID="{9F93CAE4-3D11-4F65-9AAE-68A6ED97C502}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="50108397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 5" ID="{9F93CAE4-3D11-4F65-9AAE-68A6ED97C502}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6" ID="{8BDCFCAA-F9AF-43CD-B5BE-F114219A10D6}" ShortID="919583365">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6" ID="{67BBDF8B-74B5-4863-B433-30F673B6E2F0}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="314410897"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 6" ID="{67BBDF8B-74B5-4863-B433-30F673B6E2F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7" ID="{2EE858D6-1FA6-4E0C-8ED0-083E171BECC5}" ShortID="712608458">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7" ID="{4ECC937E-D9E4-4C76-A0B5-362FAF57CC5C}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="537143797"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7" ID="{4ECC937E-D9E4-4C76-A0B5-362FAF57CC5C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8" ID="{C0BBC94D-75E9-4F89-ABDC-2DA55CFFF3E7}" ShortID="1037480609">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8" ID="{8F77E1E4-F8B0-4199-8B69-663BA66DFC1D}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="80585110"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 8" ID="{8F77E1E4-F8B0-4199-8B69-663BA66DFC1D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9" ID="{22B38203-AE0B-4C83-BBF6-349C44A53454}" ShortID="712138831">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9" ID="{7DDA737C-4525-4F9A-A7EB-4190FC5D2870}">
+															<Language>SFX</Language>
+															<AudioFile>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="58119890"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 9" ID="{7DDA737C-4525-4F9A-A7EB-4190FC5D2870}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -225,7 +675,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Soundly Voice Designer, Tony 1" ID="{E02DD573-E2AD-46B3-8A83-5BCE0DD5F089}" ShortID="857078517">
+														<Sound Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" ShortID="208775739">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -235,16 +685,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Soundly Voice Designer, Tony 1" ID="{B52951D8-E1A1-43F9-A284-6AC5EB51ADE0}">
+																<AudioFileSource Name="Player_Fire_1" ID="{CD7D07A4-E5D6-4D6F-A66F-6B2E6AC9EBBA}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Soundly Voice Designer, Tony 1.wav</AudioFile>
+																	<AudioFile>Player_Fire_1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="739449983"/>
+																		<MediaID ID="280606932"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Soundly Voice Designer, Tony 1" ID="{B52951D8-E1A1-43F9-A284-6AC5EB51ADE0}" Platform="Linked"/>
+																<ActiveSource Name="Player_Fire_1" ID="{CD7D07A4-E5D6-4D6F-A66F-6B2E6AC9EBBA}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -411,6 +864,7 @@
 												<Sound Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" ShortID="703613754">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -418,7 +872,7 @@
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Max" Type="Real64" Value="51"/>
-																			<Property Name="Min" Type="Real64" Value="-76"/>
+																			<Property Name="Min" Type="Real64" Value="-40"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
@@ -435,6 +889,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Dog_Turret_Rotation" ID="{C2F4498D-9A97-4206-BE7C-7BF1950ADBE5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.309188976377953"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.418693405511811"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Dog_Turret_Rotation.wav</AudioFile>
 															<MediaIDList>
@@ -442,6 +901,29 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{18C6D7BB-4553-4A0F-B07D-AA0BF3C9F5D1}" ShortID="1044112748">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom>
+																					<Effect Name="Parametric EQ (Custom)" ID="{42A2B79A-356C-4F72-A01F-50130DF3295F}" ShortID="547786164" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																						<PropertyList>
+																							<Property Name="FrequencyBand1" Type="Real32" Value="146"/>
+																							<Property Name="GainBand1" Type="Real32" Value="-10"/>
+																							<Property Name="GainBand3" Type="Real32" Value="-7.5"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
 													<ActiveSourceList>
 														<ActiveSource Name="Dog_Turret_Rotation" ID="{C2F4498D-9A97-4206-BE7C-7BF1950ADBE5}" Platform="Linked"/>
 													</ActiveSourceList>

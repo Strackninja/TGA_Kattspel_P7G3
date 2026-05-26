@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="AMB" ID="{5F88E927-D608-44AA-8D7E-38658BBF5C0C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
