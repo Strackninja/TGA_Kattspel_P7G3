@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{78B14934-89B4-8CC8-69FD-CD6E556509BA}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{9FBD9AF5-E33B-D469-839F-B869DEF38568}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,17 +25,21 @@
 					<ShortName>Catnip_Activate.wav</ShortName>
 					<CachePath>SFX/Catnip_Activate_818F3B66.wem</CachePath>
 				</File>
+				<File Id="124356157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
+				</File>
 				<File Id="183879789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="201082707" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="243814880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_DoubleJump.wav</ShortName>
-					<CachePath>SFX/Player_DoubleJump_818F3B66.wem</CachePath>
+					<CachePath>SFX/Player_DoubleJump_0B864721.wem</CachePath>
+				</File>
+				<File Id="271172511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble7.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Fire_1.wav</ShortName>
@@ -61,6 +65,10 @@
 					<ShortName>Player_Jump1.wav</ShortName>
 					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="405630920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1.wav</ShortName>
+					<CachePath>SFX/Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="424181975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble1_818F3B66.wem</CachePath>
@@ -68,10 +76,6 @@
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
-				</File>
-				<File Id="499784910" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble4.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump2.wav</ShortName>
@@ -81,13 +85,13 @@
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="665791529" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Cobble6.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Cobble6_818F3B66.wem</CachePath>
-				</File>
 				<File Id="698202707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Vault.wav</ShortName>
 					<CachePath>SFX/Player_Vault_B2343F15.wem</CachePath>
+				</File>
+				<File Id="713388964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Cobble3.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Cobble3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
@@ -107,7 +111,7 @@
 				</File>
 				<File Id="1065190355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Turret_Rotation.wav</ShortName>
-					<CachePath>SFX/Dog_Turret_Rotation_3C4E2A98.wem</CachePath>
+					<CachePath>SFX/Dog_Turret_Rotation_66790B9E.wem</CachePath>
 				</File>
 				<File Id="1072800832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump3.wav</ShortName>
@@ -128,6 +132,11 @@
 				<Event Id="2919142181" Name="Catnip_Deactivate">
 					<MediaRefs>
 						<MediaRef Id="317626714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3018716685" Name="Catnip_Idle">
+					<MediaRefs>
+						<MediaRef Id="405630920"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1462856691" Name="Catnip_PickUp">
@@ -169,10 +178,10 @@
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
-						<MediaRef Id="201082707"/>
+						<MediaRef Id="124356157"/>
+						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
-						<MediaRef Id="499784910"/>
-						<MediaRef Id="665791529"/>
+						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
@@ -203,10 +212,10 @@
 				</Event>
 				<Event Id="3354250256" Name="Player_Wallrun">
 					<MediaRefs>
-						<MediaRef Id="201082707"/>
+						<MediaRef Id="124356157"/>
+						<MediaRef Id="271172511"/>
 						<MediaRef Id="433776774"/>
-						<MediaRef Id="499784910"/>
-						<MediaRef Id="665791529"/>
+						<MediaRef Id="713388964"/>
 						<MediaRef Id="876253462"/>
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
@@ -224,7 +233,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{A2D4C1FA-516D-160B-C4D6-1660CC24FA76}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{FE44A9A6-7F98-F93A-ABC9-743F539C721E}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -349,19 +358,55 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{585AFEE4-1C4D-084B-75BB-5AB26D03E3C6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B2D378AF-2FD6-0D33-EA51-718E26926999}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="794264717" Name="Catnip_EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="1992114213" Name="SideChain_Meter" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="3505558493" Name="Catnip_EQ" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
-					<Plugin Id="4230635974" Name="Default_Motion_Device" LibName="Wwise Motion" LibId="33226759"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
 				<Bus Id="985987111" Name="Motion Factory Bus"/>
+				<Bus Id="2461149734" Name="Player_Weapon_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1992114213"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2668832989" Name="Enemy_Sounds_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3505558493"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2680856269" Name="Music_Bus"/>
+				<Bus Id="3247222208" Name="UI_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3942603440" Name="Environmental_Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3505558493"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="4076418998" Name="Player_Sounds_Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="794264717"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="796049864" Name="RPM"/>
@@ -376,6 +421,7 @@
 				<GameParameter Id="2481728872" Name="Immersion_FA_SSGrain"/>
 				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
 				<GameParameter Id="2715217995" Name="Density_FA_SSGrain"/>
+				<GameParameter Id="2728428466" Name="GP_PlayerGunShot_Parameter"/>
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
 				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
@@ -391,11 +437,11 @@
 						<State Id="2510516222" Name="Full"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="3223325804" Name="Catnip">
+				<StateGroup Id="4071417932" Name="Player_State">
 					<States>
-						<State Id="58138747" Name="Active"/>
 						<State Id="748895195" Name="None"/>
-						<State Id="3163453698" Name="Inactive"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="3223325804" Name="Catnip"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -540,6 +586,38 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{C2A8A688-FB8C-986F-AD51-3DC7A0781DEF}">
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+			<Media>
+				<File Id="775788259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skyline Feline - Level 2.wav</ShortName>
+					<CachePath>SFX/Skyline Feline - Level 2_34719E53.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3380345082" Name="Music_Lvl1">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380345081" Name="Music_Lvl2">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380345080" Name="Music_Lvl3">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1598298728" Name="Music_Menu">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{32DA798E-B5C5-158A-8D3A-7E62513A96CB}</FileHash>
+	<FileHash>{1E00373A-0650-F511-A479-E12B55043437}</FileHash>
 </SoundBanksInfo>

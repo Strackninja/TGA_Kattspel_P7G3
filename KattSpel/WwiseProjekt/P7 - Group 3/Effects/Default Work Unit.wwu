@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{11D57F17-3104-4454-A7A9-DD1638D8A3B0}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{11D57F17-3104-4454-A7A9-DD1638D8A3B0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{11D57F17-3104-4454-A7A9-DD1638D8A3B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="SideChain_Meter" ID="{85968D07-C5C7-4403-8161-6B451173CE7A}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Hold" Type="Real32" Value="0.1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.21"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="GP_PlayerGunShot_Parameter" ID="{01C39C8C-38D9-493B-9BC7-CA0D50547541}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Catnip_EQ" ID="{3F22827B-CE78-40A4-A07D-5A12ED8B3C00}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="64"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="8970"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

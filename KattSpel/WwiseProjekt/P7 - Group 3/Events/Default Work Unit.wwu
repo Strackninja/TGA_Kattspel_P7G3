@@ -32,7 +32,7 @@
 								<Action Name="" ID="{BF41BE98-5FB2-4DF2-B21B-59F625F29B7E}" ShortID="655916483">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Catnip_Deactivate" ID="{1D46BB6E-5F4A-487E-9FC9-DD2BB914501D}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+											<ObjectRef Name="Catnip_Deactivate" ID="{4A5CEA1C-9AC5-481A-AB19-4D6F7A57510E}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -51,6 +51,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Catnip_Idle" ID="{E3CBD22B-C307-4D54-9C6A-D2B6BEE59F2A}">
+							<ChildrenList>
+								<Action Name="" ID="{2D711BD7-0D92-40FB-8E91-74C417D88282}" ShortID="763050604">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Scripted Events" ID="{F54ECFF5-3241-4972-A56A-937E0B0A065C}" ShortID="1023197090">
@@ -61,10 +72,50 @@
 				</Folder>
 				<Folder Name="Music" ID="{8F5A7245-90B9-4E5D-BA94-1ACF4DCD057E}" ShortID="920763971">
 					<ChildrenList>
-						<Event Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}"/>
-						<Event Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}"/>
-						<Event Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}"/>
-						<Event Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}"/>
+						<Event Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}">
+							<ChildrenList>
+								<Action Name="" ID="{56A10BAF-6F0B-4815-A558-A597B4E67BFC}" ShortID="304308621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skyline Feline - Level 2" ID="{E519C540-1777-4DAB-AB3B-F4AACD24D6F5}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}">
+							<ChildrenList>
+								<Action Name="" ID="{97D48DDE-255F-40E5-B8AB-F828564FDAAB}" ShortID="1030297633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skyline Feline - Level 2" ID="{E519C540-1777-4DAB-AB3B-F4AACD24D6F5}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}">
+							<ChildrenList>
+								<Action Name="" ID="{2C4BB0E9-43D7-407A-92C6-06C41CDD2FEE}" ShortID="442711381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skyline Feline - Level 2" ID="{FBDEB4DD-8E56-43E5-BC5A-51F8E223CC7D}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}">
+							<ChildrenList>
+								<Action Name="" ID="{081D1ACE-949E-4F1C-B8C4-E6C442250FF4}" ShortID="77914722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skyline Feline - Level 2" ID="{B1E22277-4939-4C9D-B0AB-4A19F4C18F90}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Strahinja" ID="{D871ACFC-A0CF-46C3-9343-7D3FAFE97281}" ShortID="771839000">
@@ -242,7 +293,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Player_Slide" ID="{56B8A477-D0C4-4E42-AA26-3E2D94363C35}"/>
 								<Event Name="Player_Fall" ID="{1BEBE91A-2610-4B7F-8F1F-9236E916DB81}"/>
 								<Event Name="Player_Double_Jump" ID="{AF2F34C6-F0F4-451A-A7F5-19FB9B773E71}">
 									<ChildrenList>

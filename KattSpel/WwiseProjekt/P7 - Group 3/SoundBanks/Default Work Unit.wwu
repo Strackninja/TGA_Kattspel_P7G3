@@ -30,8 +30,19 @@
 						<ObjectRef Name="Watergun_Object_Hit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Catnip_Idle" ID="{E3CBD22B-C307-4D54-9C6A-D2B6BEE59F2A}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Cannon_Object_Hit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death_Fall" ID="{E05E04AE-832A-4FE7-AFA6-14BC06041A33}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MUSIC" ID="{8E926E37-A1A6-40FB-BBF6-C586187B2A63}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
