@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID DOG_CANNON_OBJECT_HIT = 3378955245U;
         static const AkUniqueID DOG_DEATH = 2682195294U;
         static const AkUniqueID DOG_TURRET_ROTATION = 2273467139U;
+        static const AkUniqueID MUSIC_LVL0 = 3380345083U;
         static const AkUniqueID MUSIC_LVL1 = 3380345082U;
         static const AkUniqueID MUSIC_LVL2 = 3380345081U;
         static const AkUniqueID MUSIC_LVL3 = 3380345080U;

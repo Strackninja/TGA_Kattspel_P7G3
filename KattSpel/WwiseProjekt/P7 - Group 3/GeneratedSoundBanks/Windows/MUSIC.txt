@@ -3,7 +3,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	3380345080	Music_Lvl3			\Default Work Unit\Music\Music_Lvl3	
 	3380345081	Music_Lvl2			\Default Work Unit\Music\Music_Lvl2	
 	3380345082	Music_Lvl1			\Default Work Unit\Music\Music_Lvl1	
+	3380345083	Music_Lvl0			\Default Work Unit\Music\Music_Lvl0	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	775788259	Skyline Feline - Level 2	C:\Users\strah\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Skyline Feline - Level 2_34719E53.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_3_MUSIC\Skyline Feline - Level 2		45793056
+	24831456	Piano - Intro	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Piano - Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Intro\Piano - Intro		2094028
+	40179341	Bass - Intro	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Bass - Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Intro\Bass - Intro		2094028
+	66933356	Piano - Solos	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Piano - Solos_FBC78EF0.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Solos\Solo Comp\Piano - Solos		17934432
+	87820159	Piano - Theme	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Piano - Theme_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Theme\Piano - Theme		9963340
+	93710900	Bass - Solos	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Bass - Solos_FBC78EF0.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Solos\Solo Comp\Bass - Solos		17934432
+	138740927	Skyline Feline_Intro Level w intro	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Skyline Feline - Intro Level w intro_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_0_MUSIC\MUSIC\Skyline Feline_Intro Level w intro		13577240
+	142101395	Drum Kit - Theme	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Drum Kit - Theme_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Theme\Drum Kit - Theme		9963644
+	671762276	Drum Kit - Solos	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Drum Kit - Solos_FBC78EF0.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Solos\Solo Comp\Drum Kit - Solos		17934432
+	693446513	Guitar - Intro	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Guitar - Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Intro\Guitar - Intro		2094028
+	706904664	Piano Solo	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Piano Solo_FBC78EF0.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Solos\Solos\Piano Solo		17934380
+	775788259	Skyline Feline - Level 2	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Skyline Feline - Level 2_34719E53.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_3_MUSIC\Skyline Feline - Level 2		45793056
+	801632982	Guitar - Theme	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Guitar - Theme_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Theme\Guitar - Theme		9963644
+	877627053	Skyline Feline_Intro Level	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Skyline Feline - Intro Level_FBC78EF0.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_0_MUSIC\MUSIC\Skyline Feline_Intro Level		13165812
+	947171529	Bass - Theme	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Bass - Theme_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Theme\Bass - Theme		9963644
+	1072621161	Drum Kit - Intro	Y:\Documents\GitHub\TGA_Kattspel_P7G3\KattSpel\WwiseProjekt\P7 - Group 3\.cache\Windows\SFX\Drum Kit - Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Olle_WorkUnit\Olle\LVL_2_MUSIC\LVL_2_MUSIC\Intro\Drum Kit - Intro		2094028
 

@@ -1,6 +1,1567 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Olle" ID="{A4FBBCA5-5F80-4CA7-A115-FB64997CE6B8}" ShortID="765502771">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="LVL_0_MUSIC" ID="{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}" ShortID="846074860">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="112"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{76DCBE72-33C6-4637-9410-2DF3C8F11313}" ShortID="583960733">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{04A23F50-21FE-4275-A57A-341043CDF188}" ShortID="988088858">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Skyline Feline Intro Level_Intro" ID="{BA04C0C3-D797-4296-98F7-26E71AFF0E72}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{FCBB4554-B363-4E83-A9DF-8C892BB5B62F}" ShortID="830512077">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{4D05BDC9-5BB0-43E2-B0C0-ABA1AE631C71}" ShortID="319861300">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Skyline Feline - Intro Level" ID="{42970C4C-A710-47A0-A90E-87A73A175DFB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1E5E5E0B-1976-4E17-BC57-81E7E48EFA4A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{B0957CBA-D7C8-41CC-8138-343E9B843FA2}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Skyline Feline Intro Level_Intro" ID="{BA04C0C3-D797-4296-98F7-26E71AFF0E72}" ShortID="307738198">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5124.8125"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Skyline Feline Intro w intro" ID="{D06251E7-2E30-43E0-A029-5E1BD0236568}" ShortID="706828731">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F15145A4-9066-4DEC-B373-CDB3E095DEDA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skyline Feline Intro w intro" ID="{CAF4DDE5-E7BD-4754-AE6D-7A2817833407}">
+													<Language>SFX</Language>
+													<AudioFile>Skyline Feline Intro w intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="391594780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9AADFF39-1005-49A4-85CC-5DC03A72E042}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Skyline Feline Intro w intro" ID="{942B038B-215B-4E55-9D69-9A3FD44F9BF8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5124.8125"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Skyline Feline Intro w intro" ID="{CAF4DDE5-E7BD-4754-AE6D-7A2817833407}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FEB1DF61-0EA1-4BF6-9861-9D5FF6AD44B0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DC0A490E-5EB5-4FDB-B73E-196DC474523F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1607.14285714286"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Skyline Feline - Intro Level" ID="{42970C4C-A710-47A0-A90E-87A73A175DFB}" ShortID="15813373">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="68571.4375"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Skyline Feline - Intro Level" ID="{420CC313-A4EC-49EE-AADA-F358E3969875}" ShortID="364957459">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{261195D1-5D82-42EA-B079-BEA0A1E4DE53}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skyline Feline - Intro Level" ID="{31467A01-33BD-4DBB-A78E-C961BD4884E3}">
+													<Language>SFX</Language>
+													<AudioFile>Skyline Feline - Intro Level.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877627053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FB16F404-F51D-41A0-8245-31B216C06212}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Skyline Feline - Intro Level" ID="{69529180-4E56-4A8E-8F1D-62C0984964BE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="68571.4375"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Skyline Feline - Intro Level" ID="{31467A01-33BD-4DBB-A78E-C961BD4884E3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8BCF5D49-B2CD-4464-AFDD-37FF91A6CE13}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{70498514-BFBC-4899-AEB8-3E04D8A59EF2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="68571.4285714286"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LVL_2_MUSIC" ID="{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}" ShortID="519585070">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="185"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F8FE4D83-5F18-4F4D-9050-171A94EAE594}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{2F796BEF-5FE2-44DB-B5C9-4656AFE35D46}" ShortID="234146306">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{52B8432B-AA6D-4F72-A5C0-A730CCBA6B13}" ShortID="668961705">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Intro" ID="{5DFF04BC-F569-4384-827A-1629F19B9344}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{C893B5D3-21B8-4C9C-84B9-829777DFDB92}" ShortID="505083850">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{43CAE8E7-0A02-4DE1-BDE9-B88CADEE5A5D}" ShortID="977099010">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Skyline Feline - Level 2 theme" ID="{50CA7A43-7CE5-4850-8C39-EAED83A01EC4}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{67AC525E-6510-4242-91C8-BBEFAF48CA25}" ShortID="269712972">
+															<PropertyList>
+																<Property Name="LoopCount" Type="int16" Value="3"/>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="PlayMode" Type="int16" Value="3"/>
+															</PropertyList>
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{261BAE4B-89EA-4AC7-92E6-398C988927E6}" ShortID="373546385">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Solo_Piano" ID="{8F0C9530-9DDC-4ACE-9648-F4C2010693B3}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{3685ACA0-AB9B-47BA-8580-8C22BCEF2AC5}" ShortID="538016570">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Solo_Clarinet" ID="{26C6E084-5E37-4584-BDE2-20396EE2DEF2}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{556D78EE-A3A1-47E3-BA2A-0EAC4401E430}" ShortID="485853969">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Solo_Saxophone" ID="{951C2167-A7C7-462E-B131-8E3B1D141795}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{28B30171-C131-4C07-B015-2195667FE30D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{2CC327CF-9762-4E03-94A2-1A7BBD8954A5}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Skyline Feline - Level 2 theme" ID="{50CA7A43-7CE5-4850-8C39-EAED83A01EC4}" ShortID="340166946">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="54557.9166666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Skyline Feline - Level 2 theme" ID="{C04BA119-8065-4819-9AC0-1D203D17E831}" ShortID="410474928">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{B451E214-59F2-4808-AD75-ED0251A4812F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skyline Feline - Level 2 theme" ID="{96C0149C-3282-436F-9A40-BDBEFFCB0D1E}">
+													<Language>SFX</Language>
+													<AudioFile>Skyline Feline - Level 2 theme.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199259574"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AC9265FA-24EB-448C-B005-0B671DC88DC8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Skyline Feline - Level 2 theme" ID="{634EAA27-3A3B-46AE-B271-046A10918D28}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54557.9166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Skyline Feline - Level 2 theme" ID="{96C0149C-3282-436F-9A40-BDBEFFCB0D1E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BC00E3EA-6DB5-4C8D-B529-7B1C8849F6D0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{88CA445D-7A03-444B-B425-D5E3D026DBE9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="51891.8918918919"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Intro" ID="{5DFF04BC-F569-4384-827A-1629F19B9344}" ShortID="85497805">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12324.3243243243"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bass - Intro" ID="{92CD1706-1AAA-41C3-9517-94CEC998CF41}" ShortID="478491186">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{1B90319D-D458-4E87-98CF-CE6B2332C36F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass - Intro" ID="{696ECC72-17DC-4937-8B6A-FFC20B99FCE4}">
+													<Language>SFX</Language>
+													<AudioFile>Bass - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="40179341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{57C52ED7-A9B0-444F-A1F1-625E807C9043}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass - Intro" ID="{074D508D-584B-4470-B3A4-5CE4B7233A88}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass - Intro" ID="{696ECC72-17DC-4937-8B6A-FFC20B99FCE4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Guitar - Intro" ID="{2EF117F1-0CA4-44C3-A9F9-6F9EB7A6E59D}" ShortID="466025896">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{DAD9A386-71A6-4361-81D1-CBD53CBDAA58}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guitar - Intro" ID="{856436A9-21C8-433A-8088-4443CF0986A3}">
+													<Language>SFX</Language>
+													<AudioFile>Guitar - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="693446513"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E2F62CCC-2535-43DD-B432-CFC5A9D9917E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Guitar - Intro" ID="{2E9EEE28-8090-4588-8B8C-565FE12669E9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Guitar - Intro" ID="{856436A9-21C8-433A-8088-4443CF0986A3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano - Intro" ID="{312DD017-E02B-4A7F-8165-3D49E4F24222}" ShortID="427418797">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{99724325-07EE-4BE8-8073-4C700507C15B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano - Intro" ID="{FA7321FB-2782-4554-871D-D33CE0B3890B}">
+													<Language>SFX</Language>
+													<AudioFile>Piano - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24831456"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4D121D2E-5E83-412B-83B1-8471339D3C91}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano - Intro" ID="{06DE4A7B-E6AF-46A0-B4D4-AF0D8ADE8C72}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano - Intro" ID="{FA7321FB-2782-4554-871D-D33CE0B3890B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drum Kit Intro" ID="{D6765971-0431-4C33-8709-8E329F19B1B3}" ShortID="559909443">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9EFF8AC1-B1C8-432D-BC1E-EDDFECF08DB6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drum Kit Intro" ID="{2F90AB90-D60B-4FFE-BE37-A9E3C2382D7A}">
+													<Language>SFX</Language>
+													<AudioFile>Drum Kit Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826463271"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CC1B5BA4-466B-4165-A8B7-B836A27FC5D8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drum Kit Intro" ID="{BF03CABC-6E33-4E84-BB05-4E2A0D2E37F8}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="118.329364168033"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="11027.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-118.329364168033"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drum Kit Intro" ID="{2F90AB90-D60B-4FFE-BE37-A9E3C2382D7A}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{53E02110-D6A6-4B0E-B1C9-6FE905114160}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.11833</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>11.0270208333333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{75E1F3C7-7111-4394-AACA-C95236CC437F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.11833</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>11.0270208333333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{378344E8-FC7A-4084-9E4B-D5EE678C58DF}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.11833</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>11.0270208333333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8163F750-CC75-463C-A8EC-1476FCE0A106}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{649B8B16-8EFF-44CD-B496-BBC8F0CB71DB}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10899.0552652524"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Solo_Piano" ID="{8F0C9530-9DDC-4ACE-9648-F4C2010693B3}" ShortID="636520969">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="114614.179617117"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Piano Solo" ID="{DDE40F17-CE69-4529-ABFD-29B15CBADA10}" ShortID="558364815">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{E649255D-F248-4673-AAB7-00AEDF7C89B3}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano Solo" ID="{22BD2A4E-E1E4-46F4-AD20-46791F99A8BA}">
+													<Language>SFX</Language>
+													<AudioFile>Piano Solo.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706904664"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9F0564EC-23C1-4C67-B0CF-3C7D10A5FA22}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano Solo" ID="{513CE6EB-9712-492F-9231-A136DC51C823}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano Solo" ID="{22BD2A4E-E1E4-46F4-AD20-46791F99A8BA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass Solo Comp" ID="{3F775380-4181-4BEA-9D89-5EEC78F508F2}" ShortID="340245716">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F0DCCF17-661D-405A-A923-DCDAC70A0148}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass Solo Comp" ID="{40F086CB-D8A3-4CE3-8F83-F4715823C8BB}">
+													<Language>SFX</Language>
+													<AudioFile>Bass Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="167585675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5A854149-1B37-4811-A1A0-3C250329D046}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass Solo Comp" ID="{7E82DE34-4765-4328-9470-592FA2BB6A2B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="94702.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass Solo Comp" ID="{40F086CB-D8A3-4CE3-8F83-F4715823C8BB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Guitar Solo Comp" ID="{8354BD8A-6CBA-4824-B180-AD8CA6CD6120}" ShortID="679542814">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{7FFB6DD3-95CB-461D-A084-B29DBFD275AA}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guitar Solo Comp" ID="{D106A3E4-8DB6-4626-A47E-EC94048A7D05}">
+													<Language>SFX</Language>
+													<AudioFile>Guitar Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761729105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B45C6FF4-48E0-4A39-B065-89CECC297808}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Guitar Solo Comp" ID="{5EA55FF6-A871-4037-A7F2-8592688899FB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Guitar Solo Comp" ID="{D106A3E4-8DB6-4626-A47E-EC94048A7D05}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano Interlude" ID="{CC7C6962-6618-407F-A88F-99F273B2C32F}" ShortID="821486750">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{6C73A6D8-0144-4D34-8AF9-8A4C9CEDCD4B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano Interlude" ID="{6B699D56-C712-4FCE-B470-2661B93DFC86}">
+													<Language>SFX</Language>
+													<AudioFile>Piano Interlude.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="975976311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0480566B-FFF1-4A89-B5F0-38528D856A8B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano Interlude" ID="{C4D3A85F-DFB3-407E-B14B-8AECEB92C5AE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10830.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="82596.4290039534"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano Interlude" ID="{6B699D56-C712-4FCE-B470-2661B93DFC86}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{F370DCE6-48BE-4085-A8E4-EC7A339127A7}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>21.76374</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>10.8303958333333</XPos>
+																										<YPos>30.46935</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drum Kit Solo Comp" ID="{FB30C701-541E-43A5-9EDF-8168BA1F0FB9}" ShortID="1041708500">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5BC6F48F-23A0-4E96-AB37-4E7842280114}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drum Kit Solo Comp" ID="{99444E63-E35D-4483-BE13-34E9D52394A2}">
+													<Language>SFX</Language>
+													<AudioFile>Drum Kit Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="815510087"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1FF577EB-8D44-4D0A-9B9B-7EEA6728731D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drum Kit Solo Comp" ID="{436003CC-45D6-4BE8-A181-59A761577AC3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drum Kit Solo Comp" ID="{99444E63-E35D-4483-BE13-34E9D52394A2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{174C7692-F2B2-4586-9AD5-51140BB90F0C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CE4EA1F1-8BBB-4783-81AE-C547D4F6B820}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="93405.4054054054"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Solo_Clarinet" ID="{26C6E084-5E37-4584-BDE2-20396EE2DEF2}" ShortID="530347852">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="97010.2432778489"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bass Solo Comp" ID="{05C8900B-FD6C-4E7E-BD3D-31961CC3B8AA}" ShortID="292569754">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{9EBF1F36-2F5F-4398-8478-FB2805A91126}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass Solo Comp" ID="{F2AA5B2B-30D7-44F5-9F05-3F56349E6287}">
+													<Language>SFX</Language>
+													<AudioFile>Bass Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="167585675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7CFEF684-42ED-46EE-A633-0756A0831471}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass Solo Comp" ID="{C3744756-6736-458D-A987-ED867935A046}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="94702.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass Solo Comp" ID="{F2AA5B2B-30D7-44F5-9F05-3F56349E6287}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano-Guitar_Solo_Comp" ID="{C64F183A-CFDA-49C6-A075-709D5DC1CA85}" ShortID="267832199">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{7713755D-77DD-4CC7-93D2-73C6C2E74DCC}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano Solo Comp" ID="{DDEB7663-1E78-495C-B6B8-73705E4B3E74}">
+													<Language>SFX</Language>
+													<AudioFile>Piano Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072776901"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Guitar Solo Comp" ID="{CB2AB7A2-70DB-4308-894C-0C7AE25BB5A0}">
+													<Language>SFX</Language>
+													<AudioFile>Guitar Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761729105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9E633886-BF1E-43C1-BB06-068AAC5DB1AB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano Solo Comp" ID="{70D9F402-B29A-4864-900B-5D438DB20F98}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="94702.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano Solo Comp" ID="{DDEB7663-1E78-495C-B6B8-73705E4B3E74}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{24DE7C00-7D89-44AB-9311-D3A90E875667}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Guitar Solo Comp" ID="{01B6CD8A-7B7A-4B7C-B177-E661961D6432}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Guitar Solo Comp" ID="{CB2AB7A2-70DB-4308-894C-0C7AE25BB5A0}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{CD0410F2-D315-4B5A-AF29-B48F0BF4EB97}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-21.76376</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>93.4053958333333</XPos>
+																										<YPos>-23.94015</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drum Kit Solo Comp" ID="{4B75818B-7822-4D10-A6C3-510F94707BDF}" ShortID="929741401">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{39C9BC6B-AFF4-48E9-BDE8-EC64E163AA64}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drum Kit Solo Comp" ID="{D4A0CA05-33AC-4D75-A855-7EB30ED89C7C}">
+													<Language>SFX</Language>
+													<AudioFile>Drum Kit Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="815510087"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FB72081C-CAA7-4319-9985-7084ACCDAAE9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drum Kit Solo Comp" ID="{24AA8593-D6A4-48F5-9E9B-3EC29E90D258}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drum Kit Solo Comp" ID="{D4A0CA05-33AC-4D75-A855-7EB30ED89C7C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CE57B8AA-AAEC-40C8-B9E6-84215950E1E5}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B452C14C-39D2-43FF-AFBE-6C1319AACAB8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="93405.4054054054"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Solo_Saxophone" ID="{951C2167-A7C7-462E-B131-8E3B1D141795}" ShortID="48833200">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="96851.4724711908"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Bass Solo Comp" ID="{26AB4314-4CE9-4CCF-84A2-A63106F773C2}" ShortID="724407597">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{44960CCC-4063-426F-BAFB-6642B553CB32}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass Solo Comp" ID="{316A85C5-448F-480B-8B0D-ADAF1AECDB4B}">
+													<Language>SFX</Language>
+													<AudioFile>Bass Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="167585675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FDA79604-4CA5-4F52-A4C0-470499C15354}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass Solo Comp" ID="{863A66ED-B1F0-4D52-BD7C-AE1950078E9F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="94702.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass Solo Comp" ID="{316A85C5-448F-480B-8B0D-ADAF1AECDB4B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano-Guitar_Solo_Comp" ID="{9FF0E152-DE09-4DB1-85C5-CAD59D092AF5}" ShortID="507077010">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{202DF9DE-A4B8-41EA-A013-7C5361AC395A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano Solo Comp" ID="{91A44A40-35BF-4ECA-A39E-C39531DEAD09}">
+													<Language>SFX</Language>
+													<AudioFile>Piano Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072776901"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Guitar Solo Comp" ID="{39461B15-985C-449F-AB52-346568D9E65F}">
+													<Language>SFX</Language>
+													<AudioFile>Guitar Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761729105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F4FC4305-3023-4E63-919A-1CD61466D6F8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano Solo Comp" ID="{E838B8F4-BB10-4BA0-AA13-2F9E14F0C744}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="94702.7083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano Solo Comp" ID="{91A44A40-35BF-4ECA-A39E-C39531DEAD09}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7547349D-89F7-411B-8FAB-73200B4D0CD9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Guitar Solo Comp" ID="{8AE52B72-55DA-4765-BD82-D5D9C7D4989D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Guitar Solo Comp" ID="{39461B15-985C-449F-AB52-346568D9E65F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drum Kit Solo Comp" ID="{034F62EA-1125-4875-A35A-E30CDD6782D2}" ShortID="924655826">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{A54B7FAB-D6CD-46D3-B9E2-C9493F663B3A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drum Kit Solo Comp" ID="{8E3BB4EB-C4E8-4433-B620-CB75D1B7FDAD}">
+													<Language>SFX</Language>
+													<AudioFile>Drum Kit Solo Comp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="815510087"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{85CA256B-9704-4114-89EC-97745BCE6D7D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drum Kit Solo Comp" ID="{C72DAB89-9CDA-4588-9FC9-A9DD917D8863}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="93405.4166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drum Kit Solo Comp" ID="{8E3BB4EB-C4E8-4433-B620-CB75D1B7FDAD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6D75869A-C14A-423A-B5C1-418BB1DCCA55}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{827E3576-3D4D-425E-AAF7-058356A66250}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="93405.4054054054"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

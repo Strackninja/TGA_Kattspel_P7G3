@@ -85,10 +85,10 @@
 						</Event>
 						<Event Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}">
 							<ChildrenList>
-								<Action Name="" ID="{97D48DDE-255F-40E5-B8AB-F828564FDAAB}" ShortID="1030297633">
+								<Action Name="" ID="{DD47C9E0-5E8B-4374-83E1-82164BB8129A}" ShortID="756714102">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Skyline Feline - Level 2" ID="{E519C540-1777-4DAB-AB3B-F4AACD24D6F5}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+											<ObjectRef Name="LVL_2_MUSIC" ID="{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -111,6 +111,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Skyline Feline - Level 2" ID="{B1E22277-4939-4C9D-B0AB-4A19F4C18F90}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Lvl0" ID="{7A84578F-9286-425A-9B7C-CF72CE54B4D1}">
+							<ChildrenList>
+								<Action Name="" ID="{EFE468EB-D3E6-4407-9B60-776C311DF77E}" ShortID="711351162">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0_MUSIC" ID="{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
