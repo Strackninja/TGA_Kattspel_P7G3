@@ -17,178 +17,18 @@
 								<Bus Name="Player_Weapon_Bus" ID="{974A7066-2DBA-49F2-966C-3054A32F679C}"/>
 								<Bus Name="UI_Bus" ID="{043018A4-9CEC-424B-A50E-69F19D92AB3D}"/>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{401A5F0E-B03F-49AF-81A7-6DEB76CBB729}" ShortID="471819140">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="GP_SFX_Volume_Parameter" ID="{030F68FB-9D6D-4080-ABF2-426CA32826B1}" WorkUnitID="{20FB9476-DE95-41F0-ADFD-3EA0757196BB}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{89E2011A-6585-4E60-B322-1142B6B589AC}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 						</Bus>
 						<Bus Name="MUSIC_Volume" ID="{DBB4DF69-DBD3-4577-8914-3444E9FE2793}">
 							<ChildrenList>
 								<Bus Name="Music_Bus" ID="{A4F5065A-9B73-48AE-9F2B-850CC0021FD6}"/>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{B158DFF4-3F32-4B37-AD29-BCC269147691}" ShortID="447372256">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="GP_Music_Volume_Parameter" ID="{C3A76C8A-D3DC-4048-A019-75BFA7201DEC}" WorkUnitID="{20FB9476-DE95-41F0-ADFD-3EA0757196BB}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{3BC48DAF-0933-4772-832C-34A619AF87EA}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 						</Bus>
 						<Bus Name="AMBIENCE_Volume" ID="{741F7EE9-F2D9-4D47-BE92-2292B3DB1C1B}">
 							<ChildrenList>
 								<Bus Name="Environmental_Bus" ID="{2B359260-8B00-401B-A343-C9655CB0C799}"/>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{ECE47A6B-7CEF-4850-A9CF-57A34BDE5A42}" ShortID="275201997">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Volume"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="GP_Ambience_Volume_Parameter" ID="{5C92657C-890D-4B5C-A0AD-9A0796CA1A67}" WorkUnitID="{20FB9476-DE95-41F0-ADFD-3EA0757196BB}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{2D942B45-34DE-4E88-8415-96C691DEBE03}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>5</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 						</Bus>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{95C06081-988A-480C-9C94-9CD284124988}" ShortID="671488509">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="GP_Master_Volume_Parameter" ID="{3A626818-CDB7-4930-9730-9B7AB9EBA639}" WorkUnitID="{20FB9476-DE95-41F0-ADFD-3EA0757196BB}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{B315C4B1-8ACB-4F33-8192-F86975FB2898}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
