@@ -25,7 +25,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="GP_Ambience_Volume_Parameter" ID="{5C92657C-890D-4B5C-A0AD-9A0796CA1A67}"/>
-							<Value>50</Value>
+							<Value>50.0436681222707</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

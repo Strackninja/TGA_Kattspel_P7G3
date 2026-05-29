@@ -587,6 +587,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Catnip_Deactivate" ID="{CAF0A23C-7852-497D-8FCA-4C304502EF99}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.422979957805907"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.976107594936709"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Catnip_Deactivate.wav</AudioFile>
 											<MediaIDList>
