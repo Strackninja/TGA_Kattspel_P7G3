@@ -77,7 +77,7 @@
 								<Action Name="" ID="{56A10BAF-6F0B-4815-A558-A597B4E67BFC}" ShortID="304308621">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Skyline Feline - Level 2" ID="{E519C540-1777-4DAB-AB3B-F4AACD24D6F5}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+											<ObjectRef Name="LVL_2_MUSIC" ID="{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

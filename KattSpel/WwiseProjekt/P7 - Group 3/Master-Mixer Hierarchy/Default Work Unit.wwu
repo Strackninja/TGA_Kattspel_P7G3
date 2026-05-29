@@ -21,7 +21,7 @@
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
-											<RTPC Name="" ID="{401A5F0E-B03F-49AF-81A7-6DEB76CBB729}" ShortID="471819140">
+											<RTPC Name="" ID="{F69F8E4F-FABD-4663-BA15-597E47E0647F}" ShortID="1034971203">
 												<PropertyList>
 													<Property Name="PropertyName" Type="string" Value="Volume"/>
 												</PropertyList>
@@ -31,14 +31,14 @@
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
-															<Curve Name="" ID="{89E2011A-6585-4E60-B322-1142B6B589AC}">
+															<Curve Name="" ID="{EC2B3FFB-21E0-4103-B7EE-6D1D22A47FA5}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-96</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -66,7 +66,7 @@
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
-											<RTPC Name="" ID="{B158DFF4-3F32-4B37-AD29-BCC269147691}" ShortID="447372256">
+											<RTPC Name="" ID="{40C15630-BF27-4976-A601-1F0A1C5CC43C}" ShortID="600069901">
 												<PropertyList>
 													<Property Name="PropertyName" Type="string" Value="Volume"/>
 												</PropertyList>
@@ -76,14 +76,14 @@
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
-															<Curve Name="" ID="{3BC48DAF-0933-4772-832C-34A619AF87EA}">
+															<Curve Name="" ID="{FEB7A979-D6A4-4682-BBF9-07C3526F01AD}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-96</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -111,7 +111,7 @@
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
-											<RTPC Name="" ID="{ECE47A6B-7CEF-4850-A9CF-57A34BDE5A42}" ShortID="275201997">
+											<RTPC Name="" ID="{97B49D23-4749-4D83-88CB-D19A86784C33}" ShortID="362929043">
 												<PropertyList>
 													<Property Name="PropertyName" Type="string" Value="Volume"/>
 												</PropertyList>
@@ -121,14 +121,14 @@
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
-															<Curve Name="" ID="{2D942B45-34DE-4E88-8415-96C691DEBE03}">
+															<Curve Name="" ID="{A1E98181-C39A-426B-BD09-238694CD8385}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<YPos>-96</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
@@ -153,7 +153,7 @@
 						<ObjectList Name="RTPC">
 							<Reference>
 								<Local>
-									<RTPC Name="" ID="{95C06081-988A-480C-9C94-9CD284124988}" ShortID="671488509">
+									<RTPC Name="" ID="{4BDA107C-EC99-4FC3-B676-E01ECD96DFF8}" ShortID="426226898">
 										<PropertyList>
 											<Property Name="PropertyName" Type="string" Value="Volume"/>
 										</PropertyList>
@@ -163,14 +163,14 @@
 											</Reference>
 											<Reference Name="Curve">
 												<Custom>
-													<Curve Name="" ID="{B315C4B1-8ACB-4F33-8192-F86975FB2898}">
+													<Curve Name="" ID="{88B45BB4-673B-4891-99E0-C7D6EC9A5F62}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="3"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-200</YPos>
+																<YPos>-96</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Exp3</SegmentShape>
 															</Point>

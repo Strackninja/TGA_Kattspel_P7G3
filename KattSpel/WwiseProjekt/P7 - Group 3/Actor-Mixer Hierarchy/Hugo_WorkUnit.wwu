@@ -6,6 +6,13 @@
 				<Folder Name="Hugo" ID="{30AE21EB-D25B-42E7-AB9E-A92AD94FB113}" ShortID="203717845">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Player_Jump" ID="{166B6ECD-896A-47F7-8F4A-145147BC0A70}" ShortID="795470289">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -145,6 +152,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Player_Double_Jump" ID="{A3563FC8-B1B3-48EC-B069-2404FC7EA487}" ShortID="739850265">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -209,7 +223,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -434,6 +448,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<RandomSequenceContainer Name="Player_Land" ID="{38C7064B-0729-4B1F-931E-261101CF8B98}" ShortID="684378691">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -566,6 +587,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Catnip_Deactivate" ID="{CAF0A23C-7852-497D-8FCA-4C304502EF99}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.422979957805907"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.976107594936709"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Catnip_Deactivate.wav</AudioFile>
 											<MediaIDList>

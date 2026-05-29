@@ -246,6 +246,9 @@
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="185"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{F8FE4D83-5F18-4F4D-9050-171A94EAE594}"/>
