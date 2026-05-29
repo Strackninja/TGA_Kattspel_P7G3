@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{8893AD52-E05A-08FC-F190-EADBF7957960}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C90D1699-A632-FD5A-8C50-1B6C4C806467}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -20,10 +20,6 @@
 				<File Id="4821340" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Death.wav</ShortName>
 					<CachePath>SFX/Dog_Death_818F3B66.wem</CachePath>
-				</File>
-				<File Id="7579466" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Catnip_Activate2.wav</ShortName>
-					<CachePath>SFX/Catnip_Activate2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="44897818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Catnip_Activate.wav</ShortName>
@@ -89,10 +85,6 @@
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="675019093" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Catnip_Deactivate2.wav</ShortName>
-					<CachePath>SFX/Catnip_Deactivate2_818F3B66.wem</CachePath>
-				</File>
 				<File Id="698202707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Vault.wav</ShortName>
 					<CachePath>SFX/Player_Vault_B2343F15.wem</CachePath>
@@ -134,14 +126,12 @@
 			<Events>
 				<Event Id="2310699732" Name="Catnip_Activate">
 					<MediaRefs>
-						<MediaRef Id="7579466"/>
 						<MediaRef Id="44897818"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2919142181" Name="Catnip_Deactivate">
 					<MediaRefs>
 						<MediaRef Id="317626714"/>
-						<MediaRef Id="675019093"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3018716685" Name="Catnip_Idle">
@@ -368,64 +358,38 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B2D378AF-2FD6-0D33-EA51-718E26926999}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7A04F236-8436-D73B-8B94-14C94DDEDEA6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
-				<Custom>
-					<Plugin Id="794264717" Name="Catnip_EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
-				</Custom>
-				<ShareSets>
-					<Plugin Id="1992114213" Name="SideChain_Meter" LibName="Wwise Meter" LibId="8454147"/>
-					<Plugin Id="3505558493" Name="Catnip_EQ" LibName="Wwise Parametric EQ" LibId="6881283"/>
-				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="985987111" Name="Motion Factory Bus"/>
-				<Bus Id="2461149734" Name="Player_Weapon_Bus">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="1992114213"/>
-						</ShareSets>
-					</PluginRefs>
-				</Bus>
-				<Bus Id="2668832989" Name="Enemy_Sounds_Bus">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3505558493"/>
-						</ShareSets>
-					</PluginRefs>
-				</Bus>
+				<Bus Id="949581066" Name="Master_Audio_Volume_Bus"/>
+				<Bus Id="1006694123" Name="MUSIC_Volume"/>
+				<Bus Id="1564184899" Name="SFX_Volume"/>
+				<Bus Id="2461149734" Name="Player_Weapon_Bus"/>
+				<Bus Id="2668832989" Name="Enemy_Sounds_Bus"/>
 				<Bus Id="2680856269" Name="Music_Bus"/>
+				<Bus Id="2901143258" Name="AMBIENCE_Volume"/>
 				<Bus Id="3247222208" Name="UI_Bus"/>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
-				<Bus Id="3942603440" Name="Environmental_Bus">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3505558493"/>
-						</ShareSets>
-					</PluginRefs>
-				</Bus>
-				<Bus Id="4076418998" Name="Player_Sounds_Bus">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="794264717"/>
-						</Custom>
-					</PluginRefs>
-				</Bus>
+				<Bus Id="3942603440" Name="Environmental_Bus"/>
+				<Bus Id="4076418998" Name="Player_Sounds_Bus"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="773250870" Name="GP_Master_Volume_Parameter"/>
 				<GameParameter Id="796049864" Name="RPM"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="922500145" Name="GP_Music_Volume_Parameter"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
 				<GameParameter Id="1524500807" Name="Playback_Rate"/>
 				<GameParameter Id="1656280998" Name="RPM_FA_SSGrain"/>
 				<GameParameter Id="1791284502" Name="Proximity_FA_SSGrain"/>
+				<GameParameter Id="1951402800" Name="GP_Ambience_Volume_Parameter"/>
 				<GameParameter Id="2317409760" Name="Instrument_FA_SSGrain"/>
 				<GameParameter Id="2428833394" Name="Simulation_FA_SSGrain"/>
 				<GameParameter Id="2481728872" Name="Immersion_FA_SSGrain"/>
@@ -435,6 +399,7 @@
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
 				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3303758585" Name="GP_SFX_Volume_Parameter"/>
 				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
 				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
@@ -596,7 +561,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{19D02365-F75A-59B4-AB96-6671B6B42EDA}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{61A957F1-7B41-7B69-8C08-B5798030BFA3}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
@@ -611,11 +576,23 @@
 						<MediaRef Id="775788259"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3380345081" Name="Music_Lvl2"/>
-				<Event Id="3380345080" Name="Music_Lvl3"/>
-				<Event Id="1598298728" Name="Music_Menu"/>
+				<Event Id="3380345081" Name="Music_Lvl2">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3380345080" Name="Music_Lvl3">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1598298728" Name="Music_Menu">
+					<MediaRefs>
+						<MediaRef Id="775788259"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{218C6510-CEE1-5EE1-43AB-9364BCA1BDA8}</FileHash>
+	<FileHash>{133BD472-457B-33EE-A13C-00CBB52B72B0}</FileHash>
 </SoundBanksInfo>

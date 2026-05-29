@@ -42,6 +42,7 @@
 						<ObjectRef Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Lvl0" ID="{7A84578F-9286-425A-9B7C-CF72CE54B4D1}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

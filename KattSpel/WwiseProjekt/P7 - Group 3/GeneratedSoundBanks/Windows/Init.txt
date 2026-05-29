@@ -13,33 +13,34 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	773250870	GP_Master_Volume_Parameter			\Default Work Unit\GP_Master_Volume_Parameter	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	922500145	GP_Music_Volume_Parameter			\Default Work Unit\GP_Music_Volume_Parameter	
 	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1951402800	GP_Ambience_Volume_Parameter			\Default Work Unit\GP_Ambience_Volume_Parameter	
 	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
 	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
 	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
 	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
 	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3303758585	GP_SFX_Volume_Parameter			\Default Work Unit\GP_SFX_Volume_Parameter	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
 	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
-	2461149734	Player_Weapon_Bus			\Default Work Unit\Player_Weapon_Bus	
-	2668832989	Enemy_Sounds_Bus			\Default Work Unit\Enemy_Sounds_Bus	
-	2680856269	Music_Bus			\Default Work Unit\Music_Bus	
-	3247222208	UI_Bus			\Default Work Unit\UI_Bus	
-	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3942603440	Environmental_Bus			\Default Work Unit\Environmental_Bus	
-	4076418998	Player_Sounds_Bus			\Default Work Unit\Player_Sounds_Bus	
-
-Effect plug-ins	ID	Name	Type				Notes
-	794264717	Catnip_EQ (Custom)	Wwise Parametric EQ			
-	1992114213	SideChain_Meter	Wwise Meter			
-	3505558493	Catnip_EQ	Wwise Parametric EQ			
+	949581066	Master_Audio_Volume_Bus			\Default Work Unit\Master_Audio_Volume_Bus	
+	1006694123	MUSIC_Volume			\Default Work Unit\Master_Audio_Volume_Bus\MUSIC_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\Master_Audio_Volume_Bus\SFX_Volume	
+	2461149734	Player_Weapon_Bus			\Default Work Unit\Master_Audio_Volume_Bus\SFX_Volume\Player_Weapon_Bus	
+	2668832989	Enemy_Sounds_Bus			\Default Work Unit\Master_Audio_Volume_Bus\SFX_Volume\Enemy_Sounds_Bus	
+	2680856269	Music_Bus			\Default Work Unit\Master_Audio_Volume_Bus\MUSIC_Volume\Music_Bus	
+	2901143258	AMBIENCE_Volume			\Default Work Unit\Master_Audio_Volume_Bus\AMBIENCE_Volume	
+	3247222208	UI_Bus			\Default Work Unit\Master_Audio_Volume_Bus\SFX_Volume\UI_Bus	
+	3942603440	Environmental_Bus			\Default Work Unit\Master_Audio_Volume_Bus\AMBIENCE_Volume\Environmental_Bus	
+	4076418998	Player_Sounds_Bus			\Default Work Unit\Master_Audio_Volume_Bus\SFX_Volume\Player_Sounds_Bus	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
