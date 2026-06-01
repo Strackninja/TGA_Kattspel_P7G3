@@ -40,6 +40,7 @@
 				<Property Name="Event Action List\{DC9D8E9D-3B3A-4A53-ADC9-6290AC9DD487}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DF83A02B-77F3-498D-B536-AFC54175A673}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E05E04AE-832A-4FE7-AFA6-14BC06041A33}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E3CBD22B-C307-4D54-9C6A-D2B6BEE59F2A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FDE27FCF-8DBB-4A71-AD0D-79D9CB86AD94}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FF08E342-8384-4699-B342-67E3E9C926DC}\x64_Expand States" Type="string" Value=""/>
@@ -79,6 +80,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="Music Transition List\{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{0407E542-9E7F-4E7B-B4FD-FC3E64B71319}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{141B0824-7407-400E-BB25-6A67A81AD0A2}" Type="string" Value="ewAwAEYARgBDAEUAOAA0ADIALQAwAEEAMABEAC0ANAAwADcARAAtADkAQQBGADEALQAzAEMANgBFAEIARABCAEEARAA1AEEAOQB9AAAAAQJ7ADUARgA4ADgARQA5ADIANwAtAEQANgAwADgALQA0ADQAQQBBAC0AOABEADcARQAtADMAOAA2ADUAOABCAEIARgA1AEMAMABDAH0AAAABAnsAMwA4ADIANwAwADIAMQA3AC0ANAA2ADUANAAtADQARQBDADEALQA4ADQANQBBAC0AQwBGAEQAMwA4ADkARgBFAEUARgBCAEIAfQAAAAAC"/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{196D5AC3-8A00-4BF0-96AD-650641B6569F}" Type="string" Value="ewA1AEYAOAA4AEUAOQAyADcALQBEADYAMAA4AC0ANAA0AEEAQQAtADgARAA3AEUALQAzADgANgA1ADgAQgBCAEYANQBDADAAQwB9AAAAAQJ7ADIANwAwADkAMgBGADgAOAAtADIAMgA1AEEALQAxADEANQA0AC0ANgA3ADIANQAtAEMAOABBADMANABGADMARAA0ADQAOAAyAH0AAAABAnsAMgAyADcAQQA4AEYANAA1AC0ARAAzADMAMgAtADQAQwA5ADEALQBBADEAQgAzAC0ANgBBAEMANgBDADYAMgA3ADYARQAwADcAfQAAAAACewA3ADgAMAAxADcANgA2AEUALQBBADMAOQBCAC0ANAA0ADgAQQAtADgAMgBDAEUALQAwADYANwBGAEEAMgAxADUANwAyAEYAQgB9AAAAAQI="/>

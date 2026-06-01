@@ -60,6 +60,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{EBC4893F-2D42-418F-B839-6C1EBB42D4B7}" ShortID="946008958">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
@@ -197,6 +207,16 @@
 										<Event Name="Dog_Turret_Rotation" ID="{BC6E3937-5CFC-4464-99AE-2F0233C2FD77}">
 											<ChildrenList>
 												<Action Name="" ID="{6DCE5371-E72F-40AC-9BC4-63ADA6AA518B}" ShortID="811592464">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{D989CCB6-C57D-4C76-B3CF-3162F3429E12}" ShortID="1385503">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
