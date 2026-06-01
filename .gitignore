@@ -7,9 +7,9 @@
 Thumbs.db
 Desktop.ini
 
-# --- General temp files ---
-*.log
-*.tmp
-*.swp
-*.swo
-KattSpel/WwiseProjekt/P7 - Group 3/ProfilingSession4.prof
+# Wwise
+*.bnk
+*.wem
+*.prof
+*.validationcache.cache/
+
