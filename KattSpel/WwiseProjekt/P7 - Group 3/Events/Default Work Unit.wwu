@@ -21,7 +21,7 @@
 								<Action Name="" ID="{862C5B7D-3B41-4C0F-A478-858A3E4099FB}" ShortID="9046807">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Catnip_Activate" ID="{1203D636-46D1-4375-AE34-3A44190EF8B6}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+											<ObjectRef Name="Catnip_Activate" ID="{1DDA168D-9926-443B-8CD0-6EFA8A80820D}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,7 +32,7 @@
 								<Action Name="" ID="{BF41BE98-5FB2-4DF2-B21B-59F625F29B7E}" ShortID="655916483">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Catnip_Deactivate" ID="{4A5CEA1C-9AC5-481A-AB19-4D6F7A57510E}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+											<ObjectRef Name="Catnip_Deactivate" ID="{6B49D0A1-72A3-402D-A3E5-7F6AB95A3DAB}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
