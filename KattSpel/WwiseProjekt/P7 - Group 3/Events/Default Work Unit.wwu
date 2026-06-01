@@ -230,7 +230,7 @@
 												<Action Name="" ID="{9072D853-5922-4BA9-A0C3-FACFAC7EE7BB}" ShortID="798828284">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Dog_Death" ID="{3D1312B1-7DF7-4722-A745-9788652DE26D}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+															<ObjectRef Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
