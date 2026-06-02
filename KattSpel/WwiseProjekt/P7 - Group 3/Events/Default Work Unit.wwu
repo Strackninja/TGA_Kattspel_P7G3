@@ -72,6 +72,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Catnip_Idle_Stop" ID="{C59C8517-0AD5-40BE-98D5-5B555A280FCB}">
+							<ChildrenList>
+								<Action Name="" ID="{5C44A165-85E0-49DB-A688-0F87CB3F07ED}" ShortID="181382996">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" WorkUnitID="{098C0627-ECE6-4B9D-91EA-D78BCC03ED31}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Scripted Events" ID="{F54ECFF5-3241-4972-A56A-937E0B0A065C}" ShortID="1023197090">
@@ -213,16 +227,6 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
-												<Action Name="" ID="{D989CCB6-C57D-4C76-B3CF-3162F3429E12}" ShortID="1385503">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}">
@@ -231,6 +235,20 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dog_Turret_Rotation_Stop" ID="{AA04D8BC-C974-4975-B774-FC29454CE760}">
+											<ChildrenList>
+												<Action Name="" ID="{A2243F86-511A-4F1E-877E-7C9372AA5D00}" ShortID="638104457">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

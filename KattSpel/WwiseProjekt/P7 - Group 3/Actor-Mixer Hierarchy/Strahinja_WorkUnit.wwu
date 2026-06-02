@@ -850,6 +850,7 @@
 											<ChildrenList>
 												<Sound Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" ShortID="703613754">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -867,7 +868,6 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
-														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -896,6 +896,7 @@
 													</ChildrenList>
 													<PositioningInfo>
 														<Panner Name="" ID="{55A20ADA-9F51-405A-8CC3-104DACF874A6}"/>
+														<Position Name="" ID="{7333E9AF-55D6-468F-B6AB-B023444F6D90}"/>
 													</PositioningInfo>
 													<ObjectLists>
 														<ObjectList Name="Effects">
@@ -1001,6 +1002,7 @@
 										</ActorMixer>
 										<RandomSequenceContainer Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" ShortID="164516175">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>

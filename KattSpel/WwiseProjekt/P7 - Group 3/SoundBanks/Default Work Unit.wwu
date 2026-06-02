@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{8A514BE1-BD04-437D-95A9-F08DDF08CAAA}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="AMB" ID="{5F88E927-D608-44AA-8D7E-38658BBF5C0C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
@@ -13,8 +17,13 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{12FE2156-EE52-4AC0-9B75-5BD737A1068C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Player_Respawn" ID="{A0A02B83-361C-4005-AEB1-5D8E0FD73223}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Catnip_Idle_Stop" ID="{C59C8517-0AD5-40BE-98D5-5B555A280FCB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="WaterGun_Fire" ID="{EF8EE3DE-E1E2-42D6-92F7-EB5ABB1276AB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
@@ -27,6 +36,7 @@
 						<ObjectRef Name="Catnip_Activate" ID="{98384173-D2CB-472D-9C5B-B262840B4352}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{1727D0CB-358C-4771-AD3F-066FC5822E59}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dog_Turret_Rotation_Stop" ID="{AA04D8BC-C974-4975-B774-FC29454CE760}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Watergun_Object_Hit" ID="{880AEFB0-1E17-4980-9F4B-F9F2270DBE2D}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
@@ -38,6 +48,10 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MUSIC" ID="{8E926E37-A1A6-40FB-BBF6-C586187B2A63}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>

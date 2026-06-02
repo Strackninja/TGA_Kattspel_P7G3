@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{3B9BCA53-1123-AA18-8EE9-53A8190B5BD0}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{BA63AA61-9340-229E-9188-B745A80BFA4B}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -177,6 +177,7 @@
 						<MediaRef Id="405630920"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="548162048" Name="Catnip_Idle_Stop"/>
 				<Event Id="1462856691" Name="Catnip_PickUp">
 					<MediaRefs>
 						<MediaRef Id="920228750"/>
@@ -214,6 +215,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="4003985518" Name="Dog_Turret_Rotation_Stop"/>
 				<Event Id="3083087645" Name="Player_Death"/>
 				<Event Id="1631631307" Name="Player_Death_Fall"/>
 				<Event Id="1329115477" Name="Player_Double_Jump">
@@ -606,7 +608,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0EDF531F-10B3-2A1A-D5E1-A3A0D7635731}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{1D5885B5-CCE1-DB29-2B12-073BEC0E8FE4}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
@@ -717,5 +719,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{104F8FFD-E065-78A3-D83B-015E8B069042}</FileHash>
+	<FileHash>{B20C1235-2405-DD25-1C4F-98799192A8A2}</FileHash>
 </SoundBanksInfo>

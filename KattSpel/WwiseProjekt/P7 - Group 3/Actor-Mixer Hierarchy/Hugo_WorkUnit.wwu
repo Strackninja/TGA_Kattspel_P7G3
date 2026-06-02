@@ -738,6 +738,7 @@
 						</ActorMixer>
 						<ActorMixer Name="Catnip_Idle" ID="{8C744B1B-7FC0-489C-8932-C69454F7EFAC}" ShortID="857531653">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>

@@ -19,11 +19,13 @@ namespace AK
         static const AkUniqueID CATNIP_ACTIVATE = 2310699732U;
         static const AkUniqueID CATNIP_DEACTIVATE = 2919142181U;
         static const AkUniqueID CATNIP_IDLE = 3018716685U;
+        static const AkUniqueID CATNIP_IDLE_STOP = 548162048U;
         static const AkUniqueID CATNIP_PICKUP = 1462856691U;
         static const AkUniqueID DOG_CANNON_FIRE = 3797152694U;
         static const AkUniqueID DOG_CANNON_OBJECT_HIT = 3378955245U;
         static const AkUniqueID DOG_DEATH = 2682195294U;
         static const AkUniqueID DOG_TURRET_ROTATION = 2273467139U;
+        static const AkUniqueID DOG_TURRET_ROTATION_STOP = 4003985518U;
         static const AkUniqueID MUSIC_LVL0 = 3380345083U;
         static const AkUniqueID MUSIC_LVL1 = 3380345082U;
         static const AkUniqueID MUSIC_LVL2 = 3380345081U;
