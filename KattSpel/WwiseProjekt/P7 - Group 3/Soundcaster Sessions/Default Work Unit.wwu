@@ -28,8 +28,12 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="GP_Master_Volume_Parameter" ID="{3A626818-CDB7-4930-9730-9B7AB9EBA639}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="GP_Ambience_Volume_Parameter" ID="{5C92657C-890D-4B5C-A0AD-9A0796CA1A67}"/>
-							<Value>50.0436681222707</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
