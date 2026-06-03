@@ -868,6 +868,7 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="SpeakerPanning" Type="int16" Value="2"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-6</Value>
@@ -1238,6 +1239,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D2A49CA2-0A43-4CD3-9CA3-04A538E4FCBB}"/>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
