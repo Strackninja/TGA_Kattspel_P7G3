@@ -231,7 +231,7 @@
 										</Event>
 										<Event Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}">
 											<ChildrenList>
-												<Action Name="" ID="{9072D853-5922-4BA9-A0C3-FACFAC7EE7BB}" ShortID="798828284">
+												<Action Name="" ID="{25B3E45C-B729-494C-A159-1EC1D3715C61}" ShortID="347760019">
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
