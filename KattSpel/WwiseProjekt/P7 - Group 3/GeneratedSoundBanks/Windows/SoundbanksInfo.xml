@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{3CF4931E-46FD-9D53-46E4-9F5648AA543E}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{92848799-DD73-FDC4-59C1-39F24049EED1}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -37,10 +37,6 @@
 					<ShortName>Player_Footstep_Cobble7.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble7_818F3B66.wem</CachePath>
 				</File>
-				<File Id="280606932" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Fire_1.wav</ShortName>
-					<CachePath>SFX/Player_Fire_1_818F3B66.wem</CachePath>
-				</File>
 				<File Id="282450942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Respawn.wav</ShortName>
 					<CachePath>SFX/Player_Respawn_818F3B66.wem</CachePath>
@@ -61,10 +57,6 @@
 					<ShortName>Enemy_Death_3_Whine.wav</ShortName>
 					<CachePath>SFX/Enemy_Death_3_Whine_818F3B66.wem</CachePath>
 				</File>
-				<File Id="391852966" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Fire_2.wav</ShortName>
-					<CachePath>SFX/Player_Fire_2_818F3B66.wem</CachePath>
-				</File>
 				<File Id="397919603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump1.wav</ShortName>
 					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
@@ -80,10 +72,6 @@
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
-				</File>
-				<File Id="440198984" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Fire_3.wav</ShortName>
-					<CachePath>SFX/Player_Fire_3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump2.wav</ShortName>
@@ -275,13 +263,7 @@
 						<MediaRef Id="985176134"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3833903647" Name="WaterGun_Fire">
-					<MediaRefs>
-						<MediaRef Id="280606932"/>
-						<MediaRef Id="391852966"/>
-						<MediaRef Id="440198984"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3833903647" Name="WaterGun_Fire"/>
 				<Event Id="236262596" Name="Watergun_Object_Hit">
 					<MediaRefs>
 						<MediaRef Id="288681858"/>
@@ -618,7 +600,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{44999000-B3A4-36A7-B1E2-F820D2541CA3}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0ABCBE6D-97FD-6873-ED6A-6824482AF8AD}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
@@ -729,5 +711,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD8254F4-E623-1EF2-EC55-901BA36AE266}</FileHash>
+	<FileHash>{8ED6C451-F90F-20F3-9213-A582C431A7A6}</FileHash>
 </SoundBanksInfo>
