@@ -17,10 +17,6 @@
 							<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 							<Position X="1" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
-							<Position X="1" Y="1"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -28,8 +24,12 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="GP_Master_Volume_Parameter" ID="{3A626818-CDB7-4930-9730-9B7AB9EBA639}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="GP_Ambience_Volume_Parameter" ID="{5C92657C-890D-4B5C-A0AD-9A0796CA1A67}"/>
-							<Value>50.0436681222707</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

@@ -263,7 +263,7 @@
 												<Action Name="" ID="{8BC69787-6247-4AB8-8306-0DDE50EFFAAA}" ShortID="323370225">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+															<ObjectRef Name="WaterGun_Fire" ID="{9592FE91-DFB3-4EEE-BE1B-F39C1CFFDE93}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
