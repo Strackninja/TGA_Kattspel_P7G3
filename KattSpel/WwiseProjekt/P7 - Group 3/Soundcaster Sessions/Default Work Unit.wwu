@@ -17,10 +17,6 @@
 							<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 							<Position X="1" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
-							<Position X="1" Y="1"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
