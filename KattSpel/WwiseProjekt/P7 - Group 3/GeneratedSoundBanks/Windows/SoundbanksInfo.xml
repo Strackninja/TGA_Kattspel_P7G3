@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{14413895-194D-C8B4-E1A0-0F84C7CA6484}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{3EB2CBFB-4AFB-5AAC-614F-FBA9D9CCA7D3}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -20,6 +20,10 @@
 				<File Id="44897818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Catnip_Activate.wav</ShortName>
 					<CachePath>SFX/Catnip_Activate_818F3B66.wem</CachePath>
+				</File>
+				<File Id="99672123" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_3_Whine.wav</ShortName>
+					<CachePath>SFX/Dog_Death_3_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="109781986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Click3.wav</ShortName>
@@ -40,6 +44,10 @@
 				<File Id="183879789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Land_Cobble2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="186366773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_1.wav</ShortName>
+					<CachePath>SFX/Dog_Death_1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="224173167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Back2.wav</ShortName>
@@ -80,10 +88,6 @@
 				<File Id="317626714" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Catnip_Deactivate.wav</ShortName>
 					<CachePath>SFX/Catnip_Deactivate_818F3B66.wem</CachePath>
-				</File>
-				<File Id="324664314" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_3_Whine.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_3_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="340337295" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Click4.wav</ShortName>
@@ -137,33 +141,29 @@
 					<ShortName>UI_Hover6.wav</ShortName>
 					<CachePath>SFX/UI_Hover6_818F3B66.wem</CachePath>
 				</File>
-				<File Id="557693598" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_3.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="575914596" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Catnip_Activate2.wav</ShortName>
 					<CachePath>SFX/Catnip_Activate2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="578652563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_2_Whine.wav</ShortName>
+					<CachePath>SFX/Dog_Death_2_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="596588176" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Watergun_EverythingElseHit_1.wav</ShortName>
 					<CachePath>SFX/Watergun_EverythingElseHit_1_818F3B66.wem</CachePath>
 				</File>
-				<File Id="661129669" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_4_Whine.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_4_Whine_818F3B66.wem</CachePath>
+				<File Id="635474038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_2.wav</ShortName>
+					<CachePath>SFX/Dog_Death_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="648869092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_4.wav</ShortName>
+					<CachePath>SFX/Dog_Death_4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="661304684" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover1.wav</ShortName>
 					<CachePath>SFX/UI_Hover1_818F3B66.wem</CachePath>
-				</File>
-				<File Id="676413722" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_2.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_2_818F3B66.wem</CachePath>
-				</File>
-				<File Id="680295735" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_Whine.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="692275017" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Back5.wav</ShortName>
@@ -181,17 +181,13 @@
 					<ShortName>UI_Click6.wav</ShortName>
 					<CachePath>SFX/UI_Click6_818F3B66.wem</CachePath>
 				</File>
-				<File Id="842604417" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_4.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_4_818F3B66.wem</CachePath>
+				<File Id="824200190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_4_Whine.wav</ShortName>
+					<CachePath>SFX/Dog_Death_4_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="876253462" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble2.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble2_818F3B66.wem</CachePath>
-				</File>
-				<File Id="893618364" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_818F3B66.wem</CachePath>
 				</File>
 				<File Id="904995307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover4.wav</ShortName>
@@ -205,17 +201,21 @@
 					<ShortName>UI_Click1.wav</ShortName>
 					<CachePath>SFX/UI_Click1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="960977619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_1_Whine.wav</ShortName>
+					<CachePath>SFX/Dog_Death_1_Whine_818F3B66.wem</CachePath>
+				</File>
 				<File Id="963513547" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dog_Cannon_Fire.wav</ShortName>
 					<CachePath>SFX/Dog_Cannon_Fire_818F3B66.wem</CachePath>
 				</File>
+				<File Id="975361153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dog_Death_3.wav</ShortName>
+					<CachePath>SFX/Dog_Death_3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="985176134" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble5.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble5_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1033671398" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Death_2_Whine.wav</ShortName>
-					<CachePath>SFX/Enemy_Death_2_Whine_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1039759563" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover2.wav</ShortName>
@@ -275,14 +275,14 @@
 				</Event>
 				<Event Id="2682195294" Name="Dog_Death">
 					<MediaRefs>
-						<MediaRef Id="324664314"/>
-						<MediaRef Id="557693598"/>
-						<MediaRef Id="661129669"/>
-						<MediaRef Id="676413722"/>
-						<MediaRef Id="680295735"/>
-						<MediaRef Id="842604417"/>
-						<MediaRef Id="893618364"/>
-						<MediaRef Id="1033671398"/>
+						<MediaRef Id="99672123"/>
+						<MediaRef Id="186366773"/>
+						<MediaRef Id="578652563"/>
+						<MediaRef Id="635474038"/>
+						<MediaRef Id="648869092"/>
+						<MediaRef Id="824200190"/>
+						<MediaRef Id="960977619"/>
+						<MediaRef Id="975361153"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2273467139" Name="Dog_Turret_Rotation">
@@ -840,5 +840,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3700FC93-7B02-34FD-7C73-8EF06FFB8AF8}</FileHash>
+	<FileHash>{4D67BC7A-933E-8E87-9FAD-91A163B39F1F}</FileHash>
 </SoundBanksInfo>
