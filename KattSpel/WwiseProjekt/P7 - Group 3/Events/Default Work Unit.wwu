@@ -399,19 +399,28 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}"/>
-										<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}">
+										<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}">
 											<ChildrenList>
-												<Action Name="" ID="{E05102F7-665F-4FAE-A0D8-4CA332F13738}" ShortID="652899568">
+												<Action Name="" ID="{BCF510A7-3D5A-4C3E-A644-1D8E661EE7F9}" ShortID="459220106">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Continue_Game" ID="{3ECBF58C-35F9-4C9A-AF3D-4E2ACD1FCF60}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Confirm" ID="{FF9988FB-4934-4053-BE74-6EF760B93718}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Deselect" ID="{9BF9BD90-8BE9-4CD0-8D4B-A1EA49506F54}"/>
+										<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}">
+											<ChildrenList>
+												<Action Name="" ID="{E05102F7-665F-4FAE-A0D8-4CA332F13738}" ShortID="652899568">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="UI_Continue_Game" ID="{25258AC7-0D84-405A-AFCC-1845C1085E2F}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 										<Event Name="UI_Hover" ID="{16B35651-422B-4B68-AF87-8833505A52C3}">
 											<ChildrenList>
 												<Action Name="" ID="{77A87726-F04F-43FE-997F-8036EAD7FADE}" ShortID="434627772">
@@ -428,14 +437,23 @@
 												<Action Name="" ID="{1D570B19-A089-48CC-93A1-BBDB16B45C3F}" ShortID="637750653">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Start_New_Game" ID="{4F1DC1CD-8850-46C3-BADE-34F1B4B199B2}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Start_New_Game" ID="{C1A0D0BE-7AB5-4121-867F-EB9F116B7963}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}"/>
-										<Event Name="UI_Exit_Game" ID="{071961C9-9EB7-4747-9656-C3D9B2BF548F}"/>
+										<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}">
+											<ChildrenList>
+												<Action Name="" ID="{B0F980B1-F09B-4455-96F2-810BFD52D241}" ShortID="737418545">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="UI_Select" ID="{7E40E5AB-FA74-49F9-A2CC-38515E576238}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="In Game Menu" ID="{DC0100BC-2E7A-4B4D-877B-CB3C8135C452}" ShortID="810428826">
@@ -446,10 +464,10 @@
 									<ChildrenList>
 										<Event Name="UI_Pause" ID="{E88FC239-2893-40B8-9760-1DB9DB6FAB5A}">
 											<ChildrenList>
-												<Action Name="" ID="{CDAD3709-33AD-447C-AB34-EE68990B8BAE}" ShortID="181160736">
+												<Action Name="" ID="{19370099-EEBF-4C84-AC73-5BD60267E0CD}" ShortID="485199107">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Pause_Game" ID="{04D7E148-C7CC-44A2-ADCF-F166E08EC20E}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Pause_Game" ID="{6E765245-5DD9-4323-AADF-2A52701A1043}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -460,7 +478,7 @@
 												<Action Name="" ID="{71F518E8-2DF6-400B-9345-F0659FC5A381}" ShortID="332064956">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Resume_Game" ID="{E49DB4C7-3AD1-44C7-9BAF-5419C7A3AEEE}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Resume_Game" ID="{1ECF06D7-D99F-40C7-B98D-6CAEB34AF3A9}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -471,7 +489,7 @@
 												<Action Name="" ID="{516ECE6C-7AB6-490B-9092-CDF119DF80CE}" ShortID="702923994">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_GoTo_MainMenu" ID="{F8553E20-5353-4D45-B08D-8EF27AA61252}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_GoTo_MainMenu" ID="{5AA97CAA-BAD0-4EAF-934A-280D9ACCFB11}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

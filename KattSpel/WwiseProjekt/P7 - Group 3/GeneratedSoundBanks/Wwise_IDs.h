@@ -44,8 +44,6 @@ namespace AK
         static const AkUniqueID UI_CLICK = 2249769530U;
         static const AkUniqueID UI_CONFIRM = 216067002U;
         static const AkUniqueID UI_CONTINUE_GAME = 1603101806U;
-        static const AkUniqueID UI_DESELECT = 1061562899U;
-        static const AkUniqueID UI_EXIT_GAME = 4272390499U;
         static const AkUniqueID UI_HOVER = 2118900976U;
         static const AkUniqueID UI_NEW_GAME = 655462189U;
         static const AkUniqueID UI_PAUSE = 2792155208U;
