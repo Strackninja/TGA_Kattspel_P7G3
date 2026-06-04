@@ -91,7 +91,7 @@
 								<Action Name="" ID="{56A10BAF-6F0B-4815-A558-A597B4E67BFC}" ShortID="304308621">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LVL_2_MUSIC" ID="{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+											<ObjectRef Name="LVL_1_MUSIC" ID="{EF840D05-7255-4E96-926B-404F784A9C94}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -113,7 +113,7 @@
 								<Action Name="" ID="{2C4BB0E9-43D7-407A-92C6-06C41CDD2FEE}" ShortID="442711381">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Skyline Feline - Level 2" ID="{FBDEB4DD-8E56-43E5-BC5A-51F8E223CC7D}" WorkUnitID="{F7DE0830-4732-4FB8-AB2C-9CC5EA3761F3}"/>
+											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
