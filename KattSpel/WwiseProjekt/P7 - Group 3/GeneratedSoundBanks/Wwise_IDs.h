@@ -40,6 +40,18 @@ namespace AK
         static const AkUniqueID PLAYER_RESPAWN = 2161713971U;
         static const AkUniqueID PLAYER_VAULT = 769234327U;
         static const AkUniqueID PLAYER_WALLRUN = 3354250256U;
+        static const AkUniqueID UI_BACK = 2024222415U;
+        static const AkUniqueID UI_CLICK = 2249769530U;
+        static const AkUniqueID UI_CONFIRM = 216067002U;
+        static const AkUniqueID UI_CONTINUE_GAME = 1603101806U;
+        static const AkUniqueID UI_DESELECT = 1061562899U;
+        static const AkUniqueID UI_EXIT_GAME = 4272390499U;
+        static const AkUniqueID UI_HOVER = 2118900976U;
+        static const AkUniqueID UI_NEW_GAME = 655462189U;
+        static const AkUniqueID UI_PAUSE = 2792155208U;
+        static const AkUniqueID UI_RESUME = 2391028579U;
+        static const AkUniqueID UI_RETURN_TO_MAIN_MENU = 777326674U;
+        static const AkUniqueID UI_SELECT = 2774129122U;
         static const AkUniqueID WATERGUN_FIRE = 3833903647U;
         static const AkUniqueID WATERGUN_OBJECT_HIT = 236262596U;
     } // namespace EVENTS
