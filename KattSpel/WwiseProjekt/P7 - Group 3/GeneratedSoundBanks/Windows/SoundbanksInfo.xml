@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{84AE67C7-B0E9-3E54-1D74-8273E16D4004}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{3CF4931E-46FD-9D53-46E4-9F5648AA543E}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -61,6 +61,10 @@
 					<ShortName>Enemy_Death_3_Whine.wav</ShortName>
 					<CachePath>SFX/Enemy_Death_3_Whine_818F3B66.wem</CachePath>
 				</File>
+				<File Id="391852966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Fire_2.wav</ShortName>
+					<CachePath>SFX/Player_Fire_2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="397919603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump1.wav</ShortName>
 					<CachePath>SFX/Player_Jump1_818F3B66.wem</CachePath>
@@ -76,6 +80,10 @@
 				<File Id="433776774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Cobble1.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Cobble1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440198984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Fire_3.wav</ShortName>
+					<CachePath>SFX/Player_Fire_3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="541912965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump2.wav</ShortName>
@@ -270,6 +278,8 @@
 				<Event Id="3833903647" Name="WaterGun_Fire">
 					<MediaRefs>
 						<MediaRef Id="280606932"/>
+						<MediaRef Id="391852966"/>
+						<MediaRef Id="440198984"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="236262596" Name="Watergun_Object_Hit">
@@ -608,7 +618,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0ABCBE6D-97FD-6873-ED6A-6824482AF8AD}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{44999000-B3A4-36A7-B1E2-F820D2541CA3}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
@@ -719,5 +729,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{79ECBF28-DECB-2C33-5D5D-36C8D67B4424}</FileHash>
+	<FileHash>{AD8254F4-E623-1EF2-EC55-901BA36AE266}</FileHash>
 </SoundBanksInfo>
