@@ -758,11 +758,6 @@
 								<Sound Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" ShortID="1061513806">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>55</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
