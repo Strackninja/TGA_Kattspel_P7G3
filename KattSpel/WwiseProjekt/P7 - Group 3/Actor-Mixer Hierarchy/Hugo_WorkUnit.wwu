@@ -738,10 +738,15 @@
 						</ActorMixer>
 						<ActorMixer Name="Catnip_Idle" ID="{8C744B1B-7FC0-489C-8932-C69454F7EFAC}" ShortID="857531653">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Catnip_idle_attenuation" ID="{EBC35C17-26E1-4727-819D-7ED0BF1C20E2}" WorkUnitID="{4BE54901-312D-46AB-9617-20C5437F9E32}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
 								</Reference>
@@ -753,11 +758,6 @@
 								<Sound Name="Magic, Shimmer, Spell, Pad, Ethereal, Idle SND92464 - Pitch 200_0 1" ID="{24216C02-88C9-479B-B9AD-68DFBF77B7AC}" ShortID="1061513806">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>55</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -781,6 +781,9 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{97461223-F30C-4F5B-9039-367EF7AB2AE9}"/>
+							</PositioningInfo>
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>

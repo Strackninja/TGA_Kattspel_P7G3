@@ -60,7 +60,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{EBC4893F-2D42-418F-B839-6C1EBB42D4B7}" ShortID="946008958">
+							</ChildrenList>
+						</Event>
+						<Event Name="Catnip_Idle_Stop" ID="{C59C8517-0AD5-40BE-98D5-5B555A280FCB}">
+							<ChildrenList>
+								<Action Name="" ID="{5C44A165-85E0-49DB-A688-0F87CB3F07ED}" ShortID="181382996">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
@@ -213,24 +217,28 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
-												<Action Name="" ID="{D989CCB6-C57D-4C76-B3CF-3162F3429E12}" ShortID="1385503">
+											</ChildrenList>
+										</Event>
+										<Event Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}">
+											<ChildrenList>
+												<Action Name="" ID="{25B3E45C-B729-494C-A159-1EC1D3715C61}" ShortID="347760019">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Dog_Turret_Rotation_Stop" ID="{AA04D8BC-C974-4975-B774-FC29454CE760}">
+											<ChildrenList>
+												<Action Name="" ID="{A2243F86-511A-4F1E-877E-7C9372AA5D00}" ShortID="638104457">
 													<PropertyList>
 														<Property Name="ActionType" Type="int16" Value="2"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Dog_Death" ID="{B2E9BA03-5377-4159-BBED-188949D3A13D}">
-											<ChildrenList>
-												<Action Name="" ID="{9072D853-5922-4BA9-A0C3-FACFAC7EE7BB}" ShortID="798828284">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Dog_Death" ID="{167088F5-4820-4028-9E13-85E782D6F4A0}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -245,7 +253,7 @@
 												<Action Name="" ID="{8BC69787-6247-4AB8-8306-0DDE50EFFAAA}" ShortID="323370225">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+															<ObjectRef Name="WaterGun_Fire" ID="{9592FE91-DFB3-4EEE-BE1B-F39C1CFFDE93}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -352,10 +360,22 @@
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Rui" ID="{2A6F312A-81F4-427F-9F45-907B51CB7272}" ShortID="531646125">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Folder Name="UI" ID="{FEADCBEB-56B7-4A80-BA66-547D6E360ACF}" ShortID="676151874">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="8"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Folder Name="Main Menu" ID="{5F284459-D469-41CE-9F95-5D0E6E443E7E}" ShortID="1006166118">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="8"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Event Name="UI_Back" ID="{183ACAAB-FFE0-437F-9A9E-2E890F1FBDD6}">
 											<ChildrenList>
@@ -379,22 +399,28 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}"/>
-										<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}">
+										<Event Name="UI_Confirm" ID="{CE0CD294-97A1-499E-A2C7-BBEB44DD3B91}">
 											<ChildrenList>
-												<Action Name="" ID="{D2099E62-77BB-4E11-952C-5E2BD1B45B59}" ShortID="807528013">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
+												<Action Name="" ID="{BCF510A7-3D5A-4C3E-A644-1D8E661EE7F9}" ShortID="459220106">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_ContinueGame" ID="{AC11A230-0ABD-4B38-A34B-AE459C35A535}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Confirm" ID="{FF9988FB-4934-4053-BE74-6EF760B93718}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Deselect" ID="{9BF9BD90-8BE9-4CD0-8D4B-A1EA49506F54}"/>
+										<Event Name="UI_Continue_Game" ID="{76069E33-FB2D-49C9-85BC-945EEBAD33BA}">
+											<ChildrenList>
+												<Action Name="" ID="{E05102F7-665F-4FAE-A0D8-4CA332F13738}" ShortID="652899568">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="UI_Continue_Game" ID="{25258AC7-0D84-405A-AFCC-1845C1085E2F}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 										<Event Name="UI_Hover" ID="{16B35651-422B-4B68-AF87-8833505A52C3}">
 											<ChildrenList>
 												<Action Name="" ID="{77A87726-F04F-43FE-997F-8036EAD7FADE}" ShortID="434627772">
@@ -408,33 +434,40 @@
 										</Event>
 										<Event Name="UI_New_Game" ID="{E5535954-EAE1-4D99-8F2A-870076AF22D4}">
 											<ChildrenList>
-												<Action Name="" ID="{8CDC0FFA-6E61-4FF3-A548-0F1B8D52DB23}" ShortID="550062151">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
+												<Action Name="" ID="{1D570B19-A089-48CC-93A1-BBDB16B45C3F}" ShortID="637750653">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_StartNewGame" ID="{10D9A43A-C212-4CB1-9CF9-058AD69AEBDE}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Start_New_Game" ID="{C1A0D0BE-7AB5-4121-867F-EB9F116B7963}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}"/>
-										<Event Name="UI_Exit_Game" ID="{071961C9-9EB7-4747-9656-C3D9B2BF548F}"/>
+										<Event Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}">
+											<ChildrenList>
+												<Action Name="" ID="{B0F980B1-F09B-4455-96F2-810BFD52D241}" ShortID="737418545">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="UI_Select" ID="{7E40E5AB-FA74-49F9-A2CC-38515E576238}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="In Game Menu" ID="{DC0100BC-2E7A-4B4D-877B-CB3C8135C452}" ShortID="810428826">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="8"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
 										<Event Name="UI_Pause" ID="{E88FC239-2893-40B8-9760-1DB9DB6FAB5A}">
 											<ChildrenList>
-												<Action Name="" ID="{CDAD3709-33AD-447C-AB34-EE68990B8BAE}" ShortID="181160736">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
+												<Action Name="" ID="{19370099-EEBF-4C84-AC73-5BD60267E0CD}" ShortID="485199107">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Pause" ID="{06A82161-D777-4F64-8B24-A41618A9749E}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Pause_Game" ID="{6E765245-5DD9-4323-AADF-2A52701A1043}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -443,12 +476,9 @@
 										<Event Name="UI_Resume" ID="{DC9D8E9D-3B3A-4A53-ADC9-6290AC9DD487}">
 											<ChildrenList>
 												<Action Name="" ID="{71F518E8-2DF6-400B-9345-F0659FC5A381}" ShortID="332064956">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_Resume" ID="{9B0EAF4E-2D32-409D-AB51-AC00FDF36FD4}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_Resume_Game" ID="{1ECF06D7-D99F-40C7-B98D-6CAEB34AF3A9}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -457,12 +487,9 @@
 										<Event Name="UI_Return_To_Main_Menu" ID="{4570DCEB-BA76-4EFF-9622-CDA2CFD2FA0C}">
 											<ChildrenList>
 												<Action Name="" ID="{516ECE6C-7AB6-490B-9092-CDF119DF80CE}" ShortID="702923994">
-													<PropertyList>
-														<Property Name="ActionType" Type="int16" Value="2"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="UI_GoTo_MainMenu" ID="{33F5BFB5-997F-4441-81B3-5B28B78FC357}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
+															<ObjectRef Name="UI_GoTo_MainMenu" ID="{5AA97CAA-BAD0-4EAF-934A-280D9ACCFB11}" WorkUnitID="{7379DA02-226A-47A6-BB38-D622EF791802}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

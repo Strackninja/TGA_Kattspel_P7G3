@@ -674,11 +674,24 @@
 									<ChildrenList>
 										<Folder Name="WaterGun_Fire" ID="{703BD637-3DF8-4F79-9B74-77E581E524E8}" ShortID="649734953">
 											<ChildrenList>
-												<ActorMixer Name="Water_Gun_Fire" ID="{2A2BB007-1D45-495D-9CFF-FAF8D7BCD580}" ShortID="877520541">
+												<RandomSequenceContainer Name="WaterGun_Fire" ID="{9592FE91-DFB3-4EEE-BE1B-F39C1CFFDE93}" ShortID="444533621">
 													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{59698ABD-8DF6-4894-AF28-A02F03381FC9}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="202"/>
+																			<Property Name="Min" Type="Real64" Value="-278"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>1</Value>
+																<Value>7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -691,7 +704,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_Fire_1" ID="{30BB4920-7D4B-4F1B-A5BC-4849510F277A}" ShortID="208775739">
+														<Sound Name="Player_Fire_1" ID="{77DDAAC4-2087-4795-BADB-7AA4E17507EB}" ShortID="206499743">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -701,10 +714,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Player_Fire_1" ID="{CD7D07A4-E5D6-4D6F-A66F-6B2E6AC9EBBA}">
-																	<PropertyList>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																	</PropertyList>
+																<AudioFileSource Name="Player_Fire_1" ID="{F3D8B522-7B68-4F4F-8A89-B83F040A7EBB}">
 																	<Language>SFX</Language>
 																	<AudioFile>Player_Fire_1.wav</AudioFile>
 																	<MediaIDList>
@@ -713,11 +723,55 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Player_Fire_1" ID="{CD7D07A4-E5D6-4D6F-A66F-6B2E6AC9EBBA}" Platform="Linked"/>
+																<ActiveSource Name="Player_Fire_1" ID="{F3D8B522-7B68-4F4F-8A89-B83F040A7EBB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_Fire_2" ID="{050E925E-B02D-4A2E-B12E-FF2A4C6BB1CE}" ShortID="345150963">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Fire_2" ID="{21866374-A250-40D8-8602-4EB1A983FE26}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Fire_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="391852966"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Fire_2" ID="{21866374-A250-40D8-8602-4EB1A983FE26}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_Fire_3" ID="{F10C817A-3B0D-4A30-B910-7F5E5AD31EA0}" ShortID="42485660">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Fire_3" ID="{5909A405-BC96-4E3F-ACC5-D19B537A61DC}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Fire_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="440198984"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Fire_3" ID="{5909A405-BC96-4E3F-ACC5-D19B537A61DC}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
-												</ActorMixer>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Watergun_Object_Hit" ID="{5FA026F8-CE86-4ACA-9653-B0D2A6218A2A}" ShortID="50793870">
@@ -850,7 +904,18 @@
 											<ChildrenList>
 												<Sound Name="Dog_Turret_Rotation" ID="{3A543836-AB76-4BE0-BC4D-4E9DB67FF583}" ShortID="703613754">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>28</Value>
+															</ValueList>
+														</Property>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>22</Value>
+															</ValueList>
+														</Property>
 														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -867,7 +932,12 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
-														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -896,6 +966,7 @@
 													</ChildrenList>
 													<PositioningInfo>
 														<Panner Name="" ID="{55A20ADA-9F51-405A-8CC3-104DACF874A6}"/>
+														<Position Name="" ID="{7333E9AF-55D6-468F-B6AB-B023444F6D90}"/>
 													</PositioningInfo>
 													<ObjectLists>
 														<ObjectList Name="Effects">
@@ -925,7 +996,14 @@
 											</ChildrenList>
 										</ActorMixer>
 										<ActorMixer Name="Dog_Cannon_Fire" ID="{F1CFB8E3-2B11-4124-AE02-AED2284A2410}" ShortID="778632376">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Dog_Cannon_Fire_Attenuation" ID="{09493DC0-58D8-4328-9699-18D81A6BCB2E}" WorkUnitID="{4BE54901-312D-46AB-9617-20C5437F9E32}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
 												</Reference>
@@ -938,7 +1016,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-8</Value>
+																<Value>-7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -964,6 +1042,9 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{03BE96A9-8065-4A8E-99F7-F42D0BD02C92}"/>
+											</PositioningInfo>
 										</ActorMixer>
 										<ActorMixer Name="Dog_Object_Hit" ID="{BB8A0D54-9097-4FEB-8BE7-2351E2C58A80}" ShortID="474654384">
 											<ReferenceList>
@@ -1014,13 +1095,19 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+													<ObjectRef Name="Enemy_Sounds_Bus" ID="{244E3FDA-CD79-43FF-A0FB-41048AC04B6B}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1037,7 +1124,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Enemy_Death_2_Whine" ID="{A50EDC03-0650-416D-83EA-FAE7E39F0ACE}" ShortID="591561566">
+														<Sound Name="Enemy_Death_Whine" ID="{C70423A4-B4CB-47CE-BD9F-7E7AE7BF4EBF}" ShortID="907074376">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1047,19 +1134,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_2_Whine" ID="{56D5E507-98C2-4A11-962A-180D22FF7EA0}">
+																<AudioFileSource Name="Dog_Death_1_Whine" ID="{9E4EC4B0-8A04-405D-BAD4-006B72B0F1E8}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_2_Whine.wav</AudioFile>
+																	<AudioFile>Dog_Death_1_Whine.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="1033671398"/>
+																		<MediaID ID="960977619"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_2_Whine" ID="{56D5E507-98C2-4A11-962A-180D22FF7EA0}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_1_Whine" ID="{9E4EC4B0-8A04-405D-BAD4-006B72B0F1E8}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_3_Whine" ID="{632AFE77-68BC-4521-9238-08FCE63DAF95}" ShortID="532547439">
+														<Sound Name="Enemy_Death_Whine_2" ID="{77F82ED8-9DCE-4337-A7C8-1F7DCE42CB18}" ShortID="904835541">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1069,19 +1156,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_3_Whine" ID="{9EAB10B2-3F2D-4957-A6CB-B48A1CCC4127}">
+																<AudioFileSource Name="Dog_Death_2_Whine" ID="{DC68AD99-3172-4C36-9EE7-0B543526DD6A}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_3_Whine.wav</AudioFile>
+																	<AudioFile>Dog_Death_2_Whine.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="324664314"/>
+																		<MediaID ID="578652563"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_3_Whine" ID="{9EAB10B2-3F2D-4957-A6CB-B48A1CCC4127}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_2_Whine" ID="{DC68AD99-3172-4C36-9EE7-0B543526DD6A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_4_Whine" ID="{812A4FF7-3D87-46EB-AD55-D33B9D9A9259}" ShortID="872466491">
+														<Sound Name="Enemy_Death_Whine_3" ID="{3A274EF4-8325-4D65-9222-589E88485FE6}" ShortID="211652347">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1091,19 +1178,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_4_Whine" ID="{D3E2BD3B-2DAC-4813-9F6A-3389FF9D6514}">
+																<AudioFileSource Name="Dog_Death_3_Whine" ID="{CE92B491-FE4F-441A-A292-14BE31E7186E}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_4_Whine.wav</AudioFile>
+																	<AudioFile>Dog_Death_3_Whine.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="661129669"/>
+																		<MediaID ID="99672123"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_4_Whine" ID="{D3E2BD3B-2DAC-4813-9F6A-3389FF9D6514}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_3_Whine" ID="{CE92B491-FE4F-441A-A292-14BE31E7186E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_Whine" ID="{7F7D67FF-85A2-4684-B3D3-EEBB7CB0C6C0}" ShortID="1021041932">
+														<Sound Name="Enemy_Death_Whine_4" ID="{B288300C-885E-4391-9706-2F7ECA0D1C7C}" ShortID="274211858">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1113,16 +1200,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_Whine" ID="{A94712D0-5A14-4610-9695-ABCCA9EEA4E9}">
+																<AudioFileSource Name="Dog_Death_4_Whine" ID="{5CE91496-88E7-4106-904E-D8794F7E252A}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_Whine.wav</AudioFile>
+																	<AudioFile>Dog_Death_4_Whine.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="680295735"/>
+																		<MediaID ID="824200190"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_Whine" ID="{A94712D0-5A14-4610-9695-ABCCA9EEA4E9}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_4_Whine" ID="{5CE91496-88E7-4106-904E-D8794F7E252A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1140,7 +1227,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Enemy_Death" ID="{C7236ECF-54C2-4B83-AE8E-623537190CD6}" ShortID="24515207">
+														<Sound Name="Enemy_Death" ID="{CC1F92B0-D5F5-4333-8DE1-F2D367131C14}" ShortID="142726334">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1150,19 +1237,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death" ID="{7B4C0168-9BA3-4F57-9AB9-5F1CD04DD701}">
+																<AudioFileSource Name="Dog_Death_1" ID="{A4035662-D0AB-4285-8900-215FC377D35C}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death.wav</AudioFile>
+																	<AudioFile>Dog_Death_1.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="893618364"/>
+																		<MediaID ID="186366773"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death" ID="{7B4C0168-9BA3-4F57-9AB9-5F1CD04DD701}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_1" ID="{A4035662-D0AB-4285-8900-215FC377D35C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_2" ID="{1D7F6542-BEF6-4EA4-BB05-B7F97A087FFA}" ShortID="807935743">
+														<Sound Name="Enemy_Death_2" ID="{6F9B44F7-44B3-4EAD-BD20-CFAE7B08F7F4}" ShortID="929744793">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1172,19 +1259,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_2" ID="{21C47CD9-D92A-4FF0-83D6-2BED6E57C567}">
+																<AudioFileSource Name="Dog_Death_2" ID="{0B8DA9F8-6F43-4DAD-A16C-26AF01B92AC0}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_2.wav</AudioFile>
+																	<AudioFile>Dog_Death_2.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="676413722"/>
+																		<MediaID ID="635474038"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_2" ID="{21C47CD9-D92A-4FF0-83D6-2BED6E57C567}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_2" ID="{0B8DA9F8-6F43-4DAD-A16C-26AF01B92AC0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_3" ID="{AB36EC82-B1D5-48D0-A84C-838290C0A9D2}" ShortID="447234497">
+														<Sound Name="Enemy_Death_3" ID="{58559D6F-BFB1-470E-9340-1EE6A4452B7C}" ShortID="819591209">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1194,19 +1281,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_3" ID="{333CF2B4-F738-4938-B218-3CE18873EDF6}">
+																<AudioFileSource Name="Dog_Death_3" ID="{4D472DD6-3285-4301-A964-8D256690E07C}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_3.wav</AudioFile>
+																	<AudioFile>Dog_Death_3.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="557693598"/>
+																		<MediaID ID="975361153"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_3" ID="{333CF2B4-F738-4938-B218-3CE18873EDF6}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_3" ID="{4D472DD6-3285-4301-A964-8D256690E07C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_4" ID="{B3673A5B-F2C8-43D4-B777-F89BDF55247E}" ShortID="924048121">
+														<Sound Name="Enemy_Death_4" ID="{B5C6DAEB-D663-42AB-B304-41AB3F4D5C03}" ShortID="229729418">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1216,21 +1303,24 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Enemy_Death_4" ID="{12DB0109-C76A-4755-9833-B2C168401225}">
+																<AudioFileSource Name="Dog_Death_4" ID="{401F27C5-E928-4766-969B-B6C2B8ECCDF0}">
 																	<Language>SFX</Language>
-																	<AudioFile>Enemy_Death_4.wav</AudioFile>
+																	<AudioFile>Dog_Death_4.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="842604417"/>
+																		<MediaID ID="648869092"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Enemy_Death_4" ID="{12DB0109-C76A-4755-9833-B2C168401225}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_4" ID="{401F27C5-E928-4766-969B-B6C2B8ECCDF0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D2A49CA2-0A43-4CD3-9CA3-04A538E4FCBB}"/>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
