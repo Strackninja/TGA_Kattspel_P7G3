@@ -284,6 +284,16 @@
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 													</PropertyList>
 													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{69FAA0CC-178E-4BB7-98F5-DB672A483860}" ShortID="455622625">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Head" ID="{8CDDB3BA-729E-484C-AAC5-02940F62E739}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
 														<MusicPlaylistItem Name="" ID="{67AC525E-6510-4242-91C8-BBEFAF48CA25}" ShortID="269712972">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="3"/>
@@ -359,61 +369,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Bass - Intro" ID="{92CD1706-1AAA-41C3-9517-94CEC998CF41}" ShortID="478491186">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{1B90319D-D458-4E87-98CF-CE6B2332C36F}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Bass - Intro" ID="{696ECC72-17DC-4937-8B6A-FFC20B99FCE4}">
-													<Language>SFX</Language>
-													<AudioFile>Bass - Intro.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="40179341"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{57C52ED7-A9B0-444F-A1F1-625E807C9043}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Bass - Intro" ID="{074D508D-584B-4470-B3A4-5CE4B7233A88}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Intro" ID="{696ECC72-17DC-4937-8B6A-FFC20B99FCE4}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
 										<MusicTrack Name="Guitar - Intro" ID="{2EF117F1-0CA4-44C3-A9F9-6F9EB7A6E59D}" ShortID="466025896">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -458,61 +413,6 @@
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Guitar - Intro" ID="{856436A9-21C8-433A-8088-4443CF0986A3}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Piano - Intro" ID="{312DD017-E02B-4A7F-8165-3D49E4F24222}" ShortID="427418797">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{99724325-07EE-4BE8-8073-4C700507C15B}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Piano - Intro" ID="{FA7321FB-2782-4554-871D-D33CE0B3890B}">
-													<Language>SFX</Language>
-													<AudioFile>Piano - Intro.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="24831456"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{4D121D2E-5E83-412B-83B1-8471339D3C91}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Piano - Intro" ID="{06DE4A7B-E6AF-46A0-B4D4-AF0D8ADE8C72}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Intro" ID="{FA7321FB-2782-4554-871D-D33CE0B3890B}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -626,6 +526,110 @@
 																							</Curve>
 																						</PropertyCurve>
 																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass - Intro" ID="{19AC9D1D-AAAE-406C-B7A9-69EC668C1E42}" ShortID="383750052">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{33CAB5A4-ACE4-43C2-96A0-0BA8AE962F7B}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass - Intro" ID="{12C5F757-1216-4CA4-B10A-B5F7E5EBD3D4}">
+													<Language>SFX</Language>
+													<AudioFile>Bass - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="40179341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{780C871B-815F-424B-8238-B7F650AE0FE0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass - Intro" ID="{97C4C6CF-FE85-4FF6-AA1E-EC604C4710BC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass - Intro" ID="{12C5F757-1216-4CA4-B10A-B5F7E5EBD3D4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano - Intro" ID="{5DC3A7B9-BBD4-40FF-81CF-45E7EDAB56E1}" ShortID="180121050">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{1943A5EE-72C9-4108-AD00-9CC85A705509}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano - Intro" ID="{6BF59F20-6B20-42A9-B158-97D3B8803A0D}">
+													<Language>SFX</Language>
+													<AudioFile>Piano - Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="24831456"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C52AA1F7-19D6-4976-8327-8FFA9B8AB629}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano - Intro" ID="{5AFD70EE-DF70-4E16-8F0C-8FDF671FE0A8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10905.3958333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano - Intro" ID="{6BF59F20-6B20-42A9-B158-97D3B8803A0D}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -1618,6 +1622,92 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
+								<MusicSegment Name="Head" ID="{8CDDB3BA-729E-484C-AAC5-02940F62E739}" ShortID="241883749">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="57243.2432432432"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Skyline Feline - Level 2 theme" ID="{6A3B3160-E97B-42EE-801E-6298C539E1C7}" ShortID="933257565">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5F088F32-AB5F-41F8-81AE-504DFE82CEAF}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Skyline Feline - Level 2 theme" ID="{FF61070B-BBCD-4051-AC4A-8FA7F9059FA2}">
+													<Language>SFX</Language>
+													<AudioFile>Skyline Feline - Level 2 theme.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95896613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3284A235-C19E-4807-9876-49361F44300E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Skyline Feline - Level 2 theme" ID="{5B31CD20-F2C5-480D-80B1-128E078EF9A4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54557.9166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Skyline Feline - Level 2 theme" ID="{FF61070B-BBCD-4051-AC4A-8FA7F9059FA2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8A4422CB-BD3D-4AC6-8638-66A741D31673}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{212ACA1E-B1E6-42C7-A490-608233C9E15F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="51891.8918918919"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
 							</ChildrenList>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="LVL_1_MUSIC" ID="{EF840D05-7255-4E96-926B-404F784A9C94}" ShortID="127022912">
@@ -1821,162 +1911,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Bass - Head" ID="{556B2898-7FBA-41AA-A888-00573E73EFE7}" ShortID="464005412">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{C2B2F502-24C5-4815-BB07-A94BF8A25081}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Bass - Head" ID="{095523E5-09C1-482B-9781-38568A50C804}">
-													<Language>SFX</Language>
-													<AudioFile>Bass - Head.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="937899766"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{5B6CC59E-A4BC-4767-A561-E1E0FF76B6A3}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Bass - Head" ID="{6AF1E1EB-AD10-4B1F-8011-5458F76864FE}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Head" ID="{095523E5-09C1-482B-9781-38568A50C804}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Drums - Head" ID="{A8A8BE03-5BB8-4130-9715-A5D75AF3E128}" ShortID="377760000">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{7BC2CBB6-25E3-4DA1-9F9A-36BE525FFF08}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Drums - Head" ID="{EF2AEA43-699F-4968-AE9A-10B9046A6F4E}">
-													<Language>SFX</Language>
-													<AudioFile>Drums - Head.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="524569682"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{28E75D7E-B61B-44B2-9617-5396161EEA3D}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Drums - Head" ID="{7153A092-0031-426D-939F-721436D539D7}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Drums - Head" ID="{EF2AEA43-699F-4968-AE9A-10B9046A6F4E}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Piano - Head" ID="{AC2FE2B5-4877-4759-8DE5-EBE7384F54BD}" ShortID="648167265">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{24481F20-70CD-42FC-917C-B2EF68E014DC}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Piano - Head" ID="{89B74D0A-16F8-4F51-99E4-63749EFAE268}">
-													<Language>SFX</Language>
-													<AudioFile>Piano - Head.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="588597617"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{D9B8DFB1-C339-4E7E-A013-1F60A453C603}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Piano - Head" ID="{57C91E25-8C96-4A63-9753-52C8235727E4}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Head" ID="{89B74D0A-16F8-4F51-99E4-63749EFAE268}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
 										<MusicTrack Name="Strings - Head" ID="{E7EB8AE6-A521-44BD-882F-3ED5CFCD87DB}" ShortID="1034777311">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
@@ -2098,6 +2032,162 @@
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Trombones - Head" ID="{7CFFA3DF-7A61-4834-A5E4-4236A3A48259}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano - Head" ID="{43EEDEF1-965A-458C-85CE-39B294FF2E91}" ShortID="757918968">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{B49D6EC2-BA30-4A04-B84A-E639CE619B52}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano - Head" ID="{031E951B-A743-4510-9185-289D259628C3}">
+													<Language>SFX</Language>
+													<AudioFile>Piano - Head.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="588597617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4F150D12-6304-4008-85CC-711BF92DA336}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano - Head" ID="{E82823B7-A930-4530-9849-342882905E93}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano - Head" ID="{031E951B-A743-4510-9185-289D259628C3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drums - Head" ID="{7186DFC3-9858-4400-B5D4-83B9B14E12D9}" ShortID="850259759">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F1E69CBB-603C-4DFB-97F7-050C65C6F57F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drums - Head" ID="{537E54C3-2254-4268-9D13-8D0A9F858B18}">
+													<Language>SFX</Language>
+													<AudioFile>Drums - Head.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="524569682"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3BE197F0-E4F4-4086-B626-8520D65E5FF5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drums - Head" ID="{5D47A031-25D3-4345-80B9-ACF59EC18CE6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drums - Head" ID="{537E54C3-2254-4268-9D13-8D0A9F858B18}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass - Head" ID="{D12EAA70-E11E-4EAE-ABF4-8CB591A59CB1}" ShortID="633008266">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{1849DBAF-95DF-4CAA-9368-9F5D92E00BAD}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass - Head" ID="{69E6C204-1830-4F3C-8BB3-CD1046B948CB}">
+													<Language>SFX</Language>
+													<AudioFile>Bass - Head.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="937899766"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9194DD93-DD0F-4BF5-9A18-7049B42BC2F5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass - Head" ID="{B2D3E79A-3750-4A25-A659-AA0A2BA20B14}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass - Head" ID="{69E6C204-1830-4F3C-8BB3-CD1046B948CB}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
