@@ -1719,7 +1719,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+									<ObjectRef Name="Music_Bus" ID="{A4F5065A-9B73-48AE-9F2B-850CC0021FD6}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 								</Reference>
 								<Reference Name="PlaylistRoot">
 									<Custom>
@@ -1731,61 +1731,1012 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
-															<ObjectRef Name="Intro" ID="{14965BF7-7485-4D2C-8CD9-86655A1BB202}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+															<ObjectRef Name="LVL_1_Intro" ID="{14965BF7-7485-4D2C-8CD9-86655A1BB202}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 														</Reference>
 													</ReferenceList>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{A022D78E-4DA1-4947-AB57-C3FA973A3ACB}" ShortID="52205428">
+												<MusicPlaylistItem Name="" ID="{66FC6012-B631-4196-947E-7EAE776E0AB4}" ShortID="821924662">
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{18577F6B-EDC6-4626-BFEE-16A5C3CB510D}" ShortID="355792796">
+														<MusicPlaylistItem Name="" ID="{63448F53-04C7-4980-BAE7-EB6685FF4573}" ShortID="654339110">
 															<PropertyList>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="Head" ID="{351D8CEF-26CB-4760-A759-C5662B594464}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																	<ObjectRef Name="LVL_1_Head" ID="{351D8CEF-26CB-4760-A759-C5662B594464}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{7D790CBB-6254-49F1-885B-45EA35E2AB21}" ShortID="717459060">
+														<MusicPlaylistItem Name="" ID="{A022D78E-4DA1-4947-AB57-C3FA973A3ACB}" ShortID="52205428">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="3"/>
-																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-																<Property Name="PlayMode" Type="int16" Value="3"/>
+																<Property Name="PlayMode" Type="int16" Value="1"/>
 															</PropertyList>
 															<ChildrenList>
-																<MusicPlaylistItem Name="" ID="{744B4E1B-DC0C-4891-B418-A9E556F81884}" ShortID="242059679">
+																<MusicPlaylistItem Name="" ID="{AB8977EC-150E-408F-9B88-42280BF9B4DF}" ShortID="1016877374">
 																	<PropertyList>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Segment">
-																			<ObjectRef Name="Solo_Clarinet" ID="{11D16D84-9EF1-40EB-80FC-C2118B7BCEA6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																			<ObjectRef Name="Flute_Branch_A" ID="{A3683D4F-1FFC-417A-B543-9644B3371EC0}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 																		</Reference>
 																	</ReferenceList>
 																</MusicPlaylistItem>
-																<MusicPlaylistItem Name="" ID="{22A7650C-338A-42A9-B67A-17E33E0DD11F}" ShortID="869285137">
+																<MusicPlaylistItem Name="" ID="{45C55815-A200-4C29-9BFF-7C211AC563F6}" ShortID="331747358">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{57E81F13-54B8-44F6-AEE5-3322F857092A}" ShortID="10439953">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{6D1F5605-0687-4908-AF70-43AE84BC5FD9}" ShortID="665693372">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{B5EEAEB3-9331-4C9A-98FB-07E55F6D35B9}" ShortID="404482338">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{8BFE336C-3AD4-4D86-B96F-F151822EB42B}" ShortID="966912972">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{2101286D-23EB-49F2-A6E2-9A93421A2B8B}" ShortID="529422054">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{6CE8DA81-441D-4B5B-BF48-3FA4C8E1B994}" ShortID="544971466">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{22E4E02E-95E5-4F07-AC45-6F513670EBA2}" ShortID="987259662">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{B360F984-73FF-46DD-8E17-CF11A0841681}" ShortID="305732486">
+															<PropertyList>
+																<Property Name="PlayMode" Type="int16" Value="1"/>
+															</PropertyList>
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{E995442B-E00F-4ECB-B374-BAA3DE9312F3}" ShortID="544201170">
 																	<PropertyList>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Segment">
-																			<ObjectRef Name="Solo_Flute" ID="{1D26D5E9-C535-440D-A938-597F5FB3C6BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																			<ObjectRef Name="Flute_Branch_B" ID="{054E7312-DAEB-4A7B-980E-F03CD41DEC70}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 																		</Reference>
 																	</ReferenceList>
 																</MusicPlaylistItem>
-																<MusicPlaylistItem Name="" ID="{C46A7D7A-9263-435B-9F6C-3CECE3A291B5}" ShortID="581561371">
+																<MusicPlaylistItem Name="" ID="{A06D41AD-4294-4419-BBC8-A4F041B33811}" ShortID="997299170">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{5E8E23E4-E3F9-4A4C-A083-F4B84CDD2C6C}" ShortID="888982649">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{515DB001-9329-450A-9D27-BC74401326BF}" ShortID="18505695">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{3560A345-FD00-46A1-A6C1-7E6023399EE2}" ShortID="1000024580">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{3DF3994C-E4DC-4AC8-8B1C-ADA3CA4E0297}" ShortID="123277915">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{7CF8C348-31DF-4D55-B07F-AA9CDA7E2462}" ShortID="425961735">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{2DF55D5C-22F7-437F-8C43-8A8732939E39}" ShortID="37727694">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{C75A469C-058E-40C1-A42C-217D75BCF128}" ShortID="693081522">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{40880B8F-AAEA-4BCC-B5CF-4107447442F4}" ShortID="420831041">
+															<PropertyList>
+																<Property Name="PlayMode" Type="int16" Value="1"/>
+															</PropertyList>
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{3220835B-C8C3-4D07-95AE-F862D5CBC0E6}" ShortID="523420342">
 																	<PropertyList>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Segment">
-																			<ObjectRef Name="Solo_Saxophone" ID="{6475E786-40A3-4F39-86DE-3695B50DA119}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																			<ObjectRef Name="Guitar_Branch_A" ID="{75607168-DBEC-449B-B2DC-A7E185DB7CC0}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 																		</Reference>
 																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{263A4064-9E1F-49D8-A3F1-8D5274EAB8D6}" ShortID="277270044">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{337628E7-5051-44C2-80EF-47821C3E4CF5}" ShortID="441133200">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{5DCE2591-292C-48FE-966C-ECF665264B5E}" ShortID="1039325103">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{8DD2CEF5-B3E1-4D45-ABFF-96D8E55A2557}" ShortID="158995642">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_A" ID="{60D2FBAA-BE4F-499D-AE38-FA16AF40E66D}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{DE20F0AA-4A9B-46F4-9F73-CD5F5A0E79C8}" ShortID="979676093">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_A" ID="{271208A4-1F1A-40C4-A6C2-F14AA791178C}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{653BC339-ABF0-4ADB-9D4F-069A21998B25}" ShortID="180990015">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{017519CA-76DA-4F9C-A007-A0AABE7B29BC}" ShortID="583918260">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{9B3ED026-5757-4903-BA58-50EBC445EE44}" ShortID="526437776">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{38C8D61E-84B1-483A-8662-74131FCD425C}" ShortID="722644230">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{554C8154-DDE1-4D2B-B757-2AB61FFBBE47}" ShortID="287688014">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Guitar_Branch_B" ID="{826D164E-354D-4BA0-A354-CBDBA013AA27}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{DBB8FBFE-0158-4865-B721-257527582246}" ShortID="89615729">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{38C2D14A-27F1-497D-A9FA-17B664701061}" ShortID="782920071">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{147B69AE-BC2D-45CE-98AA-5F69045EE5E3}" ShortID="159718380">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{614FA359-46C7-4DDF-9135-F5804CF7640F}" ShortID="644454885">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{A15CE577-AED0-4D1F-BCD6-1F7FA035F524}" ShortID="378882095">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{5AF68540-CEAD-48BB-AEE8-EE1D1EEDE8BD}" ShortID="838554435">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{319E2C59-28A9-4CCC-A26A-EE9A05D9661A}" ShortID="264257910">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{7EF4BACB-2C31-4C49-8104-DAFCDB7B8AEF}" ShortID="383416648">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{706A0054-B3D2-4909-BC76-C2C62847DE99}" ShortID="409001198">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{3C7C4FF7-FE31-4950-B2E6-3AD4A84B1582}" ShortID="31492386">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Piano_Branch_A" ID="{12E2992F-4110-4ABC-8DF5-6912443BE7FE}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{C590CC40-8BE1-4A48-80E1-F884A60ACFFC}" ShortID="564293714">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{0B15D4D9-88F3-48E0-939B-4B618AA8FDC3}" ShortID="717948912">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{F0A2284B-6988-47F1-997A-91BC98AC1ED0}" ShortID="397433254">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{06308133-B33C-41D0-9E85-064226F671AC}" ShortID="942002315">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{4811C2D2-FD2B-4879-A240-FAE2DD946BF1}" ShortID="850870252">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{02BCFEE6-8AB2-4F4D-8D1E-29BCAE0811D3}" ShortID="618758951">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_A" ID="{60D2FBAA-BE4F-499D-AE38-FA16AF40E66D}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{35282D7B-409E-49AE-97E7-43E3F4BC2D3A}" ShortID="211985467">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_A" ID="{271208A4-1F1A-40C4-A6C2-F14AA791178C}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{995729FF-B4CB-4982-81D3-AB2823C414B4}" ShortID="648961467">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{3D0A2639-7BF7-48DA-AF69-1D6E32A73D8E}" ShortID="716238869">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{D3CC0C26-37EA-4D00-A116-E108CF485936}" ShortID="693424770">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Piano_Branch_B" ID="{8A4BEF38-E959-4810-BAA1-83251D963C22}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{E1304030-33ED-4897-A9B8-6340A31DE5A4}" ShortID="902044756">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{37CAB5E5-E81D-46C4-B211-94328B4E1786}" ShortID="891189097">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{53C20C4F-DFF7-42AE-B64E-B1F01060DA77}" ShortID="852264300">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{F863D9DE-FF20-4905-BF38-E54C9B26B778}" ShortID="751865976">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{5068809B-8AE7-442E-A323-2C6524BF68F5}" ShortID="551431438">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{344DC66B-B468-40CA-AFDF-9449F6F1BDF4}" ShortID="612830856">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{F528013E-AACC-4608-BC9C-6F5ACD79397C}" ShortID="112256595">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{0DA116D2-7450-40BF-96BB-F45AA7935255}" ShortID="144022347">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{6F627C9E-7312-4A77-8693-BBE3235B291F}" ShortID="862331562">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{6061674B-F614-4AC7-BBA0-A43142E29989}" ShortID="512648409">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="AltoSaxophone1_A_Branch" ID="{D7973C1A-D83F-4F9D-80C3-C0378968EB3B}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{134E520B-464E-4507-8EA3-47D5F37D26E4}" ShortID="347539620">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{359CA4AD-EB10-4E41-A595-2EE626750691}" ShortID="575902545">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Saxophone_Solo_1_A" ID="{60D2FBAA-BE4F-499D-AE38-FA16AF40E66D}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{46BA8DA5-EAE6-4136-B256-2B2625BC2FD7}" ShortID="157234794">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{DA3A0CB2-6322-418D-879E-BA641A99B168}" ShortID="451985146">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{B1546F7E-6A65-4231-8515-FD3FC1FA57AF}" ShortID="196921465">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{7FB54C3E-6E71-45EA-9B22-6427E9B42D3E}" ShortID="136598957">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{BB54267B-72E1-40FE-B25C-D5B842D09B25}" ShortID="746043257">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{A0281FA6-6264-4275-9F07-CB05FEA110E3}" ShortID="272086724">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{B4A8838C-48F9-4011-9F50-122F5C1C4A33}" ShortID="142989030">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="AltoSaxophone1_B_Branch" ID="{3DB8968D-7F36-41AA-9051-1AE2A50B69D1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{50F8AFB1-781D-4721-9525-7C8631089ADF}" ShortID="461546586">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{38C3872F-0569-4A08-A7AE-73E5F17A160B}" ShortID="153855191">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{73058D48-3205-46C2-85F3-0135ABDF231D}" ShortID="308822531">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{99AFA3D1-E2E6-467B-8B20-D26DF0655BDD}" ShortID="264239687">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{EB2A307B-E059-4D6C-AAB3-9D9ED3617365}" ShortID="977592173">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{BB954E1F-5C2A-4EED-9C51-67F1CCCE8AAB}" ShortID="651460553">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{AB437ED8-F742-4416-A6A4-C44F7CE244AA}" ShortID="774716961">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{FE741767-33DB-481E-AF8F-46722F69422C}" ShortID="801757963">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{F1125387-E76F-4733-9F57-8838A9DBCF03}" ShortID="1023833735">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="AltoSaxophone2_A_Branch" ID="{A4F0F8B2-A842-4A0D-929A-34AA12A8C84A}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{CF097E62-AF32-413D-A625-DD31B52AAC32}" ShortID="802545156">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{5EFD8278-41C5-4080-91A0-F6701E9E8734}" ShortID="178071017">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Saxophone_Solo_2_A" ID="{271208A4-1F1A-40C4-A6C2-F14AA791178C}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{2D673F13-610E-4EC7-A553-DBADDA6BE5E8}" ShortID="711883839">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{197E612D-5D4A-4CFC-8E96-CECFC74CFFF2}" ShortID="826879013">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{0DF75418-1136-467A-A3BD-125AA2120CA8}" ShortID="419557770">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{E32A89FD-7213-4A2C-8062-A923D0EB27AE}" ShortID="114923239">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{430518C7-3C02-41EC-A51C-BA3C2D09A22C}" ShortID="1018056170">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{AE90323A-36AE-4758-9A3D-77CBA436737D}" ShortID="385502694">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{055349F5-7FE4-4F3A-B479-5F457CF192B1}" ShortID="740532869">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="AltoSaxophone2_B_Branch" ID="{14FA4DAD-0808-443D-829C-FFB0B6003520}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{53B5457D-AA88-487A-857A-A9A4E059B7FF}" ShortID="814483216">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{8A06554B-711D-4075-9A9E-AC5460E2AA73}" ShortID="254097052">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{EAD27B66-857A-4F96-9013-E4A5143FEB38}" ShortID="821465178">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{FD152804-96A7-4B0E-8C6F-A0C213AAF9A9}" ShortID="569826248">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{CA2527D4-FFAC-4AD8-83A5-A1E4389348AD}" ShortID="689039586">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{588F5F73-0FFD-450E-AB9C-C2AC8B2120AA}" ShortID="650100123">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{34432F2E-C19B-4DBD-9F82-8C2BEC4BC3ED}" ShortID="875190569">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{F6C2A896-9C21-42B3-98DD-B970AC5B114C}" ShortID="340431127">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{440CF532-9451-45C0-A790-3F2F088E6E54}" ShortID="596612580">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Soprano_Branch_A" ID="{E60C4540-0AF7-44B7-9717-C62432039FB7}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{4C952037-7444-4893-989E-4A46BA17FF9D}" ShortID="369082706">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{AA34EBC7-71FD-42B7-9A41-4A3B05FF065E}" ShortID="113582568">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{0D3494B6-6181-4D43-8573-433D779D3AB9}" ShortID="819880707">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{0CAFB7B0-6AD7-437F-A95A-3961A2C6F4C1}" ShortID="446658365">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{C3B554A4-7616-47DC-B47F-436940E0A0B2}" ShortID="655561229">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{5106E18D-0DFD-42C5-B1C2-5CBC73403D79}" ShortID="147610648">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{FA084BD4-BDB5-4E67-9A99-A02D0B09A94E}" ShortID="240185257">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{9CA4794F-9AA4-4E43-A779-87F48E5CC069}" ShortID="206649809">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
+																</MusicPlaylistItem>
+															</ChildrenList>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{49136724-B6C9-4DE2-BB11-B76524C59921}" ShortID="66061712">
+															<ChildrenList>
+																<MusicPlaylistItem Name="" ID="{49B14408-48B2-4997-AF8C-CFCEE9EED0ED}" ShortID="790523802">
+																	<PropertyList>
+																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Segment">
+																			<ObjectRef Name="Soprano_Branch_B" ID="{457D4455-5904-4EA1-967E-6DA9F586D314}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																		</Reference>
+																	</ReferenceList>
+																</MusicPlaylistItem>
+																<MusicPlaylistItem Name="" ID="{76F4950E-946C-43E0-A1E2-BD53EDA49770}" ShortID="110107845">
+																	<ChildrenList>
+																		<MusicPlaylistItem Name="" ID="{2143BD9D-7266-488D-A879-9BD5EB491CAA}" ShortID="511899301">
+																			<PropertyList>
+																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="Segment">
+																					<ObjectRef Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicPlaylistItem>
+																		<MusicPlaylistItem Name="" ID="{7E9D4D3E-9E51-4EA1-AF9F-7B733CE38697}" ShortID="209241875">
+																			<PropertyList>
+																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicPlaylistItem Name="" ID="{CE139282-31D0-49BF-BCB6-78D65965D8D9}" ShortID="688223105">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{C42FF2F3-E8C8-4184-8A9B-B405B3C27566}" ShortID="858364408">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{01CC375D-DC97-4271-8B29-19EDF53E5308}" ShortID="1072288333">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{10ACDC66-64BF-47E9-9286-E62C923EDA8A}" ShortID="420651430">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_1_A" ID="{60D2FBAA-BE4F-499D-AE38-FA16AF40E66D}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																				<MusicPlaylistItem Name="" ID="{B7F67DFA-2843-4538-8177-A94E4A9372A7}" ShortID="436107068">
+																					<PropertyList>
+																						<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Segment">
+																							<ObjectRef Name="Saxophone_Solo_2_A" ID="{271208A4-1F1A-40C4-A6C2-F14AA791178C}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+																						</Reference>
+																					</ReferenceList>
+																				</MusicPlaylistItem>
+																			</ChildrenList>
+																		</MusicPlaylistItem>
+																	</ChildrenList>
 																</MusicPlaylistItem>
 															</ChildrenList>
 														</MusicPlaylistItem>
@@ -1812,7 +2763,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Intro" ID="{14965BF7-7485-4D2C-8CD9-86655A1BB202}" ShortID="905917426">
+								<MusicSegment Name="LVL_1_Intro" ID="{14965BF7-7485-4D2C-8CD9-86655A1BB202}" ShortID="905917426">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="7300.45351473923"/>
 									</PropertyList>
@@ -1825,14 +2776,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Skyline Feline - Level 1" ID="{28C5F038-0A59-4591-95E4-E1E37949D947}" ShortID="93504046">
+										<MusicTrack Name="Alto_Sax_Intro_Lvl1" ID="{1654A451-6FAA-41D4-80B9-E7D3B2B09D4A}" ShortID="465536223">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{ECB368B4-3315-4954-AEB6-A7A02297FFD9}">
+														<MusicTransition Name="Root" ID="{6F150C1B-4ED2-407C-AB46-33558D35AB2E}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -1842,11 +2793,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Skyline Feline - Level 1" ID="{58B3D946-31B6-4D8C-8BB5-8CC5A07F5FED}">
+												<AudioFileSource Name="Alto_Sax_Intro_Lvl1" ID="{9ECAD7FF-8650-4395-BE63-2DD7899E0B85}">
 													<Language>SFX</Language>
-													<AudioFile>Skyline Feline - Level 1.wav</AudioFile>
+													<AudioFile>Alto_Sax_Intro_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="800021526"/>
+														<MediaID ID="82105321"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1854,18 +2805,330 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{632D4B54-0AA7-4942-9EDE-A66C3EDB43D6}">
+															<MusicTrackSequence Name="" ID="{5E109312-1A14-436F-9B15-DFAF053B71FB}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Skyline Feline - Level 1" ID="{2A36C201-00CF-46AC-95C2-736B830D016A}">
+																				<MusicClip Name="Alto_Sax_Intro_Lvl1" ID="{A4E3E1D6-CA6E-4384-819A-40D16AF1A334}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="7300.45351473923"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="4301.72335600907"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Skyline Feline - Level 1" ID="{58B3D946-31B6-4D8C-8BB5-8CC5A07F5FED}"/>
+																					<AudioSourceRef Name="Alto_Sax_Intro_Lvl1" ID="{9ECAD7FF-8650-4395-BE63-2DD7899E0B85}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Bass_Intro_Lvl1" ID="{961A398A-1AE8-4E2B-8B91-D2A75A9B1263}" ShortID="951091036">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{665925B4-72E4-4758-9607-8396D0EC7C0F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bass_Intro_Lvl1" ID="{F9469B90-0CF1-49BA-A225-56FD440DC9F7}">
+													<Language>SFX</Language>
+													<AudioFile>Bass_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="758195303"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{600D679C-08DF-4D27-8AC1-395B52D99E98}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Bass_Intro_Lvl1" ID="{F9B3301C-3E1D-42CD-87B9-732C5EED9FBF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5787.80045351474"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Bass_Intro_Lvl1" ID="{F9469B90-0CF1-49BA-A225-56FD440DC9F7}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Drums_Intro_Lvl1" ID="{4882335A-9083-4E79-B2C8-2F5D48FD1F40}" ShortID="278924061">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{11FBEBA9-C04B-47D2-9BE8-6CA943B6916E}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drums_Intro_Lvl1" ID="{E600D084-9774-42C9-ACFB-104AA9D41416}">
+													<Language>SFX</Language>
+													<AudioFile>Drums_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="482468804"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B7A6A8EA-1CE4-4D4C-9F83-CB85DF7EB27C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Drums_Intro_Lvl1" ID="{07148A76-4A8A-4642-90F7-B1FE524D2DFC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5787.80045351474"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Drums_Intro_Lvl1" ID="{E600D084-9774-42C9-ACFB-104AA9D41416}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Flute_Intro_Lvl1" ID="{820BC56E-3FFF-4364-97B0-9FB6D15E74CE}" ShortID="687666433">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{19B70CAE-D4BE-48F9-AB9E-CE73125052CD}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flute_Intro_Lvl1" ID="{F42869B3-5640-4076-AC05-B742B11DDEBA}">
+													<Language>SFX</Language>
+													<AudioFile>Flute_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671514796"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C739623D-34B0-4FF2-B714-53D4702D44B8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Flute_Intro_Lvl1" ID="{1EA8937A-FD91-427A-94E5-11E08E750A4E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="4301.72335600907"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Flute_Intro_Lvl1" ID="{F42869B3-5640-4076-AC05-B742B11DDEBA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Piano_Intro_Lvl1" ID="{4FE4995E-82EE-410B-B728-6F5D71049D5E}" ShortID="109176879">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{049571C4-7EFE-42BA-8956-A7DD6124BA82}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Piano_Intro_Lvl1" ID="{B3BA77F7-4DFC-494F-9CFC-30A2BCF9DAF2}">
+													<Language>SFX</Language>
+													<AudioFile>Piano_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="54890422"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{23850DB6-482B-4EB5-9428-0FDD57E3CDBA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Piano_Intro_Lvl1" ID="{E0729BA1-299D-48B0-B806-2D401235A7C9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5787.80045351474"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Piano_Intro_Lvl1" ID="{B3BA77F7-4DFC-494F-9CFC-30A2BCF9DAF2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Soprano_Sax_Intro_Lvl1" ID="{1E854E5F-E572-46CD-ACB2-A42D628C267B}" ShortID="629406776">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{FCA5D37B-9511-40D6-B872-FDB9E91B0F01}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soprano_Sax_Intro_Lvl1" ID="{A5812C1D-DAFB-464F-81F3-0B73E0BDA7F8}">
+													<Language>SFX</Language>
+													<AudioFile>Soprano_Sax_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="881726281"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{01CA3EA2-9D37-4201-9170-4A910972804A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Soprano_Sax_Intro_Lvl1" ID="{9A44FB9A-AABD-403E-8C59-27CC3E67BA33}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="4301.72335600907"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Soprano_Sax_Intro_Lvl1" ID="{A5812C1D-DAFB-464F-81F3-0B73E0BDA7F8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Trombones_Intro_Lvl1" ID="{BA826B58-38ED-42E7-A014-288957B120F3}" ShortID="38529859">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{991306C8-A50C-48B6-AD90-DEB41611EF6F}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Trombones_Intro_Lvl1" ID="{272208B4-CDB9-4A46-87A9-4CEE21104E60}">
+													<Language>SFX</Language>
+													<AudioFile>Trombones_Intro_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="69912988"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{42C0CFC4-5D34-4B98-95AC-EDAEB5FCE3B8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Trombones_Intro_Lvl1" ID="{19B0E21B-F38A-4E28-B752-6D2F951D608F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5787.80045351474"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Trombones_Intro_Lvl1" ID="{272208B4-CDB9-4A46-87A9-4CEE21104E60}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -1898,7 +3161,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="Head" ID="{351D8CEF-26CB-4760-A759-C5662B594464}" ShortID="343853864">
+								<MusicSegment Name="LVL_1_Head" ID="{351D8CEF-26CB-4760-A759-C5662B594464}" ShortID="343853864">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="73043.4782608696"/>
 									</PropertyList>
@@ -1911,21 +3174,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Strings - Head" ID="{E7EB8AE6-A521-44BD-882F-3ED5CFCD87DB}" ShortID="1034777311">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Alto_Sax_Head_Lvl1" ID="{449C74E2-2266-4D92-8D25-3861DEE89E27}" ShortID="63643295">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{8DA67CA4-1376-4EE2-B680-32B75AFAEE6C}">
+														<MusicTransition Name="Root" ID="{4F6DA03C-F68C-43B8-B824-09EA786B8B5D}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -1935,11 +3191,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Strings - Head" ID="{0436BA13-B60C-4A7E-A114-A3BCBC66633D}">
+												<AudioFileSource Name="Alto_Sax_Head_Lvl1" ID="{C0F4EDB1-7849-4A3A-88F0-E5CAC6502A7A}">
 													<Language>SFX</Language>
-													<AudioFile>Strings - Head.wav</AudioFile>
+													<AudioFile>Alto_Sax_Head_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="413223479"/>
+														<MediaID ID="790168655"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1947,39 +3203,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{A6475ABD-E871-45FF-8563-128FA343F23F}">
+															<MusicTrackSequence Name="" ID="{84593C67-1887-429E-AE93-845E57F79EC4}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Strings - Head" ID="{8B1ED31C-D3E2-4EB6-9F72-0B84635CF700}">
+																				<MusicClip Name="Alto_Sax_Head_Lvl1" ID="{3899074A-2AE4-4972-805B-C091C1031D3C}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="62608.7074829932"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Strings - Head" ID="{0436BA13-B60C-4A7E-A114-A3BCBC66633D}"/>
-																					<PropertyCurveList>
-																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{CDC72D6C-348A-4FEA-B586-1FC65E3B9BFF}">
-																								<PropertyList>
-																									<Property Name="Flags" Type="int32" Value="1"/>
-																								</PropertyList>
-																								<PointList>
-																									<Point>
-																										<XPos>0</XPos>
-																										<YPos>-28.29293</YPos>
-																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>63.7713832199547</XPos>
-																										<YPos>-28.29293</YPos>
-																										<Flags>37</Flags>
-																									</Point>
-																								</PointList>
-																							</Curve>
-																						</PropertyCurve>
-																					</PropertyCurveList>
+																					<AudioSourceRef Name="Alto_Sax_Head_Lvl1" ID="{C0F4EDB1-7849-4A3A-88F0-E5CAC6502A7A}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -1991,14 +3226,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="Trombones - Head" ID="{34F74CE0-D6E3-43D0-8CE8-3CFE5EF659B7}" ShortID="501204326">
+										<MusicTrack Name="Bass_Head_Lvl1" ID="{8942360E-7888-49F7-9488-374132F15417}" ShortID="3527326">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{C6DA3285-2D08-48E5-B8FC-618135F26AC3}">
+														<MusicTransition Name="Root" ID="{9BF853C5-459E-4767-A5F9-C3E7AD13C864}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -2008,11 +3243,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Trombones - Head" ID="{7CFFA3DF-7A61-4834-A5E4-4236A3A48259}">
+												<AudioFileSource Name="Bass_Head_Lvl1" ID="{BB4480DA-0D9B-4084-8A16-2246F8880B73}">
 													<Language>SFX</Language>
-													<AudioFile>Trombones - Head.wav</AudioFile>
+													<AudioFile>Bass_Head_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="7207771"/>
+														<MediaID ID="944011977"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2020,18 +3255,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{939D36E3-2E32-406C-9C4A-59E4206A8494}">
+															<MusicTrackSequence Name="" ID="{F2B511E3-8780-42CD-8D11-1D61D86497DA}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Trombones - Head" ID="{0FEC8596-513C-4B80-B608-4D276D50DA7C}">
+																				<MusicClip Name="Bass_Head_Lvl1" ID="{1671AC03-0E7A-41B1-867B-EC96C9731348}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Trombones - Head" ID="{7CFFA3DF-7A61-4834-A5E4-4236A3A48259}"/>
+																					<AudioSourceRef Name="Bass_Head_Lvl1" ID="{BB4480DA-0D9B-4084-8A16-2246F8880B73}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -2043,14 +3278,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="Piano - Head" ID="{43EEDEF1-965A-458C-85CE-39B294FF2E91}" ShortID="757918968">
+										<MusicTrack Name="Drums_Head_Lvl1" ID="{E67269B6-2ED3-4EAD-83C1-0087553D0512}" ShortID="366554008">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{B49D6EC2-BA30-4A04-B84A-E639CE619B52}">
+														<MusicTransition Name="Root" ID="{3A530C2D-BF4A-43F7-9042-398C252321EB}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -2060,11 +3295,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Piano - Head" ID="{031E951B-A743-4510-9185-289D259628C3}">
+												<AudioFileSource Name="Drums_Head_Lvl1" ID="{A7B59B3D-7E85-4ADF-A7C2-36AD00D1280E}">
 													<Language>SFX</Language>
-													<AudioFile>Piano - Head.wav</AudioFile>
+													<AudioFile>Drums_Head_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="588597617"/>
+														<MediaID ID="1019674673"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2072,18 +3307,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{4F150D12-6304-4008-85CC-711BF92DA336}">
+															<MusicTrackSequence Name="" ID="{6E042B8E-6741-4BAA-A1CA-17B5903D6A65}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Piano - Head" ID="{E82823B7-A930-4530-9849-342882905E93}">
+																				<MusicClip Name="Drums_Head_Lvl1" ID="{F059D64B-BFA1-48FC-90EE-F571FEF0FC3A}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Head" ID="{031E951B-A743-4510-9185-289D259628C3}"/>
+																					<AudioSourceRef Name="Drums_Head_Lvl1" ID="{A7B59B3D-7E85-4ADF-A7C2-36AD00D1280E}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -2095,14 +3330,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="Drums - Head" ID="{7186DFC3-9858-4400-B5D4-83B9B14E12D9}" ShortID="850259759">
+										<MusicTrack Name="Flute_Head_Lvl1" ID="{FB101E30-7926-4D6E-916B-398C2A21E82F}" ShortID="47277554">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{F1E69CBB-603C-4DFB-97F7-050C65C6F57F}">
+														<MusicTransition Name="Root" ID="{E55771E3-44CE-46F1-A642-AEBCB5611E39}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -2112,11 +3347,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Drums - Head" ID="{537E54C3-2254-4268-9D13-8D0A9F858B18}">
+												<AudioFileSource Name="Flute_Head_Lvl1" ID="{8C41A46D-6551-42E0-B5F2-50BAB56FBC91}">
 													<Language>SFX</Language>
-													<AudioFile>Drums - Head.wav</AudioFile>
+													<AudioFile>Flute_Head_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="524569682"/>
+														<MediaID ID="824678928"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2124,18 +3359,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{3BE197F0-E4F4-4086-B626-8520D65E5FF5}">
+															<MusicTrackSequence Name="" ID="{E52A3E30-0734-4608-B85A-C320F3603C9C}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Drums - Head" ID="{5D47A031-25D3-4345-80B9-ACF59EC18CE6}">
+																				<MusicClip Name="Flute_Head_Lvl1" ID="{CEF9640D-6F8F-42CC-8ED0-40A8DFA92CED}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Drums - Head" ID="{537E54C3-2254-4268-9D13-8D0A9F858B18}"/>
+																					<AudioSourceRef Name="Flute_Head_Lvl1" ID="{8C41A46D-6551-42E0-B5F2-50BAB56FBC91}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -2147,14 +3382,14 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="Bass - Head" ID="{D12EAA70-E11E-4EAE-ABF4-8CB591A59CB1}" ShortID="633008266">
+										<MusicTrack Name="Piano_Head_Lvl1" ID="{481C166F-FB91-46ED-9D1C-63C6B5E09D4E}" ShortID="496005536">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{1849DBAF-95DF-4CAA-9368-9F5D92E00BAD}">
+														<MusicTransition Name="Root" ID="{7EDD4BF6-8E21-4BFC-8640-40EC38C159DE}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -2164,11 +3399,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bass - Head" ID="{69E6C204-1830-4F3C-8BB3-CD1046B948CB}">
+												<AudioFileSource Name="Piano_Head_Lvl1" ID="{FEB89CB1-CC89-4165-91B1-CD11DDFB4126}">
 													<Language>SFX</Language>
-													<AudioFile>Bass - Head.wav</AudioFile>
+													<AudioFile>Piano_Head_Lvl1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="937899766"/>
+														<MediaID ID="710444584"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2176,18 +3411,174 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{9194DD93-DD0F-4BF5-9A18-7049B42BC2F5}">
+															<MusicTrackSequence Name="" ID="{F8B90EF5-0229-44AF-9F72-462E9FE8C8AD}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Bass - Head" ID="{B2D3E79A-3750-4A25-A659-AA0A2BA20B14}">
+																				<MusicClip Name="Piano_Head_Lvl1" ID="{6439EEE5-F398-4F6D-9514-61F22066EAAB}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="63771.3832199547"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Head" ID="{69E6C204-1830-4F3C-8BB3-CD1046B948CB}"/>
+																					<AudioSourceRef Name="Piano_Head_Lvl1" ID="{FEB89CB1-CC89-4165-91B1-CD11DDFB4126}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Soprano_Sax_Head_Lvl1" ID="{047F3791-0B58-4FB2-94A5-73B10400E440}" ShortID="439605100">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{ACCE3716-F495-41B7-9CA2-FCD33275278D}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soprano_Sax_Head_Lvl1" ID="{891A6ADF-E419-446B-80A1-732FE8162F00}">
+													<Language>SFX</Language>
+													<AudioFile>Soprano_Sax_Head_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="395846154"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A17F88D5-5270-40FE-A354-11E53537CA10}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Soprano_Sax_Head_Lvl1" ID="{45DE63D0-7661-44EA-A48C-F7FC03392F86}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Soprano_Sax_Head_Lvl1" ID="{891A6ADF-E419-446B-80A1-732FE8162F00}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Strings_Head_Lvl1" ID="{F65935E6-6B3F-4D0B-B2C0-26E315AE3B22}" ShortID="983506557">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{C201E228-AFD9-402E-8562-FC5ABEDA8480}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Strings_Head_Lvl1" ID="{DB579357-5B61-4710-935B-4453942069D1}">
+													<Language>SFX</Language>
+													<AudioFile>Strings_Head_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="245282182"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0674FF86-D795-40DA-8B4B-9F1361E6B66D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Strings_Head_Lvl1" ID="{A18313E1-9640-4570-8BD9-D56B44BB0DF9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Strings_Head_Lvl1" ID="{DB579357-5B61-4710-935B-4453942069D1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Trombones_Head_Lvl1" ID="{A3A6F5E9-A1F8-44FB-B661-AF6C6ADA3274}" ShortID="919464583">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{367C0732-86B6-40C4-91BB-815F54BF5DE4}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Trombones_Head_Lvl1" ID="{2944DCB0-C865-4A7C-B756-E4801346A91C}">
+													<Language>SFX</Language>
+													<AudioFile>Trombones_Head_Lvl1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="729512282"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{011A976D-7083-48ED-991C-A725B1B3E520}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Trombones_Head_Lvl1" ID="{7B055629-B8EB-4072-AD53-F7DB7D3C3CCE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63744.8072562358"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Trombones_Head_Lvl1" ID="{2944DCB0-C865-4A7C-B756-E4801346A91C}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -2220,9 +3611,9 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="Solo_Clarinet" ID="{11D16D84-9EF1-40EB-80FC-C2118B7BCEA6}" ShortID="151248923">
+								<MusicSegment Name="Saxophone_Solo_1_A" ID="{60D2FBAA-BE4F-499D-AE38-FA16AF40E66D}" ShortID="876718814">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="156004.545895506"/>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2232,125 +3623,19 @@
 											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="Bass - Solos" ID="{CA2421EF-1E9A-451E-B16B-27C4900CFD69}" ShortID="991000701">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{F9FD09A7-58CF-4950-806E-B6E46E253965}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Bass - Solos" ID="{B05A1A2A-732A-4BC1-A97C-FDEDBD46AEEA}">
-													<Language>SFX</Language>
-													<AudioFile>Bass - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="270434778"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{266087ED-26F2-44D3-BF77-A17902F8E830}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Bass - Solos" ID="{A645996C-4C71-41B3-9D02-42FF83ABE612}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Solos" ID="{B05A1A2A-732A-4BC1-A97C-FDEDBD46AEEA}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Piano - Solos" ID="{17DD9097-C91A-4F47-8E09-559161BE81CD}" ShortID="148476041">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{6BEE627E-F751-4649-84DC-1E05379B1B43}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Piano - Solos" ID="{E42C05D8-6D36-49AF-8597-0631633633EC}">
-													<Language>SFX</Language>
-													<AudioFile>Piano - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1032056180"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{E71C8F89-6CBB-451E-A3D4-E450B87DE5B5}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Piano - Solos" ID="{1A67875F-113B-4C1A-84FC-EAEE8DA870A1}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Solos" ID="{E42C05D8-6D36-49AF-8597-0631633633EC}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{6B2063F5-87FE-413E-A981-78BD0DAB42A9}"/>
+													<MusicCue Name="Entry Cue" ID="{B09B176C-F657-4C39-B6FE-6C7BB13EF844}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{EF1345A2-5E3F-4D9D-8EFF-368867229C6C}">
+													<MusicCue Name="Exit Cue" ID="{474A47D8-4663-4CC3-BA9A-14275B0C2C19}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="125217.391304348"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -2358,9 +3643,9 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="Solo_Saxophone" ID="{6475E786-40A3-4F39-86DE-3695B50DA119}" ShortID="990191470">
+								<MusicSegment Name="Saxophone_Solo_1_B" ID="{FC4E7229-7397-40DE-80A1-88C1B85A84BA}" ShortID="166627499">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="130173.913043478"/>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2370,125 +3655,19 @@
 											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="Bass - Solos" ID="{623D87D5-A95E-4599-B38B-5183A01AC9F0}" ShortID="536303858">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{763284DC-A01F-4DE4-A186-9E4BF0348948}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Bass - Solos" ID="{0D30CC42-867A-4433-BB98-99EA64C07DFB}">
-													<Language>SFX</Language>
-													<AudioFile>Bass - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="270434778"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{7438960B-C4CD-4E72-9DFE-B91F9F46F88C}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Bass - Solos" ID="{594BFE28-823D-4AE1-9474-30F0AA1514B1}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Solos" ID="{0D30CC42-867A-4433-BB98-99EA64C07DFB}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Piano - Solos" ID="{1F2FB979-3373-4C21-8E09-6E0DFB0786BB}" ShortID="920740078">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{ABB2B563-1585-4215-999E-52B2E9E2DD7A}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Piano - Solos" ID="{51D05A32-D5B3-4ACB-8BA7-0B7F9B550284}">
-													<Language>SFX</Language>
-													<AudioFile>Piano - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1032056180"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{C5B2EE72-BF1A-4DF9-8C31-F7009FB69F91}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Piano - Solos" ID="{E26987BD-E01D-4E6E-894D-AAA16C65F3CB}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Solos" ID="{51D05A32-D5B3-4ACB-8BA7-0B7F9B550284}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{381F620F-ECD4-4B0A-A6BB-F49410C1537D}"/>
+													<MusicCue Name="Entry Cue" ID="{D69A64F2-DAD6-44DF-A2D7-DFB14AFF23C8}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{AA3328AE-A603-4DB3-9B98-B53B75CB6524}">
+													<MusicCue Name="Exit Cue" ID="{94A1E151-C7C8-41C8-A98A-2919EDA4D15C}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="125217.391304348"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -2496,9 +3675,9 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="Solo_Flute" ID="{1D26D5E9-C535-440D-A938-597F5FB3C6BA}" ShortID="1051061599">
+								<MusicSegment Name="Saxophone_Solo_2_A" ID="{271208A4-1F1A-40C4-A6C2-F14AA791178C}" ShortID="571523446">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="158575.440118845"/>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2508,125 +3687,673 @@
 											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="Bass - Solos" ID="{74EAF3FA-E241-4EFC-B4E4-7102F34D58D7}" ShortID="929597708">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{6A83747D-4E92-4973-8700-A9EB9793869B}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Bass - Solos" ID="{FCBFE4C1-B3CF-449C-896D-91E57EFE408D}">
-													<Language>SFX</Language>
-													<AudioFile>Bass - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="270434778"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{B741142F-100D-4256-9E8D-489E2A11255F}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Bass - Solos" ID="{2F71799A-FF1F-4554-9CC4-95DA187EBDC5}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Bass - Solos" ID="{FCBFE4C1-B3CF-449C-896D-91E57EFE408D}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-										<MusicTrack Name="Piano - Solos" ID="{F79E2AC6-A6A1-4A98-BAA1-75DFF7486F88}" ShortID="572961605">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
-												</Reference>
-												<Reference Name="TransitionRoot">
-													<Custom>
-														<MusicTransition Name="Root" ID="{A28549BD-B58F-486D-A3E8-8F779C589AB1}">
-															<PropertyList>
-																<Property Name="IsFolder" Type="bool" Value="True"/>
-															</PropertyList>
-															<TransitionInfo/>
-														</MusicTransition>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Piano - Solos" ID="{962A76BB-B785-45C6-9395-DDE272E98DA5}">
-													<Language>SFX</Language>
-													<AudioFile>Piano - Solos.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1032056180"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists>
-												<ObjectList Name="Sequences">
-													<Reference>
-														<Local>
-															<MusicTrackSequence Name="" ID="{C32DB60C-5196-4FF4-9F70-63148A550660}">
-																<ObjectLists>
-																	<ObjectList Name="Clips">
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="Piano - Solos" ID="{86E6F7FD-E741-4628-8389-2C75FCD12C21}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="126186.621315193"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="Piano - Solos" ID="{962A76BB-B785-45C6-9395-DDE272E98DA5}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
-																	</ObjectList>
-																</ObjectLists>
-															</MusicTrackSequence>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</MusicTrack>
-									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{C6E8F97C-5F33-4C39-978C-2DC337C366C4}"/>
+													<MusicCue Name="Entry Cue" ID="{7E74449D-0F62-44B1-ACFE-06DCF4338FD5}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{11E93809-B4D2-41E9-B208-F41417F89A03}">
+													<MusicCue Name="Exit Cue" ID="{3E49DB0D-B61C-45BF-A160-BA99A18AEB0D}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="125217.391304348"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Saxophone_Solo_2_B" ID="{DF4611BF-2857-42D9-966F-5A9C7F8C9EB5}" ShortID="1050158729">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6E00820E-5A41-465C-A927-05B46580289D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DBEF6D5B-3164-4BA3-B102-B9D6FF0C37E0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Flute_Solo_A" ID="{8DBE37FD-536F-46B0-9266-087A13E5E560}" ShortID="718020341">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{41A6CDCE-01E7-4E1D-A534-FC19CAEA5BA8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{53D7EEC1-1A52-441E-A90D-CA382BF2D85C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Flute_Solo_B" ID="{D157289E-6540-4C84-9B1A-C3B308653768}" ShortID="207591588">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AA07DB2E-AEC4-4EC3-9485-7502BF8CA76B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{09130955-8969-4E02-9F69-24A3455ABE88}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Guitar_Solo_A" ID="{0D1E1733-39A8-470B-A80C-48F87928BD53}" ShortID="54313839">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{20EA5F13-21B5-417C-B85D-4221BBFC2117}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1EAE62AC-5721-49B8-A9E3-65E9BC771994}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Guitar_Solo_B" ID="{B90557CD-D388-4B3B-847A-0FA080825C68}" ShortID="716501725">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{896BDFB1-E46D-43AE-9646-EE82C44D8EDF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{054B77AC-75D2-45F4-9FB7-6F009F791DCF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Piano_Solo_A" ID="{03272CB9-43B2-4688-A55A-DB435F1D0718}" ShortID="491818345">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4B744E9C-80A7-492E-8093-CFBEB72C92C3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FAA2911B-5F08-4B0A-8616-EC47DE55D2A0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Piano_Solo_B" ID="{FF3961B0-F5CD-4816-91CE-D576606EB6B1}" ShortID="695393174">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{57BF646B-76C7-43E2-8F59-99D498841206}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F805F992-9A5A-4261-A2DE-5B9975DA9E9C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Soprano_Solo_A" ID="{B247F2C8-CE0E-4331-A92D-AEDCDE2029AB}" ShortID="880698701">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E3C0B2F0-E992-44C0-948F-D4358387E701}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{165479E0-08F2-42B3-A457-1D934E283829}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Soprano_Solo_B" ID="{BC49A86E-71D3-4004-9ED2-7D0AA55993D6}" ShortID="711053557">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B235BE9A-272E-4415-B5D0-AC0377EAD2D9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2D333B62-20CB-4C92-A1E4-B3D2CCB90742}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Flute_Branch_A" ID="{A3683D4F-1FFC-417A-B543-9644B3371EC0}" ShortID="684173669">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F6129247-0D95-4214-A438-60FB17C19B69}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{50412A37-396E-4439-A4E8-CF54EF3F99E7}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Flute_Branch_B" ID="{054E7312-DAEB-4A7B-980E-F03CD41DEC70}" ShortID="533530787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E3396300-95F4-4539-B30C-4CC5B96D85E0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{BBFCC8D0-22C8-45C2-B505-C0754FC0736D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Guitar_Branch_A" ID="{75607168-DBEC-449B-B2DC-A7E185DB7CC0}" ShortID="846332130">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8E445A89-5B1E-420D-9056-999A18101E62}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9C7E8705-98C1-4187-9C99-37464B74C710}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Guitar_Branch_B" ID="{826D164E-354D-4BA0-A354-CBDBA013AA27}" ShortID="654343166">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B04A303A-87DF-4ECF-A397-F06614423727}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0486D28C-BB2E-4D49-9795-D3FC4A0F91EB}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Piano_Branch_A" ID="{12E2992F-4110-4ABC-8DF5-6912443BE7FE}" ShortID="164090320">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FCA2834D-C3FD-404F-AA99-53B513618EF4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8837E499-0E21-4795-99A0-E408C00A98DA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Piano_Branch_B" ID="{8A4BEF38-E959-4810-BAA1-83251D963C22}" ShortID="736345299">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E7EFC4B6-A994-4499-982A-75EF00D09EA4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{085B4F59-281D-45EC-BF3D-53A1772B4820}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AltoSaxophone1_A_Branch" ID="{D7973C1A-D83F-4F9D-80C3-C0378968EB3B}" ShortID="509782977">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C9BB56DF-1BD8-4EA3-B705-38F2FC34E5C9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{47151666-B502-4E27-9BB3-B27EDC9A2A8C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AltoSaxophone1_B_Branch" ID="{3DB8968D-7F36-41AA-9051-1AE2A50B69D1}" ShortID="207311041">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{69A9E605-2472-4250-81B8-999837257A02}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{AFC6A0F9-1585-4378-9306-B9DDAF1B0BEA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AltoSaxophone2_A_Branch" ID="{A4F0F8B2-A842-4A0D-929A-34AA12A8C84A}" ShortID="926404791">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2A0707F5-DE03-4759-816C-4AAC41FA5673}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{956A3D1C-ADC4-472D-8DF7-90250D90210F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AltoSaxophone2_B_Branch" ID="{14FA4DAD-0808-443D-829C-FFB0B6003520}" ShortID="517029901">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{715C97E6-6041-4BF3-8DC9-A8FEE978591F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{85FABAE9-AF6B-442F-8A1A-97235A87CF64}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Soprano_Branch_A" ID="{E60C4540-0AF7-44B7-9717-C62432039FB7}" ShortID="568079267">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F68A86D2-20EF-48FD-974A-28B96C18A3E4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{085FCC3F-DF7A-4F2A-89D7-930B10588460}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Soprano_Branch_B" ID="{457D4455-5904-4EA1-967E-6DA9F586D314}" ShortID="687713934">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31051.1111111111"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2419987D-6895-44F3-9395-4C35F9E4F652}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B767BD2C-AE4A-4EA5-A3D3-84D0B7501DF9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
