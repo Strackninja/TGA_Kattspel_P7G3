@@ -10,10 +10,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1462856691	Catnip_PickUp			\Default Work Unit\Events\Catnip_PickUp	
 	1603101806	UI_Continue_Game			\Default Work Unit\Rui\UI\Main Menu\UI_Continue_Game	
 	1631631307	Player_Death_Fall			\Default Work Unit\Events\Player_Death_Fall	
+	1733092797	Music_Stop_Menu			\Default Work Unit\Music\Music_Stop_Menu	
+	1960181536	Music_Stop_00			\Default Work Unit\Music\Music_Stop_00	
 	1960181537	Music_Stop_01			\Default Work Unit\Music\Music_Stop_01	
 	1960181538	Music_Stop_02			\Default Work Unit\Music\Music_Stop_02	
 	1960181539	Music_Stop_03			\Default Work Unit\Music\Music_Stop_03	
-	1960181540	Music_Stop_04			\Default Work Unit\Music\Music_Stop_04	
 	2024222415	UI_Back			\Default Work Unit\Rui\UI\Main Menu\UI_Back	
 	2118900976	UI_Hover			\Default Work Unit\Rui\UI\Main Menu\UI_Hover	
 	2161713971	Player_Respawn			\Default Work Unit\Events\Player_Respawn	
@@ -29,7 +30,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3018716685	Catnip_Idle			\Default Work Unit\Events\Catnip_Idle	
 	3052201669	Player_Land_Soft			\Default Work Unit\Hugo\Player\Player_Land_Soft	
 	3083087645	Player_Death			\Default Work Unit\Events\Player_Death	
-	3227181061	Music_Stop			\Default Work Unit\Music\Music_Stop	
 	3354250256	Player_Wallrun			\Default Work Unit\Hugo\Player\Player_Wallrun	
 	3378955245	Dog_Cannon_Object_Hit			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Object_Hit	
 	3797152694	Dog_Cannon_Fire			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Fire	

@@ -31,11 +31,11 @@ namespace AK
         static const AkUniqueID MUSIC_LVL2 = 3380345081U;
         static const AkUniqueID MUSIC_LVL3 = 3380345080U;
         static const AkUniqueID MUSIC_MENU = 1598298728U;
-        static const AkUniqueID MUSIC_STOP = 3227181061U;
+        static const AkUniqueID MUSIC_STOP_00 = 1960181536U;
         static const AkUniqueID MUSIC_STOP_01 = 1960181537U;
         static const AkUniqueID MUSIC_STOP_02 = 1960181538U;
         static const AkUniqueID MUSIC_STOP_03 = 1960181539U;
-        static const AkUniqueID MUSIC_STOP_04 = 1960181540U;
+        static const AkUniqueID MUSIC_STOP_MENU = 1733092797U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_DEATH_FALL = 1631631307U;
         static const AkUniqueID PLAYER_DOUBLE_JUMP = 1329115477U;
