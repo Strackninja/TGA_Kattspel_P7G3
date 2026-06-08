@@ -36,7 +36,6 @@
 						<ObjectRef Name="Player_Vault" ID="{7F736C9F-35F7-4632-AABC-361BF1AD5363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Catnip_Activate" ID="{98384173-D2CB-472D-9C5B-B262840B4352}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Exit_Game" ID="{071961C9-9EB7-4747-9656-C3D9B2BF548F}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{1727D0CB-358C-4771-AD3F-066FC5822E59}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Catnip_PickUp" ID="{F63FB552-0A85-48B0-AD27-68D7C2C1CD74}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Click" ID="{F9E24CE6-098E-48CF-A121-1161EF1D928B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
@@ -47,11 +46,11 @@
 						<ObjectRef Name="UI_Resume" ID="{DC9D8E9D-3B3A-4A53-ADC9-6290AC9DD487}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Land_Soft" ID="{D67F6A27-B8DE-4A7E-8E2D-151B2D0B5B2B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Hover" ID="{16B35651-422B-4B68-AF87-8833505A52C3}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI_Deselect" ID="{9BF9BD90-8BE9-4CD0-8D4B-A1EA49506F54}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death" ID="{7EA31ED9-B9F4-4CD1-9025-623F8A66BB31}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Catnip_Idle" ID="{E3CBD22B-C307-4D54-9C6A-D2B6BEE59F2A}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_New_Game" ID="{E5535954-EAE1-4D99-8F2A-870076AF22D4}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dog_Cannon_Object_Hit" ID="{1FDF03F2-69EC-4E30-90B0-B8C2F5EC4363}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Stop" ID="{2D8DAD30-96FB-4E56-9BB1-9150300392F7}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Return_To_Main_Menu" ID="{4570DCEB-BA76-4EFF-9622-CDA2CFD2FA0C}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Select" ID="{1C3421BD-AD8F-4FDE-A1C2-8E92F345D0C6}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Death_Fall" ID="{E05E04AE-832A-4FE7-AFA6-14BC06041A33}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
