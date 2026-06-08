@@ -25,6 +25,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3018716685	Catnip_Idle			\Default Work Unit\Events\Catnip_Idle	
 	3052201669	Player_Land_Soft			\Default Work Unit\Hugo\Player\Player_Land_Soft	
 	3083087645	Player_Death			\Default Work Unit\Events\Player_Death	
+	3227181061	Music_Stop			\Default Work Unit\Music\Music_Stop	
 	3354250256	Player_Wallrun			\Default Work Unit\Hugo\Player\Player_Wallrun	
 	3378955245	Dog_Cannon_Object_Hit			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Object_Hit	
 	3797152694	Dog_Cannon_Fire			\Default Work Unit\Strahinja\Combat\Dogs\Dog_Cannon_Fire	

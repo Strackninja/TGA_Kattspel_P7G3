@@ -1777,6 +1777,7 @@
 																		<MusicPlaylistItem Name="" ID="{6D1F5605-0687-4908-AF70-43AE84BC5FD9}" ShortID="665693372">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{B5EEAEB3-9331-4C9A-98FB-07E55F6D35B9}" ShortID="404482338">
@@ -1848,6 +1849,7 @@
 																		<MusicPlaylistItem Name="" ID="{5DCE2591-292C-48FE-966C-ECF665264B5E}" ShortID="1039325103">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{95208C92-88F6-4768-99D1-7604FEBA7B61}" ShortID="396347008">
@@ -1919,6 +1921,7 @@
 																		<MusicPlaylistItem Name="" ID="{F0A2284B-6988-47F1-997A-91BC98AC1ED0}" ShortID="397433254">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{FE255E56-1BBE-4027-A36F-BEEAA6783515}" ShortID="304162041">
@@ -1990,6 +1993,7 @@
 																		<MusicPlaylistItem Name="" ID="{46BA8DA5-EAE6-4136-B256-2B2625BC2FD7}" ShortID="157234794">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{DA3A0CB2-6322-418D-879E-BA641A99B168}" ShortID="451985146">
@@ -2051,6 +2055,7 @@
 																		<MusicPlaylistItem Name="" ID="{2D673F13-610E-4EC7-A553-DBADDA6BE5E8}" ShortID="711883839">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{197E612D-5D4A-4CFC-8E96-CECFC74CFFF2}" ShortID="826879013">
@@ -2112,6 +2117,7 @@
 																		<MusicPlaylistItem Name="" ID="{0D3494B6-6181-4D43-8573-433D779D3AB9}" ShortID="819880707">
 																			<PropertyList>
 																				<Property Name="PlayMode" Type="int16" Value="3"/>
+																				<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
 																			</PropertyList>
 																			<ChildrenList>
 																				<MusicPlaylistItem Name="" ID="{0CAFB7B0-6AD7-437F-A95A-3961A2C6F4C1}" ShortID="446658365">
