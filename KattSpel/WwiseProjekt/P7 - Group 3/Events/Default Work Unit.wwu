@@ -135,13 +135,13 @@
 								<Action Name="" ID="{EFE468EB-D3E6-4407-9B60-776C311DF77E}" ShortID="711351162">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LVL_0_MUSIC" ID="{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+											<ObjectRef Name="LVL_0_MUSIC" ID="{5E7CEDA9-4923-4D76-9F51-CE3246EFEF0F}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Music_Stop" ID="{2D8DAD30-96FB-4E56-9BB1-9150300392F7}">
+						<Event Name="Music_Stop_00" ID="{2D8DAD30-96FB-4E56-9BB1-9150300392F7}">
 							<ChildrenList>
 								<Action Name="" ID="{440888FC-B19E-42C8-8CB2-2B7BFC4D401B}" ShortID="692553250">
 									<PropertyList>
@@ -153,7 +153,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{B3277F7C-5A6A-4086-B590-A701F045A262}" ShortID="11345820">
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_01" ID="{5FB8855A-8A89-489F-912B-C4910FAA4D43}">
+							<ChildrenList>
+								<Action Name="" ID="{C44BA54E-7186-4EB9-AAE6-737EB583E5E7}" ShortID="566037587">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
@@ -163,7 +167,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{45C886DB-2CF4-4CED-8F95-1FB1148F5C60}" ShortID="1015561877">
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_02" ID="{127FE51B-D4C6-4C99-BD85-31222A2032E2}">
+							<ChildrenList>
+								<Action Name="" ID="{54135AD5-0CA6-423F-BAE5-D79807F0DD9E}" ShortID="107585441">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
@@ -173,7 +181,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{1F9122B4-F5E5-46BE-85E9-1E34A06830D1}" ShortID="310384300">
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_03" ID="{7EF341C9-AA80-4A0F-BC91-B4CF2ACAFD28}">
+							<ChildrenList>
+								<Action Name="" ID="{B054C932-2AAD-4534-AE26-C9934D7D757D}" ShortID="1033835558">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
@@ -183,7 +195,11 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{F49A790D-5B42-4C96-B712-C6F96AEF50D1}" ShortID="517041338">
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_Menu" ID="{8E1D667D-D0BB-4D8B-9090-A8E486C7AB54}">
+							<ChildrenList>
+								<Action Name="" ID="{BDE4A5EA-86C9-4976-A09B-253C6F84A681}" ShortID="763168457">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
