@@ -510,7 +510,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{FE44A9A6-7F98-F93A-ABC9-743F539C721E}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{9F95ACF2-D6B0-25E4-F413-E24FAD1EE101}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -570,6 +570,10 @@
 					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836.wav</ShortName>
 					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836_818F3B66.wem</CachePath>
 				</File>
+				<File Id="504954071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RainAmb.wav</ShortName>
+					<CachePath>SFX/RainAmb_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="537143797" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7.wav</ShortName>
 					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7_818F3B66.wem</CachePath>
@@ -581,6 +585,14 @@
 				<File Id="661588064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 2.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="744862487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weather, Thunder, Thunder, Strike SND152491 2.wav</ShortName>
+					<CachePath>SFX/Weather, Thunder, Thunder, Strike SND152491 2_7639F530.wem</CachePath>
+				</File>
+				<File Id="794101408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weather, Thunder, Thunder, Strike SND152491.wav</ShortName>
+					<CachePath>SFX/Weather, Thunder, Thunder, Strike SND152491_818F3B66.wem</CachePath>
 				</File>
 				<File Id="815776660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 4.wav</ShortName>
@@ -600,6 +612,13 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2061769230" Name="Amb_0">
+					<MediaRefs>
+						<MediaRef Id="504954071"/>
+						<MediaRef Id="744862487"/>
+						<MediaRef Id="794101408"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2061769231" Name="Amb_1">
 					<MediaRefs>
 						<MediaRef Id="41085818"/>
@@ -838,7 +857,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{F8DB8743-2A28-9980-7E40-A984550108FB}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E5DAA733-51A4-3308-30BC-BC0C5202135A}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
@@ -1217,5 +1236,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5024C0C5-9C14-F2B8-6042-323AC37A4810}</FileHash>
+	<FileHash>{DA489428-C3DD-64A1-78E4-6B1D4A4E9A62}</FileHash>
 </SoundBanksInfo>

@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_0 = 2061769230U;
         static const AkUniqueID AMB_1 = 2061769231U;
         static const AkUniqueID AMB_2 = 2061769228U;
         static const AkUniqueID AMB_3 = 2061769229U;
