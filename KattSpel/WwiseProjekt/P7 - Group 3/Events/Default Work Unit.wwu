@@ -149,7 +149,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LVL_0_MUSIC" ID="{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+											<ObjectRef Name="LVL_0_MUSIC" ID="{5E7CEDA9-4923-4D76-9F51-CE3246EFEF0F}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -356,7 +356,6 @@
 						</Folder>
 						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
 							<ChildrenList>
-								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
 								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}">
 									<ChildrenList>
 										<Action Name="" ID="{59A41C5E-EFE0-49B4-82B3-8F59A59AF883}" ShortID="915520937">
@@ -379,7 +378,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Player_Land_Hard" ID="{C0D50930-FEAC-4BF4-A2FA-C32DCC9387ED}"/>
 								<Event Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}">
 									<ChildrenList>
 										<Action Name="" ID="{F464DB45-104F-4A02-B7E2-A767FF349E05}" ShortID="967322560">
