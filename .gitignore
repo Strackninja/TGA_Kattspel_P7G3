@@ -8,7 +8,6 @@ Thumbs.db
 Desktop.ini
 
 # Wwise
-*.bnk
 *.wem
 *.prof
 *.validationcache.cache/

@@ -87,6 +87,10 @@
 				<Folder Name="Music" ID="{8F5A7245-90B9-4E5D-BA94-1ACF4DCD057E}" ShortID="920763971">
 					<ChildrenList>
 						<Event Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{B7A1EEB0-00F1-4F82-8D8F-A6957E957086}" ShortID="533052992">
 									<ReferenceList>
@@ -98,6 +102,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{DD47C9E0-5E8B-4374-83E1-82164BB8129A}" ShortID="756714102">
 									<ReferenceList>
@@ -108,18 +116,11 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}">
-							<ChildrenList>
-								<Action Name="" ID="{2C4BB0E9-43D7-407A-92C6-06C41CDD2FEE}" ShortID="442711381">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{081D1ACE-949E-4F1C-B8C4-E6C442250FF4}" ShortID="77914722">
 									<ReferenceList>
@@ -131,11 +132,100 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Music_Lvl0" ID="{7A84578F-9286-425A-9B7C-CF72CE54B4D1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{EFE468EB-D3E6-4407-9B60-776C311DF77E}" ShortID="711351162">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="LVL_0_MUSIC" ID="{AA45F354-F50C-4C02-9BA1-9FCBCB925DC4}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+											<ObjectRef Name="LVL_0_MUSIC" ID="{5E7CEDA9-4923-4D76-9F51-CE3246EFEF0F}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_00" ID="{2D8DAD30-96FB-4E56-9BB1-9150300392F7}">
+							<ChildrenList>
+								<Action Name="" ID="{440888FC-B19E-42C8-8CB2-2B7BFC4D401B}" ShortID="692553250">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_0_MUSIC" ID="{5E7CEDA9-4923-4D76-9F51-CE3246EFEF0F}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_01" ID="{5FB8855A-8A89-489F-912B-C4910FAA4D43}">
+							<ChildrenList>
+								<Action Name="" ID="{C44BA54E-7186-4EB9-AAE6-737EB583E5E7}" ShortID="566037587">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_1_MUSIC" ID="{EF840D05-7255-4E96-926B-404F784A9C94}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_02" ID="{127FE51B-D4C6-4C99-BD85-31222A2032E2}">
+							<ChildrenList>
+								<Action Name="" ID="{54135AD5-0CA6-423F-BAE5-D79807F0DD9E}" ShortID="107585441">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_2_MUSIC" ID="{FB67F0EA-53DE-4565-BF31-5FF7B27E8D65}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_03" ID="{7EF341C9-AA80-4A0F-BC91-B4CF2ACAFD28}">
+							<ChildrenList>
+								<Action Name="" ID="{B054C932-2AAD-4534-AE26-C9934D7D757D}" ShortID="1033835558">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Stop_Menu" ID="{8E1D667D-D0BB-4D8B-9090-A8E486C7AB54}">
+							<ChildrenList>
+								<Action Name="" ID="{BDE4A5EA-86C9-4976-A09B-253C6F84A681}" ShortID="763168457">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MENU_MUSIC" ID="{10F3052D-ABA7-456D-BAC7-456DAF935A70}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Lvl3" ID="{5B7D54ED-0DB5-44D1-96D8-04EFE3004F9F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F709DEA3-262D-4C6D-B2D6-7B8F9A02F277}" ShortID="298615877">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -175,6 +265,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_0" ID="{76188ADD-1B7A-4206-ABCC-7DDAD29781AE}">
+									<ChildrenList>
+										<Action Name="" ID="{E6822A21-8841-45A8-8A46-0E083D27B7FA}" ShortID="1031006753">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RainAmb" ID="{C3ADF876-DC2A-4462-B8BC-85445CC519BD}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -286,7 +387,6 @@
 						</Folder>
 						<Folder Name="Player" ID="{A019E94D-EF98-4B3D-AD96-C33DE10E901D}" ShortID="1016410953">
 							<ChildrenList>
-								<Event Name="Player_Footstep_Catnip" ID="{15D2673C-4BF3-437B-BED0-817A106314A7}"/>
 								<Event Name="Player_Jump" ID="{FF08E342-8384-4699-B342-67E3E9C926DC}">
 									<ChildrenList>
 										<Action Name="" ID="{59A41C5E-EFE0-49B4-82B3-8F59A59AF883}" ShortID="915520937">
@@ -309,7 +409,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Player_Land_Hard" ID="{C0D50930-FEAC-4BF4-A2FA-C32DCC9387ED}"/>
 								<Event Name="Player_Wallrun" ID="{99AD432A-4A05-40C1-987A-C8A341FD6854}">
 									<ChildrenList>
 										<Action Name="" ID="{F464DB45-104F-4A02-B7E2-A767FF349E05}" ShortID="967322560">

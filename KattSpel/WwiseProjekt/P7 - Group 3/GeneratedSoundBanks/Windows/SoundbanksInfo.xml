@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{A9A6E606-5BD9-9A79-890D-D7F6EF8F5A59}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{1FBA69B5-0E08-B574-8E1F-D464187CF6D4}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -364,6 +364,11 @@
 					</PluginRefs>
 				</Event>
 				<Event Id="4003985518" Name="Dog_Turret_Rotation_Stop"/>
+				<Event Id="1960181536" Name="Music_Stop_00"/>
+				<Event Id="1960181537" Name="Music_Stop_01"/>
+				<Event Id="1960181538" Name="Music_Stop_02"/>
+				<Event Id="1960181539" Name="Music_Stop_03"/>
+				<Event Id="1733092797" Name="Music_Stop_Menu"/>
 				<Event Id="3083087645" Name="Player_Death"/>
 				<Event Id="1631631307" Name="Player_Death_Fall"/>
 				<Event Id="1329115477" Name="Player_Double_Jump">
@@ -505,7 +510,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{FE44A9A6-7F98-F93A-ABC9-743F539C721E}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{9F95ACF2-D6B0-25E4-F413-E24FAD1EE101}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -565,6 +570,10 @@
 					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836.wav</ShortName>
 					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836_818F3B66.wem</CachePath>
 				</File>
+				<File Id="504954071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RainAmb.wav</ShortName>
+					<CachePath>SFX/RainAmb_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="537143797" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7.wav</ShortName>
 					<CachePath>SFX/Wind, General, Wind, Rushing, High Mountains, Himalaya 03 SND102836 7_818F3B66.wem</CachePath>
@@ -576,6 +585,14 @@
 				<File Id="661588064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 2.wav</ShortName>
 					<CachePath>SFX/Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="744862487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weather, Thunder, Thunder, Strike SND152491 2.wav</ShortName>
+					<CachePath>SFX/Weather, Thunder, Thunder, Strike SND152491 2_7639F530.wem</CachePath>
+				</File>
+				<File Id="794101408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weather, Thunder, Thunder, Strike SND152491.wav</ShortName>
+					<CachePath>SFX/Weather, Thunder, Thunder, Strike SND152491_818F3B66.wem</CachePath>
 				</File>
 				<File Id="815776660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind, General, Cold, Mountain Wind, Gusts, Varied Intensity SND137538 4.wav</ShortName>
@@ -595,6 +612,13 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2061769230" Name="Amb_0">
+					<MediaRefs>
+						<MediaRef Id="504954071"/>
+						<MediaRef Id="744862487"/>
+						<MediaRef Id="794101408"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2061769231" Name="Amb_1">
 					<MediaRefs>
 						<MediaRef Id="41085818"/>
@@ -833,89 +857,193 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{1982CFF5-E8E7-429E-1B19-C833C36DBA2A}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E5DAA733-51A4-3308-30BC-BC0C5202135A}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 			<Media>
-				<File Id="24831456" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano - Intro.wav</ShortName>
-					<CachePath>SFX/Piano - Intro_FBC78EF0.wem</CachePath>
+				<File Id="14469809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clarinet_Head_Lvl1.wav</ShortName>
+					<CachePath>SFX/Clarinet_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="40179341" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Bass - Intro.wav</ShortName>
-					<CachePath>SFX/Bass - Intro_FBC78EF0.wem</CachePath>
+				<File Id="15513967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soprano_Sax_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Soprano_Sax_Solo_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="24474758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barytone_Guitar_Clarinet_Lvl2.wav</ShortName>
+					<CachePath>SFX/Barytone_Guitar_Clarinet_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="54890422" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Piano_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Piano_Intro_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="65518043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Solo_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Solo_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="69287347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Lvl0.wav</ShortName>
+					<CachePath>SFX/Drums_Lvl0_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="69912988" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Trombones_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Trombones_Intro_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="82105321" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Alto_Sax_Intro_Lvl1.wav</ShortName>
-					<CachePath>SFX/Alto_Sax_Intro_Lvl1_FBC78EF0.wem</CachePath>
+				<File Id="111090482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barytone_Sax_Intro_Lvl2.wav</ShortName>
+					<CachePath>SFX/Barytone_Sax_Intro_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="95896613" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skyline Feline - Level 2 theme.wav</ShortName>
-					<CachePath>SFX/Skyline Feline - Level 2 theme_FBC78EF0.wem</CachePath>
+				<File Id="119631461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soprano_Head_Lvl1.wav</ShortName>
+					<CachePath>SFX/Soprano_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="167585675" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Bass Solo Comp.wav</ShortName>
-					<CachePath>SFX/Bass Solo Comp_FBC78EF0.wem</CachePath>
+				<File Id="140995260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flute_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Flute_Solo_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="195640116" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano_Solo_Comp_LVL3.wav</ShortName>
-					<CachePath>SFX/Piano_Solo_Comp_LVL3_FBC78EF0.wem</CachePath>
+				<File Id="141400426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_1_Intro_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_1_Intro_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="164397683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Piano_Solo_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="188153536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Guitar_Head_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="199631112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clarinet_Intro_Lvl1.wav</ShortName>
+					<CachePath>SFX/Clarinet_Intro_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="206840584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Guitar_Solo_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="227295872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Head_Melody_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Head_Melody_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="245282182" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Strings_Head_Lvl1.wav</ShortName>
 					<CachePath>SFX/Strings_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="300725715" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drums - Intro.wav</ShortName>
-					<CachePath>SFX/Drums - Intro_FBC78EF0.wem</CachePath>
+				<File Id="270376831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Intro_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Intro_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="391594780" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skyline Feline Intro w intro.wav</ShortName>
-					<CachePath>SFX/Skyline Feline Intro w intro_FBC78EF0.wem</CachePath>
+				<File Id="272811142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Intro_Lvl0.wav</ShortName>
+					<CachePath>SFX/Intro_Lvl0_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="395846154" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soprano_Sax_Head_Lvl1.wav</ShortName>
-					<CachePath>SFX/Soprano_Sax_Head_Lvl1_FBC78EF0.wem</CachePath>
+				<File Id="282894627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Strings_Lvl0.wav</ShortName>
+					<CachePath>SFX/Strings_Lvl0_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="307123627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Guitar_Lvl1.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Guitar_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="341065196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Flute_Lvl1.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Flute_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="342178077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_1_Head_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_1_Head_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="342337827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Comp_Guitar_Clarinet_Lvl2.wav</ShortName>
+					<CachePath>SFX/Bass_Comp_Guitar_Clarinet_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="348116187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Comp_Guitar_Lvl1.wav</ShortName>
+					<CachePath>SFX/Piano_Comp_Guitar_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="392100574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Soprano_Sax_Lvl1.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Soprano_Sax_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="393526947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Intro_Lvl2.wav</ShortName>
+					<CachePath>SFX/Drums_Intro_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="402693640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Head_Chords_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Head_Chords_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="409426102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Intro_Lvl2.wav</ShortName>
+					<CachePath>SFX/Bass_Intro_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="426730719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Bass_Head_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="482468804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drums_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Drums_Intro_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="521568362" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano _Solo_LVL3.wav</ShortName>
-					<CachePath>SFX/Piano _Solo_LVL3_FBC78EF0.wem</CachePath>
+				<File Id="491350603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Piano_Sax_Lvl2.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Piano_Sax_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="524569682" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drums - Head.wav</ShortName>
-					<CachePath>SFX/Drums - Head_FBC78EF0.wem</CachePath>
+				<File Id="503455505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Drums_Head_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="587156606" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ride Swell.wav</ShortName>
-					<CachePath>SFX/Ride Swell_FBC78EF0.wem</CachePath>
+				<File Id="504376554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Comp_Flute_Lvl1.wav</ShortName>
+					<CachePath>SFX/Piano_Comp_Flute_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="588597617" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano - Head.wav</ShortName>
-					<CachePath>SFX/Piano - Head_FBC78EF0.wem</CachePath>
+				<File Id="505090486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clarinet_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Clarinet_Head_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="510534004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Comp_Guitar_Clarinet_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Comp_Guitar_Clarinet_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="523446350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_2_Intro_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_2_Intro_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="564445694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Intro_Lvl2.wav</ShortName>
+					<CachePath>SFX/Guitar_Intro_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="588311006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Solo_Lvl2.wav</ShortName>
+					<CachePath>SFX/Guitar_Solo_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="639795767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barytone_Sax_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Barytone_Sax_Head_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="653617706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clarinet_Solo_Lvl2.wav</ShortName>
+					<CachePath>SFX/Clarinet_Solo_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="671514796" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Flute_Intro_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="693446513" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Guitar - Intro.wav</ShortName>
-					<CachePath>SFX/Guitar - Intro_FBC78EF0.wem</CachePath>
+				<File Id="687056819" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_Solo_Lvl2.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_Solo_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="706904664" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano Solo.wav</ShortName>
-					<CachePath>SFX/Piano Solo_FBC78EF0.wem</CachePath>
+				<File Id="689325519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Comp_Sax_Lvl2.wav</ShortName>
+					<CachePath>SFX/Piano_Comp_Sax_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="689915643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_2_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_2_Solo_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="703480235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Comp_Piano_Lvl2.wav</ShortName>
+					<CachePath>SFX/Guitar_Comp_Piano_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="710444584" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Piano_Head_Lvl1.wav</ShortName>
@@ -925,125 +1053,179 @@
 					<ShortName>Trombones_Head_Lvl1.wav</ShortName>
 					<CachePath>SFX/Trombones_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="732003857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vibraphone_Lvl0.wav</ShortName>
+					<CachePath>SFX/Vibraphone_Lvl0_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="758195303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Bass_Intro_Lvl1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="761729105" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Guitar Solo Comp.wav</ShortName>
-					<CachePath>SFX/Guitar Solo Comp_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="775788259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Skyline Feline - Level 2.wav</ShortName>
 					<CachePath>SFX/Skyline Feline - Level 2_34719E53.wem</CachePath>
 				</File>
-				<File Id="790168655" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Alto_Sax_Head_Lvl1.wav</ShortName>
-					<CachePath>SFX/Alto_Sax_Head_Lvl1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="815510087" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drum Kit Solo Comp.wav</ShortName>
-					<CachePath>SFX/Drum Kit Solo Comp_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="818376640" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Bass_Solos_LVL3.wav</ShortName>
-					<CachePath>SFX/Bass_Solos_LVL3_FBC78EF0.wem</CachePath>
+				<File Id="779235428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_Head_Lvl2.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_Head_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="824678928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flute_Head_Lvl1.wav</ShortName>
 					<CachePath>SFX/Flute_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="826463271" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drum Kit Intro.wav</ShortName>
-					<CachePath>SFX/Drum Kit Intro_FBC78EF0.wem</CachePath>
+				<File Id="831964371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Guitar_Clarinet_Lvl2.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Guitar_Clarinet_Lvl2_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="877627053" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Skyline Feline - Intro Level.wav</ShortName>
-					<CachePath>SFX/Skyline Feline - Intro Level_FBC78EF0.wem</CachePath>
+				<File Id="832611817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Lvl0.wav</ShortName>
+					<CachePath>SFX/Bass_Lvl0_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="836227876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Comp_Lvl1.wav</ShortName>
+					<CachePath>SFX/Bass_Comp_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="874457263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drums_Comp_Piano_Lvl1.wav</ShortName>
+					<CachePath>SFX/Drums_Comp_Piano_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="881726281" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soprano_Sax_Intro_Lvl1.wav</ShortName>
 					<CachePath>SFX/Soprano_Sax_Intro_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="937899766" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Bass - Head.wav</ShortName>
-					<CachePath>SFX/Bass - Head_FBC78EF0.wem</CachePath>
+				<File Id="898779849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano_Comp_Soprano_Sax_Lvl1.wav</ShortName>
+					<CachePath>SFX/Piano_Comp_Soprano_Sax_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="907690980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Comp_Piano_Sax_Lvl2.wav</ShortName>
+					<CachePath>SFX/Bass_Comp_Piano_Sax_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="911806989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Comp_Guitar_Clarinet_Lvl2.wav</ShortName>
+					<CachePath>SFX/Guitar_Comp_Guitar_Clarinet_Lvl2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="928979151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Strings_Intro_Lvl1.wav</ShortName>
+					<CachePath>SFX/Strings_Intro_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="941092443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_Sax_1_Solo_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_Sax_1_Solo_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="944011977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bass_Head_Lvl1.wav</ShortName>
 					<CachePath>SFX/Bass_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="964298891" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drums_Solos_LVL3.wav</ShortName>
-					<CachePath>SFX/Drums_Solos_LVL3_FBC78EF0.wem</CachePath>
+				<File Id="955775455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ride_B_Lvl1.wav</ShortName>
+					<CachePath>SFX/Ride_B_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="975976311" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano Interlude.wav</ShortName>
-					<CachePath>SFX/Piano Interlude_FBC78EF0.wem</CachePath>
+				<File Id="977147510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Alto_2_Head_Lvl1.wav</ShortName>
+					<CachePath>SFX/Alto_2_Head_Lvl1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1017759566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass_Comp_Lvl1_A.wav</ShortName>
+					<CachePath>SFX/Bass_Comp_Lvl1_A_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1019674673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drums_Head_Lvl1.wav</ShortName>
 					<CachePath>SFX/Drums_Head_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="1072776901" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piano Solo Comp.wav</ShortName>
-					<CachePath>SFX/Piano Solo Comp_FBC78EF0.wem</CachePath>
+				<File Id="1041093493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Guitar_Comp_Piano_Lvl1.wav</ShortName>
+					<CachePath>SFX/Guitar_Comp_Piano_Lvl1_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="3380345083" Name="Music_Lvl0">
 					<MediaRefs>
-						<MediaRef Id="391594780"/>
-						<MediaRef Id="877627053"/>
+						<MediaRef Id="69287347"/>
+						<MediaRef Id="272811142"/>
+						<MediaRef Id="282894627"/>
+						<MediaRef Id="732003857"/>
+						<MediaRef Id="832611817"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3380345082" Name="Music_Lvl1">
 					<MediaRefs>
+						<MediaRef Id="14469809"/>
+						<MediaRef Id="15513967"/>
 						<MediaRef Id="54890422"/>
 						<MediaRef Id="69912988"/>
-						<MediaRef Id="82105321"/>
+						<MediaRef Id="119631461"/>
+						<MediaRef Id="140995260"/>
+						<MediaRef Id="141400426"/>
+						<MediaRef Id="164397683"/>
+						<MediaRef Id="199631112"/>
+						<MediaRef Id="206840584"/>
 						<MediaRef Id="245282182"/>
-						<MediaRef Id="395846154"/>
+						<MediaRef Id="307123627"/>
+						<MediaRef Id="341065196"/>
+						<MediaRef Id="342178077"/>
+						<MediaRef Id="348116187"/>
+						<MediaRef Id="392100574"/>
 						<MediaRef Id="482468804"/>
+						<MediaRef Id="504376554"/>
+						<MediaRef Id="523446350"/>
 						<MediaRef Id="671514796"/>
+						<MediaRef Id="689915643"/>
 						<MediaRef Id="710444584"/>
 						<MediaRef Id="729512282"/>
 						<MediaRef Id="758195303"/>
-						<MediaRef Id="790168655"/>
 						<MediaRef Id="824678928"/>
+						<MediaRef Id="836227876"/>
+						<MediaRef Id="874457263"/>
 						<MediaRef Id="881726281"/>
+						<MediaRef Id="898779849"/>
+						<MediaRef Id="928979151"/>
+						<MediaRef Id="941092443"/>
 						<MediaRef Id="944011977"/>
+						<MediaRef Id="955775455"/>
+						<MediaRef Id="977147510"/>
+						<MediaRef Id="1017759566"/>
 						<MediaRef Id="1019674673"/>
+						<MediaRef Id="1041093493"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3380345081" Name="Music_Lvl2">
 					<MediaRefs>
-						<MediaRef Id="24831456"/>
-						<MediaRef Id="40179341"/>
-						<MediaRef Id="95896613"/>
-						<MediaRef Id="167585675"/>
-						<MediaRef Id="693446513"/>
-						<MediaRef Id="706904664"/>
-						<MediaRef Id="761729105"/>
-						<MediaRef Id="815510087"/>
-						<MediaRef Id="826463271"/>
-						<MediaRef Id="975976311"/>
-						<MediaRef Id="1072776901"/>
+						<MediaRef Id="24474758"/>
+						<MediaRef Id="65518043"/>
+						<MediaRef Id="111090482"/>
+						<MediaRef Id="188153536"/>
+						<MediaRef Id="227295872"/>
+						<MediaRef Id="270376831"/>
+						<MediaRef Id="342337827"/>
+						<MediaRef Id="393526947"/>
+						<MediaRef Id="402693640"/>
+						<MediaRef Id="409426102"/>
+						<MediaRef Id="426730719"/>
+						<MediaRef Id="491350603"/>
+						<MediaRef Id="503455505"/>
+						<MediaRef Id="505090486"/>
+						<MediaRef Id="510534004"/>
+						<MediaRef Id="564445694"/>
+						<MediaRef Id="588311006"/>
+						<MediaRef Id="639795767"/>
+						<MediaRef Id="653617706"/>
+						<MediaRef Id="687056819"/>
+						<MediaRef Id="689325519"/>
+						<MediaRef Id="703480235"/>
+						<MediaRef Id="779235428"/>
+						<MediaRef Id="831964371"/>
+						<MediaRef Id="907690980"/>
+						<MediaRef Id="911806989"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3380345080" Name="Music_Lvl3">
 					<MediaRefs>
-						<MediaRef Id="24831456"/>
-						<MediaRef Id="40179341"/>
-						<MediaRef Id="195640116"/>
-						<MediaRef Id="300725715"/>
-						<MediaRef Id="521568362"/>
-						<MediaRef Id="524569682"/>
-						<MediaRef Id="587156606"/>
-						<MediaRef Id="588597617"/>
-						<MediaRef Id="818376640"/>
-						<MediaRef Id="937899766"/>
-						<MediaRef Id="964298891"/>
+						<MediaRef Id="69287347"/>
+						<MediaRef Id="272811142"/>
+						<MediaRef Id="282894627"/>
+						<MediaRef Id="732003857"/>
+						<MediaRef Id="832611817"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1598298728" Name="Music_Menu">
@@ -1054,5 +1236,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{36770D41-CA61-7718-96F3-FCD21035A282}</FileHash>
+	<FileHash>{DA489428-C3DD-64A1-78E4-6B1D4A4E9A62}</FileHash>
 </SoundBanksInfo>
