@@ -9,6 +9,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_0" ID="{76188ADD-1B7A-4206-ABCC-7DDAD29781AE}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
@@ -62,16 +63,16 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="MUSIC" ID="{8E926E37-A1A6-40FB-BBF6-C586187B2A63}">
+				<SoundBank Name="MUSIC" ID="{1C00F2AE-A8A6-4655-AF12-C0ADC206085C}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Lvl0" ID="{7A84578F-9286-425A-9B7C-CF72CE54B4D1}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Lvl3" ID="{5B7D54ED-0DB5-44D1-96D8-04EFE3004F9F}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

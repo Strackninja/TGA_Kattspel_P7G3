@@ -87,6 +87,10 @@
 				<Folder Name="Music" ID="{8F5A7245-90B9-4E5D-BA94-1ACF4DCD057E}" ShortID="920763971">
 					<ChildrenList>
 						<Event Name="Music_Lvl1" ID="{D6E5D127-1C21-406E-8BFC-681AD374C8EA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{B7A1EEB0-00F1-4F82-8D8F-A6957E957086}" ShortID="533052992">
 									<ReferenceList>
@@ -98,6 +102,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Music_Lvl2" ID="{940B0E9A-AA2B-4056-BFBB-A938A5B793D5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{DD47C9E0-5E8B-4374-83E1-82164BB8129A}" ShortID="756714102">
 									<ReferenceList>
@@ -108,18 +116,11 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Music_Lvl3" ID="{C3958473-13BE-417C-BE4F-82C2A361548B}">
-							<ChildrenList>
-								<Action Name="" ID="{2C4BB0E9-43D7-407A-92C6-06C41CDD2FEE}" ShortID="442711381">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Music_Menu" ID="{D7171AAD-8C7B-450C-983C-DB6884E96145}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{081D1ACE-949E-4F1C-B8C4-E6C442250FF4}" ShortID="77914722">
 									<ReferenceList>
@@ -131,6 +132,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Music_Lvl0" ID="{7A84578F-9286-425A-9B7C-CF72CE54B4D1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{EFE468EB-D3E6-4407-9B60-776C311DF77E}" ShortID="711351162">
 									<ReferenceList>
@@ -211,6 +216,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Music_Lvl3" ID="{5B7D54ED-0DB5-44D1-96D8-04EFE3004F9F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F709DEA3-262D-4C6D-B2D6-7B8F9A02F277}" ShortID="298615877">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LVL_3_MUSIC" ID="{2B8DFEA9-A157-4520-BC2D-F5A290737387}" WorkUnitID="{BA46300C-B5C6-4B4F-BBF3-12AC8EE3A90D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Strahinja" ID="{D871ACFC-A0CF-46C3-9343-7D3FAFE97281}" ShortID="771839000">
@@ -245,6 +265,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_0" ID="{76188ADD-1B7A-4206-ABCC-7DDAD29781AE}">
+									<ChildrenList>
+										<Action Name="" ID="{E6822A21-8841-45A8-8A46-0E083D27B7FA}" ShortID="1031006753">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RainAmb" ID="{C3ADF876-DC2A-4462-B8BC-85445CC519BD}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

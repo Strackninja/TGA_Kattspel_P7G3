@@ -664,6 +664,331 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<BlendContainer Name="RainAmb" ID="{C3ADF876-DC2A-4462-B8BC-85445CC519BD}" ShortID="125175203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environmental_Bus" ID="{2B359260-8B00-401B-A343-C9655CB0C799}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Thunder" ID="{7DB8356F-ABDD-4749-A526-6C7FD06D19F9}" ShortID="752662708">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environmental_Bus" ID="{2B359260-8B00-401B-A343-C9655CB0C799}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Silence" ID="{2C3805A9-1091-40F6-9110-2A51D6F585AB}" ShortID="294353289">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>3.5</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>29</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{6FD72DC6-0E96-45F4-928D-4AF1B2C6D8FB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{6FD72DC6-0E96-45F4-928D-4AF1B2C6D8FB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Weather, Thunder, Thunder, Strike SND152491 2" ID="{C7D766C2-7D02-4E94-8CC5-E4B25D9A72B9}" ShortID="613171062">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>4</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{0F6C6CBA-7913-4C8D-9329-74479C495C06}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="379"/>
+																					<Property Name="Min" Type="Real64" Value="-278"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-5</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{FEDC8986-FD85-4FA7-BD86-3DFA94C965AB}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="2"/>
+																					<Property Name="Min" Type="Real64" Value="-2"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491 2" ID="{FABF6271-05FF-448F-BB3B-C761BAD2033F}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="8.01053538589632"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491 2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="744862487"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491 2" ID="{FABF6271-05FF-448F-BB3B-C761BAD2033F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_01" ID="{DB2151F5-FB5F-42A6-93E0-10AF7520FBB1}" ShortID="667872539">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>7.5</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>37</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{1D1C4769-95FA-4A25-96FF-07AA906A52D9}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{1D1C4769-95FA-4A25-96FF-07AA906A52D9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_02" ID="{09218C61-541A-4F62-BA86-B6B4BEFC6F7C}" ShortID="510997922">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>33</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{B8770F48-7932-4423-93CF-ED24E2B4505E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{B8770F48-7932-4423-93CF-ED24E2B4505E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_03" ID="{DE96281A-192E-496B-9B32-475E508CFE4B}" ShortID="492555546">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>3.5</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>29</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{28213241-747B-4023-8A1F-FFA0276E3E25}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{28213241-747B-4023-8A1F-FFA0276E3E25}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_04" ID="{DB620A24-3873-4781-977B-1C6BB982A5CC}" ShortID="167137281">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>7.5</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>37</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{E8EB3EDD-938C-413D-B0C8-E69486ECE8EB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{E8EB3EDD-938C-413D-B0C8-E69486ECE8EB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_05" ID="{FC2AA6CB-5890-4A9D-BBB9-8AE0B7D838F5}" ShortID="772666491">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>33</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master_Audio_Volume_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{80430C80-B5F6-468F-8EA8-D1AF631EFFE0}">
+																	<Language>SFX</Language>
+																	<AudioFile>Weather, Thunder, Thunder, Strike SND152491.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="794101408"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Weather, Thunder, Thunder, Strike SND152491" ID="{80430C80-B5F6-468F-8EA8-D1AF631EFFE0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="RainAmb" ID="{4D9DCEB3-0386-425B-98BD-FAC9CD7D09F1}" ShortID="111514935">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environmental_Bus" ID="{2B359260-8B00-401B-A343-C9655CB0C799}" WorkUnitID="{96E9A499-6397-4687-9BDE-FCDF681A952F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RainAmb" ID="{7F005EBA-C470-4E6C-B5F7-BF26E3452953}">
+															<Language>SFX</Language>
+															<AudioFile>RainAmb.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="504954071"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RainAmb" ID="{7F005EBA-C470-4E6C-B5F7-BF26E3452953}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -1096,11 +1421,6 @@
 													</ModifierList>
 												</Property>
 												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1124,7 +1444,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Enemy_Death_Whine" ID="{C70423A4-B4CB-47CE-BD9F-7E7AE7BF4EBF}" ShortID="907074376">
+														<Sound Name="Dog_Death_1_Whine" ID="{CEAB430E-7F1E-4EA7-BAAA-89050564D11D}" ShortID="666299604">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1134,7 +1461,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_1_Whine" ID="{9E4EC4B0-8A04-405D-BAD4-006B72B0F1E8}">
+																<AudioFileSource Name="Dog_Death_1_Whine" ID="{CBC701C7-EA31-46B3-8D54-A9771B21F826}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_1_Whine.wav</AudioFile>
 																	<MediaIDList>
@@ -1143,10 +1470,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_1_Whine" ID="{9E4EC4B0-8A04-405D-BAD4-006B72B0F1E8}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_1_Whine" ID="{CBC701C7-EA31-46B3-8D54-A9771B21F826}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_Whine_2" ID="{77F82ED8-9DCE-4337-A7C8-1F7DCE42CB18}" ShortID="904835541">
+														<Sound Name="Dog_Death_2_Whine" ID="{76C95714-616F-43E5-A289-44146C825C81}" ShortID="155750497">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1156,7 +1490,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_2_Whine" ID="{DC68AD99-3172-4C36-9EE7-0B543526DD6A}">
+																<AudioFileSource Name="Dog_Death_2_Whine" ID="{D7433C98-48A5-47C4-BBB0-4E3F911CDAFA}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_2_Whine.wav</AudioFile>
 																	<MediaIDList>
@@ -1165,10 +1499,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_2_Whine" ID="{DC68AD99-3172-4C36-9EE7-0B543526DD6A}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_2_Whine" ID="{D7433C98-48A5-47C4-BBB0-4E3F911CDAFA}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_Whine_3" ID="{3A274EF4-8325-4D65-9222-589E88485FE6}" ShortID="211652347">
+														<Sound Name="Dog_Death_3_Whine" ID="{A7C65AEF-3F89-4F15-999B-A64E78E44B3B}" ShortID="844813698">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1178,7 +1519,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_3_Whine" ID="{CE92B491-FE4F-441A-A292-14BE31E7186E}">
+																<AudioFileSource Name="Dog_Death_3_Whine" ID="{FC35218C-F395-4170-8ECE-808CEF857730}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_3_Whine.wav</AudioFile>
 																	<MediaIDList>
@@ -1187,10 +1528,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_3_Whine" ID="{CE92B491-FE4F-441A-A292-14BE31E7186E}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_3_Whine" ID="{FC35218C-F395-4170-8ECE-808CEF857730}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_Whine_4" ID="{B288300C-885E-4391-9706-2F7ECA0D1C7C}" ShortID="274211858">
+														<Sound Name="Dog_Death_4_Whine" ID="{595B4637-8802-4629-B31E-0B91F69C3D3A}" ShortID="124731379">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1200,7 +1548,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_4_Whine" ID="{5CE91496-88E7-4106-904E-D8794F7E252A}">
+																<AudioFileSource Name="Dog_Death_4_Whine" ID="{F0143341-FFE7-4F67-BD29-E059469E6014}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_4_Whine.wav</AudioFile>
 																	<MediaIDList>
@@ -1209,7 +1557,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_4_Whine" ID="{5CE91496-88E7-4106-904E-D8794F7E252A}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_4_Whine" ID="{F0143341-FFE7-4F67-BD29-E059469E6014}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1227,7 +1575,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Enemy_Death" ID="{CC1F92B0-D5F5-4333-8DE1-F2D367131C14}" ShortID="142726334">
+														<Sound Name="Dog_Death_1" ID="{66C34E08-0422-4FEB-A64F-1D577A884A9C}" ShortID="940024741">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1237,7 +1592,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_1" ID="{A4035662-D0AB-4285-8900-215FC377D35C}">
+																<AudioFileSource Name="Dog_Death_1" ID="{F3C6872C-00E6-40BF-85CB-E060186E3993}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_1.wav</AudioFile>
 																	<MediaIDList>
@@ -1246,10 +1601,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_1" ID="{A4035662-D0AB-4285-8900-215FC377D35C}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_1" ID="{F3C6872C-00E6-40BF-85CB-E060186E3993}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_2" ID="{6F9B44F7-44B3-4EAD-BD20-CFAE7B08F7F4}" ShortID="929744793">
+														<Sound Name="Dog_Death_2" ID="{9314906B-47FC-4F17-9517-E199DF90DCD8}" ShortID="114926785">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1259,7 +1621,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_2" ID="{0B8DA9F8-6F43-4DAD-A16C-26AF01B92AC0}">
+																<AudioFileSource Name="Dog_Death_2" ID="{1A561B82-DC93-41C5-AC26-E01745ACE73B}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_2.wav</AudioFile>
 																	<MediaIDList>
@@ -1268,10 +1630,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_2" ID="{0B8DA9F8-6F43-4DAD-A16C-26AF01B92AC0}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_2" ID="{1A561B82-DC93-41C5-AC26-E01745ACE73B}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_3" ID="{58559D6F-BFB1-470E-9340-1EE6A4452B7C}" ShortID="819591209">
+														<Sound Name="Dog_Death_3" ID="{3E82BFA1-A66D-4CEA-A932-F010E60B1997}" ShortID="935418646">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1281,7 +1650,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_3" ID="{4D472DD6-3285-4301-A964-8D256690E07C}">
+																<AudioFileSource Name="Dog_Death_3" ID="{B646D9A4-F126-4808-80B7-B37AE141E041}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_3.wav</AudioFile>
 																	<MediaIDList>
@@ -1290,10 +1659,17 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_3" ID="{4D472DD6-3285-4301-A964-8D256690E07C}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_3" ID="{B646D9A4-F126-4808-80B7-B37AE141E041}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Enemy_Death_4" ID="{B5C6DAEB-D663-42AB-B304-41AB3F4D5C03}" ShortID="229729418">
+														<Sound Name="Dog_Death_4" ID="{EDFC8DA5-B2B4-4C54-BBAE-1BC7DAC05677}" ShortID="276753786">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AE1F24D3-7DCC-4C5D-95B2-8D9267E85B73}"/>
@@ -1303,7 +1679,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Dog_Death_4" ID="{401F27C5-E928-4766-969B-B6C2B8ECCDF0}">
+																<AudioFileSource Name="Dog_Death_4" ID="{82B869FB-BFD6-4258-9622-5D3AF80806B1}">
 																	<Language>SFX</Language>
 																	<AudioFile>Dog_Death_4.wav</AudioFile>
 																	<MediaIDList>
@@ -1312,7 +1688,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Dog_Death_4" ID="{401F27C5-E928-4766-969B-B6C2B8ECCDF0}" Platform="Linked"/>
+																<ActiveSource Name="Dog_Death_4" ID="{82B869FB-BFD6-4258-9622-5D3AF80806B1}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
