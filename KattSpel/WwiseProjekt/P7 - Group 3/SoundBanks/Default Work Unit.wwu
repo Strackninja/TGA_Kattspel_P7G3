@@ -9,9 +9,13 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Amb_1_Stop" ID="{28CA95EC-3292-404B-BA4B-CA33CB4441EF}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_0" ID="{76188ADD-1B7A-4206-ABCC-7DDAD29781AE}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_0_Stop" ID="{CF1B8D26-9B1C-4590-BF33-CB4958797D0C}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_3" ID="{AA8CFFDA-E7BF-4997-8FF6-EDA117BA1E82}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_3_Stop" ID="{6A22B6E7-1333-4B7E-8CD1-D00D5DE0B243}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_2" ID="{2314B46D-6159-4BBF-9CE1-D7ADE8446E77}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_2_Stop" ID="{99DB3CDC-5680-4C90-8A54-938516E69FDF}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_1" ID="{38270217-4654-4EC1-845A-CFD389FEEFBB}" WorkUnitID="{860CE606-DB8F-4847-B8A2-769952DA839E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
