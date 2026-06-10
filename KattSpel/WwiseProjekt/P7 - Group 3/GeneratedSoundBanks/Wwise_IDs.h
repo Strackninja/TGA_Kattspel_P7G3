@@ -14,9 +14,13 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_0 = 2061769230U;
+        static const AkUniqueID AMB_0_STOP = 3117686093U;
         static const AkUniqueID AMB_1 = 2061769231U;
+        static const AkUniqueID AMB_1_STOP = 3728035898U;
         static const AkUniqueID AMB_2 = 2061769228U;
+        static const AkUniqueID AMB_2_STOP = 2399501243U;
         static const AkUniqueID AMB_3 = 2061769229U;
+        static const AkUniqueID AMB_3_STOP = 1847965184U;
         static const AkUniqueID CATNIP_ACTIVATE = 2310699732U;
         static const AkUniqueID CATNIP_DEACTIVATE = 2919142181U;
         static const AkUniqueID CATNIP_IDLE = 3018716685U;

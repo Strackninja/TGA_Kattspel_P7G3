@@ -281,6 +281,62 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Amb_0_Stop" ID="{CF1B8D26-9B1C-4590-BF33-CB4958797D0C}">
+									<ChildrenList>
+										<Action Name="" ID="{066C5773-FA54-4086-BB40-CD4AEA53DE00}" ShortID="391583030">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RainAmb" ID="{C3ADF876-DC2A-4462-B8BC-85445CC519BD}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_1_Stop" ID="{28CA95EC-3292-404B-BA4B-CA33CB4441EF}">
+									<ChildrenList>
+										<Action Name="" ID="{3805CC0B-6121-4E4D-B4CD-703EA15B5952}" ShortID="758168309">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience_1_Light" ID="{0FFCE842-0A0D-407D-9AF1-3C6EBDBAD5A9}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_2_Stop" ID="{99DB3CDC-5680-4C90-8A54-938516E69FDF}">
+									<ChildrenList>
+										<Action Name="" ID="{609A1F07-A037-41B8-98FC-2441B7D59B0E}" ShortID="958871918">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience_2_Medium" ID="{6749FC09-5A67-4A62-BFFA-E610B71169EE}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Amb_3_Stop" ID="{6A22B6E7-1333-4B7E-8CD1-D00D5DE0B243}">
+									<ChildrenList>
+										<Action Name="" ID="{14E0F717-0F6C-42C3-933A-A37059EEE290}" ShortID="300076242">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Windambience_3_Strong" ID="{FD2E7902-4851-4904-AA5B-E12E13E87365}" WorkUnitID="{1661EBA2-A4E3-4442-A0F3-D885AF038EED}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Combat" ID="{7DD11469-F126-4D61-ADBE-E2C556F5E47C}" ShortID="585952607">
